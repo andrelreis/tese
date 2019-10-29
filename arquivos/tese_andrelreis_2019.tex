@@ -1,0 +1,108 @@
+% Para definir o tipo de documento, descomente apenas
+% uma das linhas "\documentclass" abaixo
+
+% comentar uma linha significa colocar "%"
+% descomentar uma linha significa remover o "%"
+
+%\documentclass[msc]{on}     % dissertação de mestrado
+\documentclass[dsc]{on}     % tese de doutorado
+%\documentclass[dscexam]{on} % exame de qualificação
+%\documentclass[reportd]{on} % relatório feito durante o doutorado
+%\documentclass[reportm]{on} % relatório feito durante o mestrado
+
+% pacotes utilizados
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{enumerate} %para gerar listas numeradas
+\usepackage{graphicx}  %para figuras eps
+\usepackage{subfigure} %para figuras múltimas, com (a), (b), (c), etc.
+\usepackage[english, ruled]{algorithm2e}
+\usepackage{pdfpages}
+
+% os dois comandos estão com problema e deverão ser
+% corrigidos futuramente
+%\makelosymbols
+%\makeloabbreviations
+
+\begin{document}
+  	
+  % Título em português
+  \title{Inversão Magnética em diferentes escalas}
+  
+  % Título em inglês
+  \foreigntitle{Magnetic Inversion at different scales}
+  
+  % Autor
+  \author{André Luis}{Albuquerque dos Reis}
+
+  % Orientador(a)
+  \advisor{Dr.}{Vanderlei}{Coelho de Oliveira Junior}
+  %\advisor{Dr.}{Nome do orientador}{Sobrenome}
+
+  % Co-orientadores (pode ser mais de um)
+  \coadvisor{Dra.}{Valéria Cristina}{Ferreira Barbosa}
+  %\coadvisor{Dr.}{Nome do Co-orientador}{Sobrenome}
+
+  % Examinadores (caso seja um relatório, não modifique as linhas "\examiner")
+  %\examiner{Dra.}{Nome da Examinadora}{Sobrenome}
+  %\examiner{Dr.}{Nome do Examinador}{Sobrenome}
+  %\examiner{Dra.}{Nome da Examinadora}{Sobrenome}
+  %\examiner{Dr.}{Nome do Examinador}{Sobrenome}
+  %\examiner{Dra.}{Nome da Examinadora}{Sobrenome}
+
+  % Programa de Pós-Graduação 
+  \program{GEO}
+    
+  % Data (mês e ano)
+  \date{09}{2019}
+
+  % Palavras-chave
+  \keyword{Primeira palavra-chave}
+  \keyword{Segunda palavra-chave}
+  \keyword{Terceira palavra-chave}
+
+  \maketitle
+
+  %\include{resumo}   % resumo em português - deve ser utilizado por todos os tipos de documento
+  %\include{abstract} % resumo em inglês - deve ser utilizado por todos os tipos de documento
+  \tableofcontents   % sumário - deve ser utilizado por todos os tipos de documento
+  \listoffigures     % lista de figuras
+  %\listoftables      % lista de tabelas
+
+  % os dois comandos estão com problema e deverão ser
+  % corrigidos futuramente
+  %\printlosymbols
+  %\printloabbreviations
+
+  \mainmatter
+  
+  % Primeira parte do Doutorado
+\part{Generalização do vínculo de positividade em camadas equivalentes magnéticas}
+
+%\include{eqlayer_I/abstract}   
+%\include{eqlayer_I/introduction}
+%\include{eqlayer_I/methodology}
+%\include{eqlayer_I/simulations}
+%\include{eqlayer_I/real_data}
+%\include{eqlayer_I/conclusions}
+ 
+% Segunda parte do Doutorado
+\part{Cálculo do vetor magnético a partir de dados de microscopia magnética no domínio do espaço}
+%\include{vred/introducao}
+%\include{vred/resumo}   
+%\include{vred/introducao}
+%\include{vred/metodologia}
+%\include{vred/results}
+ %\include{vred/conclusao}
+
+%\appendix
+
+\backmatter
+
+% estilo de citações por ordem alfabética (defaut da classe ONTeX)
+%\bibliographystyle{on-plain}
+%\bibliography{references.bib}
+
+  
+\end{document} 

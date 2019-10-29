@@ -1,0 +1,106 @@
+\chapter{Metodologia}
+
+Consider a right-handed Cartesian coordinate system with $z$ being oriented positively downward, $x$ directed to the north, and $y$ directed toward to the east. Let $\mathbf{B}_z^o$ be the $N \times 1$ vector whose the $i$th element $B_z^i$ is the z-component of the induction magnetic field at the observation point $(x^i,y^i,z^i)$ over a pĺane above a magnetic sample. In order to investigate the magnetic field components, we retrieve the magnetic data produced by rock sampĺe using a layer composed by $M$ dipoles with unit volume, all of them positioned at a constant depth of $z=h$. Mathematically, the predicted z-component of magnetic field produced by the set of dipoles at the point $(x^i,y^i,z^i)$ is given by
+
+\begin{equation}
+B_{z}^{i}  = \sum_{j=1}^{M} m^j a_z^{ij},
+\label{eq:pred_data_ith}
+\end{equation}
+where $m^j$ is the magnetic moment of the $j$th prism and 
+
+\begin{equation}
+a_{z}^{ij}  = \gamma_m \mathbf{M}_z^{ij} \hat{\mathbf{m}},
+\label{eq:az_ij}
+\end{equation}
+in which $\gamma_m$ is a constant proportional to the vacuum permeability, $\mathbf{M}_z^{ij}$ is a $3 \times 1$ vector equal to 
+
+\begin{equation}
+\mathbf{M}_z^{ij}  =  [\partial_{xz} \phi^{ij} \, \partial_{yz} \phi^{ij} \, \partial_{zz} \phi^{ij}]^T,
+\label{eq:Mz_ij}
+\end{equation}
+where $\partial_{\lambda z} \phi^{ij}$, $\lambda=x,y,z$, is the second derivative with respect to the Cartesian coordinates $x^i$, $y^i$ and $z^i$ of the observation points of the scalar function $\phi^{ij}$ given by
+
+\begin{equation}
+\phi^{ij} = \dfrac{1}{\sqrt{(x^i - x^j)^2 + (y^i- y^j )^2 + (z^i - h)^2 } }
+\label{eq:phi_ij}
+\end{equation}
+in which $x^j$, $y^j$ and $h$ are the Cartesian coordinates of the $j$th dipole composing the layer. The $\hat{\mathbf{m}}$ is a $3 \times 1$ unit vector with the magnetization direction of all equivalent sources equal to
+
+\begin{equation}
+\hat{\mathbf{m}} =
+\left[ \begin{array}{c}
+\cos I \cos D \\
+\cos I \sin D \\
+\sin I     
+\end{array} \right] ,
+\label{eq:main_field}
+\end{equation}
+where the $I$ and $D$ are the inclination and declination, respectively. This modelling is solved by using a Python library called Fatiando a Terra \citep{uieda2013}. In matrix notation, the predicted z-component of magnetic field produced by the model is given by
+
+\begin{equation}
+\mathbf{B}_{z}^{p}  = \mathbf{A_z} \mathbf{m}
+\label{eq:pred_vec}
+\end{equation}
+in which $\mathbf{B}_{z}^{p}$ is an $N$-dimensional vector whose $i$th element is the predicted z-component of magnetic field at the point $(x^i,y^i,z^i)$, $\mathbf{A_z} $ is an $N \times M$ sensitivity matrix whose $ij$th element is defined by the harmonic function $a_z^{ij}$ (equation \ref*{eq:az_ij}), and $\mathbf{m}$ is the $M$-dimensional parameter vector whose $j$th element is the magnetic moment of the $j$th positioned at the point $(x^j,y^j,h)$. Moreover, the parameter vector $\mathbf{m}$ represents the magnetic-moment distribution over the layer.
+
+The inverse problem consists in estimating the magnetic-moment distribution $\mathbf{m}$ by solving a linear system for minimizing the difference between observed data $\mathbf{B}_z^o$ and the predicted data $\mathbf{B}_{z}^{p}$ (equation \ref*{eq:pred_vec}). In order to estimate a stable solution $\mathbf{m}^\ast$, we solve the constrained problem of minimizing the goal function
+
+\begin{equation}
+\Gamma (\mathbf{m}) = \parallel \mathbf{B}_{z}^{o} - \mathbf{B}_{z}^{p}(\mathbf{m}) \parallel_2^2 + \mu \parallel \mathbf{m} \parallel_2^2
+\label{eq:goal_func}
+\end{equation}
+where the first and the second term of equation \ref*{eq:goal_func} are the data-misfit function and the zeroth-order Tikhonov regularization function, $\mu$ is the regularizing parameter and $\parallel . \parallel_2^2$ denotes the Euclidian norm. The least-squares estimate of the parameter vector $\mathbf{m}^\ast$ is given by 
+
+\begin{equation}
+	\mathbf{m}^\ast = \left( \mathbf{A}_z^T \mathbf{A}_z + \mu \mathbf{I} \right)^{-1} \mathbf{A}_z^T \mathbf{B}_z^o
+\label{eq:ls_estimator}
+\end{equation}
+in which the superscript $T$ stands for a transpose and $\mathbf{I}$ is an indentity matrix of order M. After estimating a magnetic-moment distribution $\mathbf{m}^\ast$, we can calculate the two other components of the magnetic field using the relations 
+
+\begin{equation}
+\mathbf{B}_{x}^{p}  = \mathbf{A_x} \mathbf{m}^\ast
+\label{eq:pred_vec_x}
+\end{equation}
+and 
+
+\begin{equation}
+\mathbf{B}_{y}^{p}  = \mathbf{A_y} \mathbf{m}^\ast
+\label{eq:pred_vec_y}
+\end{equation}
+in which  $\mathbf{B}_{x}^{p}$ and $\mathbf{B}_{y}^{p}$ are, respectively, the N-dimensional predicted vectors of x- and y-components of the magnetic field and  $\mathbf{A}_{x}^{p}$ and $\mathbf{A}_{y}^{p}$ are $N \times M$ matrices whose $ij$th elements are, respectively, given by
+
+\begin{equation}
+a_{x}^{ij}  = \gamma_m \mathbf{M}_x^{ij} \hat{\mathbf{m}},
+\label{eq:ax_ij}
+\end{equation}
+and 
+\begin{equation}
+a_{y}^{ij}  = \gamma_m \mathbf{M}_y^{ij} \hat{\mathbf{m}},
+\label{eq:ay_ij}
+\end{equation}
+where
+
+\begin{equation}
+\mathbf{M}_x^{ij}  =  [\partial_{xx} \phi^{ij} \, \partial_{xy} \phi^{ij} \, \partial_{xz} \phi^{ij}]^T,
+\label{eq:Mx_ij}
+\end{equation}
+and
+\begin{equation}
+\mathbf{M}_y^{ij}  =  [\partial_{yx} \phi^{ij} \, \partial_{yy} \phi^{ij} \, \partial_{yz} \phi^{ij}]^T,
+\label{eq:My_ij}
+\end{equation}
+in which $\partial_{\lambda \sigma} \phi^{ij}$, $\lambda = x,y$ and $\sigma = x,y,z$ are the second derivatives of the scalar function $\phi^{ij}$ with respect to the Cartesian coordinates $x^i$, $y^i$ and $z^i$ of the observation points, analogously to equation \ref*{eq:az_ij}. Furthermore, We can also calculate the amplitude of total field by applying the following equation 
+
+\begin{equation}
+\mathbf{B} = \sqrt{ \mathbf{B}_{x}^{p^2} + \mathbf{B}_{y}^{p^2} + \mathbf{B}_{z}^{p^2} }  
+\label{eq:total_field}
+\end{equation}
+where  $\mathbf{B}_{x}^{p}$, $\mathbf{B}_{y}^{p} $ and  $\mathbf{B}_{z}^{p}$ are the x-,y- and z-components of the magnetic field and $\mathbf{B}$ is the amplitude of total magnetic field vector. 
+
+
+
+  
+
+
+ 
+

@@ -1,0 +1,10 @@
+actual '='
+quote '!'
+level '>'
+delim_0   ", p. "
+lethead_flag  0
+headings_flag 0
+preamble
+"\n\\begin{theglossary}\n  \\makeatletter"
+postamble
+"\n  \\end{theglossary}\n"
