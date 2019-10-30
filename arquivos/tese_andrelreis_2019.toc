@@ -1,8 +1,8 @@
-\select@language {brazil}
+\babel@toc {brazil}{}
 \contentsline {chapter}{Lista de Figuras}{ii}{chapter*.2}
 \contentsline {part}{I\hspace {1em}Generaliza\IeC {\c c}\IeC {\~a}o do v\IeC {\'\i }nculo de positividade em camadas equivalentes magn\IeC {\'e}ticas}{1}{part.1}
 \contentsline {part}{II\hspace {1em}C\IeC {\'a}lculo do vetor magn\IeC {\'e}tico a partir de dados de microscopia magn\IeC {\'e}tica no dom\IeC {\'\i }nio do espa\IeC {\c c}o}{2}{part.2}
 \contentsline {chapter}{\numberline {1}Metodologia}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Fundamenta\IeC {\c c}\IeC {\~a}o te\IeC {\'o}rica}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Problema direto para a camada equivalente da componente vertical do campo}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}Problema inverso e o c\IeC {\'a}lculo das componentes do vetor magn\IeC {\'e}tico}{4}{section.1.3}
+\contentsline {section}{\numberline {1.2}Problema direto para a camada equivalente da componente vertical do campo}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Problema inverso e o c\IeC {\'a}lculo das componentes do vetor magn\IeC {\'e}tico}{5}{section.1.3}

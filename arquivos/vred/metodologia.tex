@@ -68,9 +68,30 @@ Nesta equação $x''$, $y''$ and $z_{c}$ são as coordenadas do elemento de áre
 em que $\tilde{B}_{\alpha} (x,y,z)$ é a componente $\alpha$, $\alpha=x,y,z$, do campo de indução magnética e $m_{\beta}$ é a componente cartesiana $\beta$, $\beta =x,y,z$, da magnetização da camada. A componente vertical do campo de indução magnética é dada, por exemplo, por 
 
 \begin{equation}
-\tilde{B}_{z}(x, y, z) = \gamma_{m} \, \partial_{xz} \Phi^{\dagger}(x, y, z) m_{x}^{\dagger} + \partial_{yz} \Phi^{\dagger}(x, y, z) m_{y}^{\dagger} + \partial_{zz} \Phi^{\dagger}(x, y, z) m_{z}^{\dagger}   \: ,
+\tilde{B}_{z}(x, y, z) = \gamma_{m} \,[ \partial_{xz} \Phi^{\dagger}(x, y, z) m_{x}^{\dagger} + \partial_{yz} \Phi^{\dagger}(x, y, z) m_{y}^{\dagger} + \partial_{zz} \Phi^{\dagger}(x, y, z) m_{z}^{\dagger} ]  \: ,
 \label{eq:Bz-eqlayer}
 \end{equation}
+em que a função harmônica $\partial_{xz} \Phi^{\dagger}(x, y, z)$ é dada por 
+
+\begin{equation}
+\Phi^{\dagger}(x, y, z) = \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty}
+\frac{p^{\dagger}(x'', y'', z_{c}) \: dS''}
+{\left[ (x-x'')^2 + (y-y'')^2 + (z-z_{c})^2 \right]^{\frac{1}{2}}} \: .
+\label{eq:Phi-integral-superficie-Bz}
+\end{equation}
+A função $p^{\dagger}(x'', y'', z_{c})$ descreve a distribuição de momentos magnéticos por unidade de área relativa a componente $\tilde{B}_{z}(x, y, z)$ do campo de indução magnética gerado por uma camada contínua e direção de magnetização $\hat{\mathbf{m}}^{\dagger}(\mathbb{q})$. Analogamente, podemos reescrever as outras duas componentes do campo como
+
+\begin{equation}
+\tilde{B}_{x}(x, y, z) = \gamma_{m} \, [\partial_{xx} \Phi^{\ddagger}(x, y, z) m_{x}^{\ddagger} + \partial_{xy} \Phi^{\ddagger}(x, y, z) m_{y}^{\ddagger} + \partial_{xz} \Phi^{\ddagger}(x, y, z) m_{z}^{\ddagger}]   \: 
+\label{eq:Bx-eqlayer}
+\end{equation}
+e 
+
+\begin{equation}
+\tilde{B}_{y}(x, y, z) = \gamma_{m} \, [\partial_{xy} \Phi^{\sharp}(x, y, z) m_{x}^{\sharp} + \partial_{yy} \Phi^{\sharp}(x, y, z) m_{y}^{\sharp} + \partial_{yz} \Phi^{\sharp}(x, y, z) m_{z}^{\sharp}]   \: .
+\label{eq:By-eqlayer}
+\end{equation}
+Note que as equações \ref{eq:Bz-eqlayer}, \ref{eq:Bx-eqlayer} e \ref{eq:By-eqlayer} representam as camadas equivalentes que geram as componentes do vetor magnético com suas respectivas direções magnetização e distribuições de momentos magnéticos. 
 
 
 
