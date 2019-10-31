@@ -1,8 +1,7 @@
-\select@language {brazil}
+\babel@toc {brazil}{}
 \contentsline {chapter}{Lista de Figuras}{ii}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Metodologia}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}A camada equivalente magn\IeC {\'e}tica}{2}{section.2.1}
-\contentsline {section}{\numberline {2.2}Fundamenta\IeC {\c c}\IeC {\~a}o te\IeC {\'o}rica para a distribui\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o positiva}{2}{section.2.2}
-\contentsline {section}{\numberline {2.3}Fundamenta\IeC {\c c}\IeC {\~a}o te\IeC {\'o}rica para o c\IeC {\'a}lculo das componentes do vetor magn\IeC {\'e}tico}{2}{section.2.3}
-\contentsline {section}{\numberline {2.4}Parametriza\IeC {\c c}\IeC {\~a}o e o problema direto}{4}{section.2.4}
+\contentsline {section}{\numberline {2.1}A camada equivalente magn\IeC {\'e}tica e a distribui\IeC {\c c}\IeC {\~a}o de momentos positiva}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}Fundamenta\IeC {\c c}\IeC {\~a}o te\IeC {\'o}rica para o c\IeC {\'a}lculo das componentes do vetor magn\IeC {\'e}tico}{2}{section.2.2}
+\contentsline {section}{\numberline {2.3}Parametriza\IeC {\c c}\IeC {\~a}o e o problema direto}{5}{section.2.3}

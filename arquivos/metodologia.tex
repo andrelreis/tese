@@ -1,11 +1,8 @@
 \chapter{Metodologia}
 \label{chap:metodologia}
 
-\section{A camada equivalente magnética}
+\section{A camada equivalente magnética e a distribuição de momentos positiva}
 \label{sec:mag_eqlayer}
-
-\section{Fundamentação teórica para a distribuição de magnetização positiva}
-\label{sec:dist_positiva}
 
 %Let $\Delta T(x, y, z)$ be the total-field anomaly produced by a set of magnetic
 %sources at a point $(x, y, z)$ referred to a topocentric Cartesian coordinate system 
@@ -286,7 +283,7 @@
 
 \section{Fundamentação teórica para o cálculo das componentes do vetor magnético}
 
-Com o intuito de investigarmos que o cálculo das componentes do vetor magnético não depende da direção de magnetização, iremos explicar teoricamente como este processo é possível no contexto da camada equivalente. Em situações práticas, somente uma das componentes é medida no laboratório a uma distância fixa da superfície da amostra. Considerando que as medições são realizadas em regiões livres de fontes e, portanto, externas as amostras de rocha. Além disso, consideramos que o cálculo das componentes do vetor magnético não depende do tipo de fonte, bem como de sua configuração espacial. Assumimos também que o campo magnético não varia com o tempo ou que esta variação seja tão pequena que pode ser desprezada ao longo das medições. Consequentemente, o campo de indução magnética $\mathbf{B}(x,y,z)$ é governado pela lei de Gauss
+Além do desenvolvimento matemático para a distribuição positiva de momentos magnéticos, iremos explicar teoricamente que o cálculo das componentes do vetor magnético não depende da direção de magnetização no contexto da camada equivalente. Supondo que em determinadas situações somente uma das componentes do campo de indução magnética gerado por uma rocha possa ser medida e que as medições são realizadas em regiões livres de fontes e, portanto, regiões externas as rochas. Além disso, consideramos que o cálculo das componentes do vetor magnético não depende do tipo de fonte, bem como de sua configuração espacial. Assumimos também que o campo magnético não varia com o tempo, ou que esta variação seja tão pequena que pode ser desprezada ao longo das medições. Neste caso, o campo de indução magnética $\mathbf{B}(x,y,z)$ é governado pela lei de Gauss
 
 \begin{equation}
 \nabla . \mathbf{B} (x,y,z) = 0
@@ -380,14 +377,49 @@ Aplicando as condições de contorno nas componentes do vetor magnético dadas p
 
 \begin{equation}
 \begin{split}
-[\partial_{xyz} \Phi^{\dagger}(x, y, z) m_{x}^{\dagger} - \partial_{xyz} \Phi^{\sharp}(x, y, z) m_{x}^{\sharp}]  \\
-\partial_z B_x - \partial_x B_z = 0 \\
-\partial_x B_y - \partial_y B_x = 0, 
+[\partial_{xyz} \Phi^{\ddagger}(x, y, z) m_{x}^{\ddagger} - \partial_{xyz} \Phi^{\sharp}(x, y, z) m_{x}^{\sharp}] + \\ 
+[\partial_{xyy} \Phi^{\ddagger}(x, y, z) m_{y}^{\ddagger} - \partial_{xyy} \Phi^{\sharp}(x, y, z) m_{y}^{\sharp}] + \\ 
+[\partial_{xyz} \Phi^{\ddagger}(x, y, z) m_{z}^{\ddagger} - \partial_{xyz} \Phi^{\sharp}(x, y, z) m_{z}^{\sharp}] = 0,
 \end{split}
-\label{eq:condicoes_equacao}
+\label{eq:condicoes_equacao1}
 \end{equation}
 
+\begin{equation}
+\begin{split}
+[\partial_{xxz} \Phi^{\ddagger}(x, y, z) m_{x}^{\ddagger} - \partial_{xxz} \Phi^{\dagger}(x, y, z) m_{x}^{\dagger}] + \\ 
+[\partial_{xyz} \Phi^{\ddagger}(x, y, z) m_{y}^{\ddagger} - \partial_{xyz} \Phi^{\dagger}(x, y, z) m_{y}^{\dagger}] + \\ 
+[\partial_{xzz} \Phi^{\ddagger}(x, y, z) m_{z}^{\ddagger} - \partial_{xzz} \Phi^{\dagger}(x, y, z) m_{z}^{\dagger}]= 0 
+\end{split}
+\label{eq:condicoes_equacao2}
+\end{equation}
+e
 
+\begin{equation}
+\begin{split}
+[\partial_{xxy} \Phi^{\ddagger}(x, y, z) m_{x}^{\ddagger} - \partial_{xxy} \Phi^{\sharp}(x, y, z) m_{x}^{\sharp}] + \\ 
+[\partial_{xyz} \Phi^{\ddagger}(x, y, z) m_{y}^{\ddagger} - \partial_{xyz} \Phi^{\dagger}(x, y, z) m_{y}^{\dagger}] + \\
+[\partial_{xzz} \Phi^{\ddagger}(x, y, z) m_{z}^{\ddagger} - \partial_{xzz} \Phi^{\dagger}(x, y, z) m_{z}^{\dagger}]  = 0.
+\end{split}
+\label{eq:condicoes_equacao3}
+\end{equation}
+Note que para satisfazer a condição apresentada pelas equações \ref{eq:ampere_B_condicao} e de acordo com as equações \ref{eq:condicoes_equacao1}, \ref{eq:condicoes_equacao2} e \ref{eq:condicoes_equacao3}, as distribuições de momentos magnéticos e as direções de magnetização das camadas que ajustam as componentes do vetor de indução magnética devem ser iguais. Portanto, isto nos leva que 
+
+\begin{equation}
+p^{\dagger}(x'', y'', z_{c}) = p^{\ddagger}(x'', y'', z_{c}) = p^{\sharp}(x'', y'', z_{c})
+\label{eq:momentos_iguais}
+\end{equation}
+e 
+
+\begin{equation}
+\begin{split}
+m_{x}^{\dagger} = m_{x}^{\ddagger} = m_{x}^{\sharp} \\
+m_{y}^{\dagger} = m_{y}^{\ddagger} = m_{y}^{\sharp} \\
+m_{z}^{\dagger} = m_{z}^{\ddagger} = m_{z}^{\sharp}.
+\end{split}
+\label{eq:direcoes_iguais}
+\end{equation}
+O que as equações \ref{eq:momentos_iguais} e \ref{eq:direcoes_iguais} nos dizem é que uma vez que conheçamos a distribuição de momentos magnéticos e a direção de magnetização que ajustam uma das componentes, conseguimos recuperar as outras duas. Além disso, as derivadas $\partial_{\alpha\beta} \Phi(x, y, z)$, $\alpha, \beta = x, y, z$ são tomadas em relação a $x$, $y$ e $z$, fazendo com que todo o cálculo das componentes do vetor magnético não dependa das componentes $m_\beta$, $\beta = x,y,z$, da direção de magnetização. Isto nos leva ao fato que é possível ajustar todas as componentes do vetor magnético a partir de uma distribuição de momentos magnéticos associada a qualquer direção arbitrária imposta sobre a camada.  
+ 
 %%% Discretizing layer
 \section{Parametrização e o problema direto}
 
