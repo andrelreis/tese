@@ -3,48 +3,69 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tese_andrelreis_2019.aux
 A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: metodologia.aux
-I found no \citation commands---while reading file tese_andrelreis_2019.aux
-I found no \bibdata command---while reading file tese_andrelreis_2019.aux
-I found no \bibstyle command---while reading file tese_andrelreis_2019.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            85 strings with 543 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+The style file: on-plain.bst
+Database file #1: references.bib.bib
+I was expecting a `,' or a `}'---line 477 of file references.bib.bib
+ :  
+ :  doi = {10.1111/j.1365-2478.1994.tb00209.x},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 833 of file references.bib.bib
+ : @article{dampney1969
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1147 of file references.bib.bib
+ : @article{pedersen1991
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1255 of file references.bib.bib
+ : @article{li_etal_2014
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "silvadias_etal_2007"
+`address' is a missing field, not a string, for entry aster2005
+while executing---line 1437 of file on-plain.bst
+`address' is a missing field, not a string, for entry lawson_hanson_1974
+while executing---line 1437 of file on-plain.bst
+You've used 5 entries,
+            2972 wiz_defined-function locations,
+            631 strings with 5124 characters,
+and the built_in function-call counts, 2151 in all, are:
+= -- 176
+> -- 93
+< -- 6
++ -- 35
+- -- 30
+* -- 211
+:= -- 325
+add.period$ -- 14
+call.type$ -- 5
+change.case$ -- 15
+chr.to.int$ -- 5
+cite$ -- 10
+duplicate$ -- 119
+empty$ -- 205
+format.name$ -- 37
+if$ -- 445
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 7
+newline$ -- 30
+num.names$ -- 20
+pop$ -- 48
+preamble$ -- 1
+purify$ -- 15
 quote$ -- 0
-skip$ -- 0
+skip$ -- 63
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 70
+swap$ -- 27
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 45
 warning$ -- 0
-while$ -- 0
+while$ -- 18
 width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+write$ -- 71
+(There were 6 error messages)

@@ -2,5 +2,12 @@
 \BOOKMARK [0][-]{chapter.1}{Introdu\347\343o}{}% 2
 \BOOKMARK [0][-]{chapter.2}{Metodologia}{}% 3
 \BOOKMARK [1][-]{section.2.1}{A camada equivalente magn\351tica e a distribui\347\343o de momentos positiva}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.2}{Fundamenta\347\343o te\363rica para o c\341lculo das componentes do vetor magn\351tico}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{Fundamenta\347\343o te\363rica das componentes do vetor magn\351tico}{chapter.2}% 5
 \BOOKMARK [1][-]{section.2.3}{Parametriza\347\343o e o problema direto}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.3.1}{Para a anomalia de campo total}{section.2.3}% 7
+\BOOKMARK [2][-]{subsection.2.3.2}{Para a componente vertical do campo magn\351tico}{section.2.3}% 8
+\BOOKMARK [1][-]{section.2.4}{Problema inverso}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.4.1}{A estimativa da dire\347\343o de magnetiza\347\343o}{section.2.4}% 10
+\BOOKMARK [2][-]{subsection.2.4.2}{O c\341lculo das componentes do campo magn\351tico e a amplitude do campo}{section.2.4}% 11
+\BOOKMARK [1][-]{section.2.5}{A escolha da profundidade da camada \(zc\) e do par\342metro de regulariza\347\343o \(\)}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter*.4}{Refer\352ncias Bibliogr\341ficas}{}% 13

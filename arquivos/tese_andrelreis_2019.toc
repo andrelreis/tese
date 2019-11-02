@@ -3,5 +3,13 @@
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Metodologia}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}A camada equivalente magn\IeC {\'e}tica e a distribui\IeC {\c c}\IeC {\~a}o de momentos positiva}{2}{section.2.1}
-\contentsline {section}{\numberline {2.2}Fundamenta\IeC {\c c}\IeC {\~a}o te\IeC {\'o}rica para o c\IeC {\'a}lculo das componentes do vetor magn\IeC {\'e}tico}{2}{section.2.2}
-\contentsline {section}{\numberline {2.3}Parametriza\IeC {\c c}\IeC {\~a}o e o problema direto}{5}{section.2.3}
+\contentsline {section}{\numberline {2.2}Fundamenta\IeC {\c c}\IeC {\~a}o te\IeC {\'o}rica das componentes do vetor magn\IeC {\'e}tico}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}Parametriza\IeC {\c c}\IeC {\~a}o e o problema direto}{9}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Para a anomalia de campo total}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Para a componente vertical do campo magn\IeC {\'e}tico}{10}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Problema inverso}{11}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}A estimativa da dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o}{11}{subsection.2.4.1}
+\contentsline {subsubsection}{Processo iterativo para a estimativa da dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o}{13}{section*.3}
+\contentsline {subsection}{\numberline {2.4.2}O c\IeC {\'a}lculo das componentes do campo magn\IeC {\'e}tico e a amplitude do campo}{14}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}A escolha da profundidade da camada ($\mathbf {z_{c}}$) e do par\IeC {\^a}metro de regulariza\IeC {\c c}\IeC {\~a}o ($\mathbf {\mu }$)}{14}{section.2.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{16}{chapter*.4}
