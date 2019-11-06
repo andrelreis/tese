@@ -11,5 +11,5 @@
 \contentsline {subsection}{\numberline {2.4.1}A estimativa da dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o}{11}{subsection.2.4.1}
 \contentsline {subsubsection}{Processo iterativo para a estimativa da dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o}{13}{section*.3}
 \contentsline {subsection}{\numberline {2.4.2}O c\IeC {\'a}lculo das componentes do campo magn\IeC {\'e}tico e a amplitude do campo}{14}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}A escolha da profundidade da camada ($\mathbf {z_{c}}$) e do par\IeC {\^a}metro de regulariza\IeC {\c c}\IeC {\~a}o ($\mathbf {\mu }$)}{14}{section.2.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{16}{chapter*.4}
+\contentsline {section}{\numberline {2.5}A escolha da profundidade da camada ($\mathbf {z_{c}}$) e do par\IeC {\^a}metro de regulariza\IeC {\c c}\IeC {\~a}o ($\mathbf {\mu }$)}{16}{section.2.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{17}{chapter*.4}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -18,6 +18,13 @@
   technique}, \emph{GEOPHYSICS}, v.~34, n.~1, \penalty0 pp.~39--53.
 \newblock \doi{10.1190/1.1439996}.
 
+\bibitem[\MakeUppercase{Dias}\emph{ et~al.}(2007)Dias, Barbosa, e
+  Silva]{silvadias_etal_2010}
+\MakeUppercase{Dias, F. J.~S., Barbosa, V.~C., Silva, J.~B.}, 2007, \enquote{2D
+  gravity inversion of a complex interface in the presence of interfering
+  sources}, \emph{GEOPHYSICS}, v.~72, n.~2, \penalty0 pp.~I13--I22.
+\newblock \doi{10.1190/1.2424545}.
+
 \bibitem[\MakeUppercase{Lawson} e \MakeUppercase{Hanson}(1974)Lawson e
   Hanson]{lawson_hanson_1974}
 \MakeUppercase{Lawson, C.~L., Hanson, R.~J.}, 1974, \emph{Solving least squares
@@ -36,5 +43,15 @@
   fields and some equivalent sources}, \emph{GEOPHYSICS}, v.~56, n.~7,
   \penalty0 pp.~961--971.
 \newblock \doi{10.1190/1.1443129}.
+
+\bibitem[\MakeUppercase{Pedersen} e \MakeUppercase{Rasmussen}(1990)Pedersen e
+  Rasmussen]{pedersen_rasmussen1990}
+\MakeUppercase{Pedersen, L.~B., Rasmussen, T.~M.}, 1990, \enquote{The gradient
+  tensor of potential field anomalies: Some implications on data collection and
+  data processing of maps}, \emph{GEOPHYSICS}, v.~55, n.~12, \penalty0
+  pp.~1558--1566.
+\newblock \doi{10.1190/1.1442807}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://doi.org/10.1190/1.1442807}\textgreater .
 
 \end{thebibliography}
