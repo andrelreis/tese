@@ -3,6 +3,7 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tese_andrelreis_2019.aux
 A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: metodologia.aux
+A level-1 auxiliary file: simulacoes_I.aux
 The style file: on-plain.bst
 Database file #1: references.bib.bib
 I was expecting a `,' or a `}'---line 239 of file references.bib.bib
@@ -32,7 +33,7 @@ while executing---line 1437 of file on-plain.bst
 while executing---line 1437 of file on-plain.bst
 You've used 7 entries,
             2972 wiz_defined-function locations,
-            646 strings with 5537 characters,
+            647 strings with 5553 characters,
 and the built_in function-call counts, 3195 in all, are:
 = -- 270
 > -- 139

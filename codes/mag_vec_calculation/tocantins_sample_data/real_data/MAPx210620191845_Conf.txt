@@ -1,0 +1,21 @@
+Sensitivity: 0.050
+Time Constant: 0.010
+Início X: 21500.000
+Step X: 90.000
+Fim X: 55800.000
+Início Y: 2000.000
+Step Y: 90.000
+Fim Y: 20700.000
+ICorrente: -0.120
+Campo mag. (T): 
+-0.023	90.000	90.000	21500.000	2000.000
+----------------------
+auto scale OFF 
+Porta Amostra
+Amozonia
+massa 
+I=0,0 A  Ha= 0mT
+Passo  250 micro
+sensor HQ-811 sensor gradiometro
+Eletronica 3.0 V lockin 1.0
+1 k Hz

@@ -381,7 +381,7 @@ em que $\partial_{\alpha\beta} \frac{1}{r} \equiv \frac{\partial^{2}}{\partial \
 De forma análoga a seção \ref{subsec:tf_prob_dir}, a componente vertical do campo de indução magnética (componente vertical predita) produzida por uma camada discreta posicionada a uma profundidade constante $z=z_c$ no ponto $(x_i,y_i,z_i)$, $i=1,\dots,N$, é dada por 
 
 \begin{equation}
-B_{i}^{z} (\mathbf{s})  = \mathbf{g}_{i}^{z}(\mathbf{q})^{\top} \, \mathbf{p},
+B_{zi} (\mathbf{s})  = \mathbf{g}_{i}^{z}(\mathbf{q})^{\top} \, \mathbf{p},
 \label{eq:pred_data_ith-z}
 \end{equation}
 em que $\mathbf{s}$ é um vetor $(M + 2) \times 1$ particionado (vetor de dados preditos) dado por 
@@ -409,7 +409,7 @@ Nesta equação, $\mathbf{M}_{ij}^{z^\top}$ é um vetor $1 \times 3$ dada por
 \end{bmatrix}^\top \quad ,
 \label{eq:Mij-matrix-z}
 \end{equation}
-em que $\partial_{\alpha z} \frac{1}{r} \equiv \frac{\partial^{2}}{\partial \alpha \partial z} \frac{1}{r}$, representa a derivada segunda com respeito a $\alpha = x, y, z$, do inverso da distância $\frac{1}{r}$ (equação \ref{eq:inverse-distance}) entre as coordenadas de observação $(x, y, z) = (x_{i}, y_{i}, z_{i})$ e as coordenadas das fontes equivalentes $(x'', y'', z_{c}) = (x_{j}, y_{j}, z_{c})$. Note que, analogamente a seção \ref{subsec:tf_prob_dir}, a componente vertical do campo $B_{i}^{z}(\mathbf{s})$ possui uma relação linear com o vetor de momentos magnéticos $\mathbf{p}$ e uma relação não linear com o vetor de direção de magnetização $\mathbf{q}$ (equação \ref{eq:q_vetor}).
+em que $\partial_{\alpha z} \frac{1}{r} \equiv \frac{\partial^{2}}{\partial \alpha \partial z} \frac{1}{r}$, representa a derivada segunda com respeito a $\alpha = x, y, z$, do inverso da distância $\frac{1}{r}$ (equação \ref{eq:inverse-distance}) entre as coordenadas de observação $(x, y, z) = (x_{i}, y_{i}, z_{i})$ e as coordenadas das fontes equivalentes $(x'', y'', z_{c}) = (x_{j}, y_{j}, z_{c})$. Note que, analogamente a seção \ref{subsec:tf_prob_dir}, a componente vertical do campo $B_{zi}(\mathbf{s})$ possui uma relação linear com o vetor de momentos magnéticos $\mathbf{p}$ e uma relação não linear com o vetor de direção de magnetização $\mathbf{q}$ (equação \ref{eq:q_vetor}).
 
 
 \section{Problema inverso}
@@ -543,69 +543,34 @@ e utilizando esta nova direção para estimar uma nova distribuição de momento
 \subsection{O cálculo das componentes do campo magnético e a amplitude do campo}
 \label{subsec:componentes_vec}
 
-Seja $\mathbf{B}^{zo}$ o vetor de dados observados cujo $i$-ésimo elemento $B_{i}^{zo}$ é a componente vertical do campo magnético produzida por uma fonte magnética no ponto $(x_{i},y_{i},z_{i})$, $i = 1, \dots, N$. Similarmente, seja $\mathbf{B}^{zp} (\mathbf{s})$ o vetor de dados preditos cujo $i$-ésimo elemento $B_{i}^{z}(\mathbf{s})$ (equação \ref{eq:pred_data_ith-z}) é a componente vertical do campo magnético produzida por uma camada equivalente discreta no mesmo ponto $(x_{i},y_{i},z_{i})$. Com o objetivo de minimizar a diferença entre $\mathbf{B}^{zo}$ e $\mathbf{B}^{zp} (\mathbf{s})$, temos que resolver a equação:
+Seja $\mathbf{B}_{z}^{o}$ o vetor de dados observados cujo $i$-ésimo elemento $B_{zi}^{o}$ é a componente vertical do campo magnético produzida por uma fonte magnética no ponto $(x_{i},y_{i},z_{i})$, $i = 1, \dots, N$. Similarmente, seja $\mathbf{B}_{z}^{p} (\mathbf{s})$ o vetor de dados preditos cujo $i$-ésimo elemento $B_{zi}^{p}(\mathbf{s})$ (equação \ref{eq:pred_data_ith-z}) é a componente vertical do campo magnético produzida por uma camada equivalente discreta no mesmo ponto $(x_{i},y_{i},z_{i})$. Com o objetivo de minimizar a diferença entre $\mathbf{B}_{z}^{o}$ e $\mathbf{B}_{z}^{p} (\mathbf{s})$, temos que resolver a equação:
 
 \begin{equation}
-\Psi(\mathbf{s}) =\lVert \mathbf{B}^{zo} - \mathbf{B}^{zp} (\mathbf{s}) 
+\Psi(\mathbf{s}) =\lVert \mathbf{B}_{z}^{o} - \mathbf{B}_{z}^{p} (\mathbf{s}) 
 	\rVert_{2}^{2} + \, \mu  \parallel \mathbf{p} \parallel_{2}^{2} \: , \\
 \label{eq:goal_function_vec}
 \end{equation}
 em que o primeiro e o segundo termo da equação \ref{eq:goal_function_vec} são a função de ajuste e a função regularizadora de Tikhonov de ordem zero, $\mu$ é o parâmetro de regularização e $\| \cdot \|_{2}^{2}$ representa o quadrado da norma Euclidiana. 
 
-Assumimos neste caso que a camada equivalente depende somente do vetor de momentos magnéticos $\mathbf{p}$ e, portanto, devemos impor uma direção de magnetização $\mathbf{q}$ arbitrária sobre ela. No entanto, realizando procedimento análogo ao da subseção \ref{subsec:mag_dir_est} e lembrando que a componente vertical do campo magnético possui uma relação linear com a distribuição de momentos magnéticos (equação \ref{eq:pred_data_ith-z}, o sistema linear que resolveremos será igual a 
+Assumimos neste caso que a camada equivalente depende somente do vetor de momentos magnéticos $\mathbf{p}$ e, portanto, devemos impor uma direção de magnetização $\mathbf{q}$ arbitrária sobre ela. Com isso, o sistema linear que iremos resolver é dado por:
 
 \begin{equation}
-\left[
-\begin{array}{c|c}
-\mathbf{H}_{pp}^{k} & \mathbf{0} \\
-\hline
-\mathbf{0}^{\top} & \mathbf{0}
-\end{array}
-\right] \left[ \begin{array}{c}
-\bar{\mathbf{\Delta p}}^{k} \\ 
-\mathbf{0} 
-\end{array} \right] \approx -\left[ \begin{array}{c}
-\mathbf{J}_{p}^{k} \\ 
-\mathbf{0} 
-\end{array} \right] ,
-\label{eq:linear_sys_GN_block}
-\end{equation}
-em que $\bar{\mathbf{\Delta p}}^{k} = \bar{\mathbf{p}}^{k+1} - \bar{\mathbf{p}}^{k}$ é a correção no vetor de momentos magnéticos $\mathbf{p}$. Portanto, $\mathbf{J}_{p}^{k}$ e $\mathbf{H}_{pp}^{k}$ são, respectivamente, o vetor gradiente e a matriz Hessiana calculadas com respeito aos elementos do vetor $\mathbf{p}$ iguais a 
-
-\begin{equation}
-\mathbf{J}_{p}^{k} = -2 {\mathbf{G}_{z}^{k}}^{\top} 
-\left[  \mathbf{B}^{zo} - \mathbf{B}^{zp} (\bar{\mathbf{s}})  \right] + 
-2\mu \bar{\mathbf{p}}^{k} 
-\label{eq:grad_p}
-\end{equation}
-e 
-
-\begin{equation}
-\mathbf{H}_{pp}^{k} = 2 {\mathbf{G}_{z}^{k}}^{\top} \mathbf{G}_{z}^{k} + 
-2 \mu \mathbf{I} \: ,
-\label{eq:hess_p}
-\end{equation}
-em que $\mathbf{G}_{z}^{k}$ é uma matriz de dimensão $N \times M$ cujo $ij$-ésimo elemento é dado pela função harmônica $g_{ij}^{z}(\mathbf{q})$ (equação \ref{eq:g_ij-z}) avaliada na direção de magnetização fixa $\mathbf{q}$ e $\mathbf{I}$ é uma matriz identidade de dimensão $M \times M$. Portanto, o sistema linear que iremos resolver é dado por:
-
-\begin{equation}
-\left[ \mathbf{G}_{z}^{\top} \mathbf{G}_{z} + \mu \mathbf{I} \right] \bar{\mathbf{p}} = \mathbf{G}_{z}^{\top} \mathbf{B}^{zo} \: .
+\left[ \mathbf{G}_{z}^{\top} \mathbf{G}_{z} + \mu \mathbf{I} \right] \bar{\mathbf{p}} = \mathbf{G}_{z}^{\top} \mathbf{B}_{z}^{o} \: ,
 \label{eq:linear_sys_p_z}
 \end{equation}
-A equação \ref{eq:linear_sys_p_z} é denominada como estimador de mínimos quadrados. 
-
-Após estimarmos uma distribuição de momentos magnéticos $\bar{\mathbf{p}}$ relativa a uma direção de magnetização arbitrária $\mathbf{q}$, calculamos as outras duas componentes do campo magnético aplicando a relação dada por:
+em que $\mathbf{G}_{z}$ é uma matriz de dimensão $N \times M$ cujo $ij$-ésimo elemento é dado pela função harmônica $g_{ij}^{z}(\mathbf{q})$ (equação \ref{eq:g_ij-z}) avaliada na direção de magnetização fixa $\mathbf{q}$ e $\mathbf{I}$ é uma matriz identidade de dimensão $M \times M$. A equação \ref{eq:linear_sys_p_z} é denominada como estimador de mínimos quadrados. Após estimarmos uma distribuição de momentos magnéticos $\bar{\mathbf{p}}$ relativa a uma direção de magnetização arbitrária $\mathbf{q}$, calculamos as outras duas componentes do campo magnético aplicando a relação dada por:
 
 \begin{equation}
-\mathbf{B}^{xp}  = \mathbf{G}_{x} \bar{\mathbf{p}}
+\mathbf{B}_{x}^{p}  = \mathbf{G}_{x} \bar{\mathbf{p}}
 \label{eq:pred_vec_x}
 \end{equation}
 e
 
 \begin{equation}
-\mathbf{B}^{yp}  = \mathbf{G}_{y} \bar{\mathbf{p}}
+\mathbf{B}_{y}^{p}  = \mathbf{G}_{y} \bar{\mathbf{p}}
 \label{eq:pred_vec_y}
 \end{equation}
-em que $\mathbf{B}^{xp}$ e $\mathbf{B}^{yp}$ são, respectivamente, os vetores de dados preditos com dimensão $N \times 1$ das componentes $x$ e $y$ do campo de indução magnética. As matrizes $\mathbf{G}_{x}$ e $\mathbf{G}_{y}$ possuem dimensão $N \times M $ cujo os elementos são dados por: 
+em que $\mathbf{B}_{x}^{p}$ e $\mathbf{B}_{y}^{p}$ são, respectivamente, os vetores de dados preditos com dimensão $N \times 1$ das componentes $x$ e $y$ do campo de indução magnética. As matrizes $\mathbf{G}_{x}$ e $\mathbf{G}_{y}$ possuem dimensão $N \times M $ cujo os elementos são dados por: 
 
 \begin{equation}
 g_{ij}^{x}(\mathbf{q})  = \gamma_m \, \mathbf{M}_{ij}^{x^\top} \, \hat{\mathbf{m}}(\mathbf{q}) \: 
@@ -639,14 +604,14 @@ e
 As derivadas $\partial_{\alpha\beta} \frac{1}{r} \equiv \frac{\partial^{2}}{\partial \alpha \partial \beta} \frac{1}{r}$, representam as derivadas segundas com respeito a $\alpha = x, y$ e $\beta = x, y, z$, do inverso da distância $\frac{1}{r}$ (equação \ref{eq:inverse-distance}) entre as coordenadas de observação $(x, y, z) = (x_{i}, y_{i}, z_{i})$ e as coordenadas das fontes equivalentes $(x'', y'', z_{c}) = (x_{j}, y_{j}, z_{c})$. Além disso, calculamos a amplitude do campo magnético aplicando a relação
 
 \begin{equation}
-\mathbf{B} = \sqrt{ \mathbf{B}^{{xp}^2} + \mathbf{B}^{{yp}^2} + \mathbf{B}^{{zp}^2}}   
+\mathbf{B}_a = \sqrt{ \mathbf{B}_{x}^{p^2} + \mathbf{B}_{y}^{p^2} + \mathbf{B}_{z}^{p^2}}   
 \label{eq:amplitude_field}
 \end{equation}
-em que $\mathbf{B}^{xp}$, $\mathbf{B}^{yp}$ e $\mathbf{B}^{zp}$ são as componentes do campo magnético e $\mathbf{B}$ é a vetor amplitude do campo magnético. 
+em que $\mathbf{B}_{x}^{p}$, $\mathbf{B}_{y}^{p}$ e $\mathbf{B}_{z}^{p}$ são as componentes do campo magnético e $\mathbf{B}_a$ é a vetor amplitude do campo magnético. 
 
 \section{A escolha da profundidade da camada ($\mathbf{z_{c}}$) e do parâmetro de regularização ($\mathbf{\mu}$)}
 
-O procedimento pelo qual utilizamos a camada equivalente para estimar a direção de magnetização total das fontes magnéticas e o cálculo das componentes do campo magnético requer a escolha de dois parâmetros principais. O primeiro é a profundidade da camada $z_c$ (COLOCAR FIGURAs) e o segundo é o parâmetro de regularização $\mu$ mostrado na equação \ref{eq:linear_sys_p}. 
+O procedimento pelo qual utilizamos a camada equivalente para estimar a direção de magnetização total das fontes magnéticas e o cálculo das componentes do campo magnético requer a escolha de dois parâmetros principais. O primeiro é a profundidade da camada $z_c$ (COLOCAR FIGURAS) e o segundo é o parâmetro de regularização $\mu$ mostrado na equação \ref{eq:linear_sys_p}. 
 
 O método utilizado para a escolha da profundidade da camada é baseado na abordagem clássica proposta por \cite{dampney1969}. O autor aponta que o posicionamento da camada deve satisfazer um intervalo de $2,5$ a $6,0$ vezes o espaçamento dos dados. Vale ressaltar que esta regra foi aplicada pelos autores em uma grade com dados regularmente espaçados. Contudo, a escolha para aplicar nosso método corresponde a um intervalo de $2$ a $3$ vezes o valor do maior espaçamento entre os dados. É necessário lembrar que este intervalo foi encontrado empiricamente. 
 

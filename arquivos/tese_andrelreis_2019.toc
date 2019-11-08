@@ -11,5 +11,9 @@
 \contentsline {subsection}{\numberline {2.4.1}A estimativa da dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o}{11}{subsection.2.4.1}
 \contentsline {subsubsection}{Processo iterativo para a estimativa da dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o}{13}{section*.3}
 \contentsline {subsection}{\numberline {2.4.2}O c\IeC {\'a}lculo das componentes do campo magn\IeC {\'e}tico e a amplitude do campo}{14}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}A escolha da profundidade da camada ($\mathbf {z_{c}}$) e do par\IeC {\^a}metro de regulariza\IeC {\c c}\IeC {\~a}o ($\mathbf {\mu }$)}{16}{section.2.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{17}{chapter*.4}
+\contentsline {section}{\numberline {2.5}A escolha da profundidade da camada ($\mathbf {z_{c}}$) e do par\IeC {\^a}metro de regulariza\IeC {\c c}\IeC {\~a}o ($\mathbf {\mu }$)}{15}{section.2.5}
+\contentsline {chapter}{\numberline {3}Testes sint\IeC {\'e}ticos para estimativa da dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Fontes de mesma dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Magnetiza\IeC {\c c}\IeC {\~a}o unidirecional com fonte rasa}{22}{section.3.2}
+\contentsline {section}{\numberline {3.3}Fonte rasa com dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o diferente}{26}{section.3.3}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{30}{chapter*.4}
