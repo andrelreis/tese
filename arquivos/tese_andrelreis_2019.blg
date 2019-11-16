@@ -5,6 +5,8 @@ A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: metodologia.aux
 A level-1 auxiliary file: simulacoes_I.aux
 A level-1 auxiliary file: dados_reais_I.aux
+A level-1 auxiliary file: deducao.aux
+A level-1 auxiliary file: magnetizacao_vertical.aux
 The style file: on-plain.bst
 Database file #1: references.bib.bib
 I was expecting a `,' or a `}'---line 239 of file references.bib.bib
@@ -43,47 +45,49 @@ Name 3 in "A. C. Dutra and Y. Marangoni and R. I. F. Trindade," has a comma at t
 while executing---line 1437 of file on-plain.bst
 Name 3 in "A. C. Dutra and Y. Marangoni and R. I. F. Trindade," has a comma at the end for entry dutra_etal_2014
 while executing---line 1437 of file on-plain.bst
+`address' is a missing field, not a string, for entry kellogg1967
+while executing---line 1437 of file on-plain.bst
 `address' is a missing field, not a string, for entry lawson_hanson_1974
 while executing---line 1437 of file on-plain.bst
-You've used 14 entries,
+You've used 16 entries,
             2972 wiz_defined-function locations,
-            713 strings with 8042 characters,
-and the built_in function-call counts, 7462 in all, are:
-= -- 663
-> -- 392
-< -- 15
-+ -- 143
-- -- 129
-* -- 789
-:= -- 1117
-add.period$ -- 53
-call.type$ -- 14
-change.case$ -- 59
-chr.to.int$ -- 14
-cite$ -- 28
-duplicate$ -- 349
-empty$ -- 629
-format.name$ -- 149
-if$ -- 1550
+            729 strings with 8289 characters,
+and the built_in function-call counts, 8165 in all, are:
+= -- 722
+> -- 412
+< -- 18
++ -- 151
+- -- 135
+* -- 850
+:= -- 1223
+add.period$ -- 59
+call.type$ -- 16
+change.case$ -- 64
+chr.to.int$ -- 16
+cite$ -- 32
+duplicate$ -- 394
+empty$ -- 705
+format.name$ -- 157
+if$ -- 1700
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 16
-newline$ -- 78
-num.names$ -- 56
-pop$ -- 140
+missing$ -- 19
+newline$ -- 87
+num.names$ -- 64
+pop$ -- 156
 preamble$ -- 1
-purify$ -- 59
+purify$ -- 63
 quote$ -- 0
-skip$ -- 198
+skip$ -- 220
 stack$ -- 0
-substring$ -- 309
-swap$ -- 88
-text.length$ -- 10
+substring$ -- 329
+swap$ -- 97
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 144
+type$ -- 161
 warning$ -- 0
-while$ -- 56
+while$ -- 63
 width$ -- 0
-write$ -- 212
-(There were 12 error messages)
+write$ -- 238
+(There were 13 error messages)

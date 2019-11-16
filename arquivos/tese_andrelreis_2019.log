@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.28)  12 NOV 2019 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.28)  16 NOV 2019 00:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -793,7 +793,8 @@ LaTeX Warning: Label `eq:Mij-matrix-z' multiply defined.
 
 LaTeX Warning: Label `eq:Mij-matrix-z' multiply defined.
 
-) (./simulacoes_I.aux) (./dados_reais_I.aux))
+) (./simulacoes_I.aux) (./dados_reais_I.aux) (./deducao.aux)
+(./magnetizacao_vertical.aux))
 \openout1 = `tese_andrelreis_2019.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -923,12 +924,12 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 66.
 
 pdfTeX warning: pdflatex (file ./ON-logo.pdf): PDF inclusion: found PDF version
  <1.6>, but at most version <1.5> allowed
-<ON-logo.pdf, id=76, 532.95615pt x 168.19116pt>
+<ON-logo.pdf, id=84, 532.95615pt x 168.19116pt>
 File: ON-logo.pdf Graphic file (type pdf)
 <use ON-logo.pdf>
 Package pdftex.def Info: ON-logo.pdf  used on input line 66.
 (pdftex.def)             Requested size: 142.26378pt x 44.8938pt.
-<DIPPG-logo.png, id=77, 165.61874pt x 61.1886pt>
+<DIPPG-logo.png, id=85, 165.61874pt x 61.1886pt>
 File: DIPPG-logo.png Graphic file (type png)
 <use DIPPG-logo.png>
 Package pdftex.def Info: DIPPG-logo.png  used on input line 66.
@@ -1174,7 +1175,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 ]
-<Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png, id=438, 2023.56pt x 79
+<Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png, id=456, 2023.56pt x 79
 4.97pt>
 File: Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png Graphic file (type
  png)
@@ -1187,7 +1188,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-<Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png, id=439, 72
+<Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png, id=457, 72
 2.7pt x 722.7pt>
 File: Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png Graphi
 c file (type png)
@@ -1195,7 +1196,7 @@ c file (type png)
 Package pdftex.def Info: Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NN
 LS_magRM.png  used on input line 24.
 (pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
-<Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png, id=440, 722.7pt x 722.7
+<Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png, id=458, 722.7pt x 722.7
 pt>
 File: Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png Graphic file (type 
 png)
@@ -1236,7 +1237,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
 [20 <./Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png>]
-<Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png, id=466, 2023.5
+<Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png, id=484, 2023.5
 6pt x 794.97pt>
 File: Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png Graphic fi
 le (type png)
@@ -1250,7 +1251,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 46--47
  []
 
 <Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.png, id
-=467, 722.7pt x 722.7pt>
+=485, 722.7pt x 722.7pt>
 File: Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.pn
 g Graphic file (type png)
 <use Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.png
@@ -1258,7 +1259,7 @@ g Graphic file (type png)
 Package pdftex.def Info: Fig/eqlayer/unidir_shallow_test/magnetic_moment_positi
 ve_LM_NNLS_magRM.png  used on input line 53.
 (pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
-<Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png, id=468, 722.7pt
+<Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png, id=486, 722.7pt
  x 722.7pt>
 File: Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png Graphic fil
 e (type png)
@@ -1300,7 +1301,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 68.
 [23 <./Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png>]
-<Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png, id=495, 2
+<Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png, id=513, 2
 023.56pt x 794.97pt>
 File: Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png Graph
 ic file (type png)
@@ -1314,7 +1315,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 74--75
  []
 
 <Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_magRM.pn
-g, id=496, 722.7pt x 722.7pt>
+g, id=514, 722.7pt x 722.7pt>
 File: Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_mag
 RM.png Graphic file (type png)
 <use Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_magR
@@ -1322,7 +1323,7 @@ M.png>
 Package pdftex.def Info: Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_p
 ositive_LM_NNLS_magRM.png  used on input line 81.
 (pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
-<Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png, id=497, 72
+<Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png, id=515, 72
 2.7pt x 722.7pt>
 File: Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png Graphi
 c file (type png)
@@ -1385,7 +1386,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 ]
 <Fig/eqlayer/field_data_montes_claros/data_fitting_LM_NNLS_montesclaros.png, id
-=554, 2023.56pt x 794.97pt>
+=572, 2023.56pt x 794.97pt>
 File: Fig/eqlayer/field_data_montes_claros/data_fitting_LM_NNLS_montesclaros.pn
 g Graphic file (type png)
 <use Fig/eqlayer/field_data_montes_claros/data_fitting_LM_NNLS_montesclaros.png
@@ -1399,7 +1400,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 12--13
  []
 
 <Fig/eqlayer/field_data_montes_claros/magnetic_moment_positive_LM_NNLS_montescl
-aros.png, id=555, 722.7pt x 722.7pt>
+aros.png, id=573, 722.7pt x 722.7pt>
 File: Fig/eqlayer/field_data_montes_claros/magnetic_moment_positive_LM_NNLS_mon
 tesclaros.png Graphic file (type png)
 <use Fig/eqlayer/field_data_montes_claros/magnetic_moment_positive_LM_NNLS_mont
@@ -1408,7 +1409,7 @@ Package pdftex.def Info: Fig/eqlayer/field_data_montes_claros/magnetic_moment_p
 ositive_LM_NNLS_montesclaros.png  used on input line 19.
 (pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
 <Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.png, id=
-556, 722.7pt x 722.7pt>
+574, 722.7pt x 722.7pt>
 File: Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.png
  Graphic file (type png)
 <use Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.png>
@@ -1416,7 +1417,7 @@ File: Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.png
 Package pdftex.def Info: Fig/eqlayer/field_data_montes_claros/convergence_LM_NN
 LS_montesclaros.png  used on input line 26.
 (pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
-<Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png, id=559, 650.4
+<Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png, id=577, 650.4
 3pt x 650.43pt>
 File: Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png Graphic f
 ile (type png)
@@ -1468,7 +1469,65 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 89.
 [31 <./Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png>]
-(./tese_andrelreis_2019.bbl
+\openout2 = `deducao.aux'.
+
+
+(./deducao.tex
+Ap\^endice A.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+Overfull \hbox (15.07626pt too wide) detected at line 37
+[]\OT1/cmr/m/n/12 ^^@(\OML/cmm/m/it/12 x; y; z\OT1/cmr/m/n/12 ) = [] [] [] \OML
+/cmm/m/it/12 @[]\OT1/cmr/m/n/12 ^^@(\OML/cmm/m/it/12 x[]; y[]; z[]\OT1/cmr/m/n/
+12 )  [] ^^@(\OML/cmm/m/it/12 x[]; y[]; z[]\OT1/cmr/m/n/12 )  []   \OML/cmm/m/i
+t/12 dS[] ;  z[] > z ;
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 40.
+[32
+
+
+
+]
+<Fig/eqlayer/surface_Green.png, id=627, 240.6591pt x 216.81pt>
+File: Fig/eqlayer/surface_Green.png Graphic file (type png)
+<use Fig/eqlayer/surface_Green.png>
+Package pdftex.def Info: Fig/eqlayer/surface_Green.png  used on input line 55.
+(pdftex.def)             Requested size: 320.0935pt x 288.37352pt.
+)
+
+LaTeX Warning: Reference `EQ:POSITIVITY_PROP' on page 33 undefined on input lin
+e 105.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 105.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 105.
+[33 <./Fig/eqlayer/surface_Green.png>]
+\openout2 = `magnetizacao_vertical.aux'.
+
+ (./magnetizacao_vertical.tex
+Ap\^endice B.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 31.
+[34
+
+
+
+])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 106.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 106.
+ [35] (./tese_andrelreis_2019.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 26.
@@ -1485,55 +1544,53 @@ Underfull \hbox (badness 1983) in paragraph at lines 55--66
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 79.
-[32
+(babel)             in language  on input line 73.
+[36
 
 
 
 ]
-Underfull \hbox (badness 1466) in paragraph at lines 82--88
+Underfull \hbox (badness 1466) in paragraph at lines 87--93
 \OT1/cmr/m/n/12 MAG-NE-TIC IN-TE-GRA-TED DATA IN-TER-PRE-TA-TION OF THE
  []
 
 ) 
 AED: lastpage setting LastPage
-
-Overfull \hbox (94.94812pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CAP[]ITULO 4.  APLICA[][]AO A DADOS REAIS: COMPLEXO DE MONTES 
-CLAROS DE GOI[]AS \OT1/cmr/m/n/12 33
- []
-
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 113.
+(babel)             in language  on input line 115.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 113.
-[33]
+(babel)             in language  on input line 115.
+[37]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 113.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+(babel)             in language  on input line 115.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
  (./tese_andrelreis_2019.aux (./introducao.aux) (./metodologia.aux)
-(./simulacoes_I.aux) (./dados_reais_I.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+(./simulacoes_I.aux) (./dados_reais_I.aux) (./deducao.aux)
+(./magnetizacao_vertical.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
 Package rerunfilecheck Info: File `tese_andrelreis_2019.out' has not changed.
-(rerunfilecheck)             Checksum: F8FE4298D8CB0ADD242B2FE00982465C;1669.
+(rerunfilecheck)             Checksum: 0E456F07AAAD6FA1C782CE985AD26E4E;1811.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 10622 strings out of 492982
- 155189 string characters out of 6134895
- 293109 words of memory out of 5000000
- 13800 multiletter control sequences out of 15000+600000
+ 10679 strings out of 492982
+ 156174 string characters out of 6134895
+ 296273 words of memory out of 5000000
+ 13825 multiletter control sequences out of 15000+600000
  13861 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,16n,39p,3130b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,16n,39p,3130b,496s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
@@ -1549,10 +1606,10 @@ m/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on tese_andrelreis_2019.pdf (37 pages, 16001793 bytes).
+Output written on tese_andrelreis_2019.pdf (41 pages, 16128567 bytes).
 PDF statistics:
- 690 PDF objects out of 1000 (max. 8388607)
- 595 compressed objects within 6 object streams
- 149 named destinations out of 1000 (max. 500000)
- 220 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 770 PDF objects out of 1000 (max. 8388607)
+ 668 compressed objects within 7 object streams
+ 165 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,43 @@
+\chapter{Fontes magnetizadas verticalmente}
+\label{append:vertical-magnetization}
+
+Nosso método falha quando a magnetização total das fontes possui a direção igual ou aproximadamente vertical. Neste apêndice, fornecemos a base teórica para o entendimento desta limitação. 
+
+Considere o caso limite no qual a magnetização total das fontes é vertical e.g., $I = \pm 90^\circ$). Neste caso, a anomalia de campo total $\Delta T(x, y, z)$ (equação \ref{eq:tfanomaly}) não depende da declinação $D$, demonstrado pelo fato que: fontes magnetizadas verticalmente não possuem uma declinação definida. Consequentemente, o mínimo da função objetivo (equação \ref{eq:positivity_goal_function}a) não é bem definida no espaço dos parâmetros; isto é, ela é alongada na direção de $D$. Infelizmente, o vínculo de positividade sobre o vetor de momentos magnéticos (equação  \ref{eq:positivity_goal_function}b) não resolve esta ambiguidade com respeito a declinação $D$. 
+
+Para melhor entender como esta ambiguidade afeta nosso método, começamos a analisar a matriz $\mathbf{G}_{q}^{k}$ de dimensão $N \times 2$ (equação \ref{eq:Gq}) necessária para estimar a correção $\bar{\mathbf{\Delta q}}^{k}$ para a direção de magnetização (equação \ref{eq:linear_sys_q}). Sua $i$-ésima linha é definida como o produto do vetor de momentos magnéticos estimado $\bar{\mathbf{p}}^{k}$ e as primeiras derivadas $\partial_{\alpha} \mathbf{g}_{i}(\bar{\mathbf{q}}^{k}) \equiv 
+\frac{\partial \mathbf{g}_{i}(\bar{\mathbf{q}}^{k})}{\partial \alpha}$, $\alpha= I, D$, do vetor $\mathbf{g}_{i}(\mathbf{q})$ (equação \ref{eq:tfa_pred_i}), avaliada em $\mathbf{q} = \bar{\mathbf{q}}^{k}$, com respeito a inclinação $I$ e a declinação $D$ da magnetização total das fontes. O $j$-ésimo elemento $\partial_{\alpha} g_{ij}(\bar{\mathbf{q}}^{k}) \equiv 
+\frac{\partial g_{ij}(\bar{\mathbf{q}}^{k})}{\partial \alpha}$ do vetor $\partial_{\alpha} \mathbf{g}_{i}(\bar{\mathbf{q}}^{k})$ de dimensão $M \times 1$ é definido como a derivada da função harmônica $g_{ij}(\mathbf{q})$ (equação \ref{eq:g_ij}) igual a 
+
+\begin{equation}
+\partial_{\alpha} g_{ij}(\bar{\mathbf{q}}^{k}) = 
+\gamma_m  \hat{\mathbf{F}}_{0}^T \, \mathbf{M}_{ij} 
+\partial_{\alpha} \hat{\mathbf{m}}(\bar{\mathbf{q}}^{k}) \: , \quad \alpha = I, D \: ,
+\label{eq:D-alpha-gij}
+\end{equation}
+em que 
+
+\begin{equation}
+\partial_{I} \hat{\mathbf{m}}(\bar{\mathbf{q}}^{k}) = 
+\begin{bmatrix}
+	-\sin \bar{I}^{k} \cos \bar{D}^{k} \\
+	-\sin \bar{I}^{k} \sin \bar{D}^{k} \\
+	 \cos \bar{I}^{k}
+\end{bmatrix}
+\label{eq:D_mag_vec_inc}
+\end{equation}
+e 
+
+\begin{equation}
+\partial_{D} \hat{\mathbf{m}}(\bar{\mathbf{q}}^{k}) = 
+\begin{bmatrix}
+	-\cos \bar{I}^{k} \sin \bar{D}^{k} \\
+	 \cos \bar{I}^{k} \cos \bar{D}^{k} \\
+	 0
+\end{bmatrix}
+\label{eq:D_mag_vec_dec}
+\end{equation}
+são as derivadas do vetor unitário $\hat{\mathbf{m}}(\mathbf{q})$ (equação \ref{eq:mag_vet}), avaliadas na direção de magnetização $\bar{\mathbf{q}}^{k} = \left[ \bar{I}^{k} \:\: \bar{D}^{k} \right]^{\top}$, com respeito a $I$ e $D$. 
+ 
+Note que, quando a inclinação estimada $\bar{I}^{k}$ se aproxima de $\pm 90^{\circ}$, todos os elementos que formam o vetor  $\partial_{D} \hat{\mathbf{m}}(\bar{\mathbf{q}}^{k})$ (equação \ref{eq:D_mag_vec_dec})e, consequentemente, a segunda coluna da matriz $\mathbf{G}_{q}^{k}$ (equação \ref{eq:Gq}) tendem a zero. Como consequência, o problema não-linear para estimar a direção de magnetização (equação \ref{eq:linear_sys_q}) não é sensível a mudanças na declinação $D$ e a convergência do nosso método é muito lenta devido a suavidade da função objetivo $\Psi(\mathbf{s})$ (equação \ref{eq:positivity_goal_function}a) no espaço de parâmetros. 
+

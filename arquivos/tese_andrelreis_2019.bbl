@@ -1,4 +1,4 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -64,6 +64,11 @@
 \newblock Volcanic rocks in Brazil through time and different tectonic
   settings.
 
+\bibitem[\MakeUppercase{Kellogg}(1967)Kellogg]{kellogg1967}
+\MakeUppercase{Kellogg, O.~D.}, 1967, \emph{Foundations of Potential Theory}.
+\newblock Springer-Verlag.
+\newblock ISBN: 978-3-642-86750-7.
+
 \bibitem[\MakeUppercase{Lawson} e \MakeUppercase{Hanson}(1974)Lawson e
   Hanson]{lawson_hanson_1974}
 \MakeUppercase{Lawson, C.~L., Hanson, R.~J.}, 1974, \emph{Solving least squares
@@ -127,6 +132,11 @@
 \newblock \doi{10.1190/1.1442807}.
 \newblock Dispon{\' i}vel em:
   \textless\url{https://doi.org/10.1190/1.1442807}\textgreater .
+
+\bibitem[\MakeUppercase{Roy}(1962)Roy]{roy1962}
+\MakeUppercase{Roy, A.}, 1962, \enquote{Ambiguity in geophysical
+  interpretation}, \emph{GEOPHYSICS}, v.~27, n.~1, \penalty0 pp.~90--99.
+\newblock \doi{10.1190/1.1438985}.
 
 \bibitem[\MakeUppercase{Zhang}\emph{ et~al.}(2018)Zhang, Ravat, Marangoni,
   Chen, e Hu]{zhang_etal_2018}

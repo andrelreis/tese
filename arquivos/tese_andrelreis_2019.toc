@@ -17,4 +17,6 @@
 \contentsline {section}{\numberline {3.2}Magnetiza\IeC {\c c}\IeC {\~a}o unidirecional com fonte rasa}{21}{section.3.2}
 \contentsline {section}{\numberline {3.3}Fonte rasa com dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o diferente}{24}{section.3.3}
 \contentsline {chapter}{\numberline {4}Aplica\IeC {\c c}\IeC {\~a}o a dados reais: Complexo de Montes Claros de Goi\IeC {\'a}s}{27}{chapter.4}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{32}{appendix*.4}
+\contentsline {chapter}{\numberline {A}Dedu\IeC {\c c}\IeC {\~a}o da equa\IeC {\c c}\IeC {\~a}o \ref {eq:positivity_prop}}{32}{appendix.A}
+\contentsline {chapter}{\numberline {B}Fontes magnetizadas verticalmente}{34}{appendix.B}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{36}{appendix*.4}
