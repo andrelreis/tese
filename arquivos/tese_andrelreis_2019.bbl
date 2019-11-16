@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{18}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -26,6 +26,12 @@
   \textless\url{http://www.sciencedirect.com/science/article/pii/S0009254107001933}\textgreater
   .
 
+\bibitem[\MakeUppercase{Collinson}(1983)Collinson]{collinson1983}
+\MakeUppercase{Collinson, D.}, 1983, \emph{Methods in rock magnetism and
+  palaeomagnetism techniques and instrumentation}.
+\newblock Chapman and Hall.
+\newblock ISBN: 978-94-015-3979-1.
+
 \bibitem[\MakeUppercase{Dampney}(1969)Dampney]{dampney1969}
 \MakeUppercase{Dampney, C. N.~G.}, 1969, \enquote{The equivalent source
   technique}, \emph{GEOPHYSICS}, v.~34, n.~1, \penalty0 pp.~39--53.
@@ -37,6 +43,15 @@
   gravity inversion of a complex interface in the presence of interfering
   sources}, \emph{GEOPHYSICS}, v.~72, n.~2, \penalty0 pp.~I13--I22.
 \newblock \doi{10.1190/1.2424545}.
+
+\bibitem[\MakeUppercase{Dunlop} e \MakeUppercase{Özdemir}(1997)Dunlop e
+  Özdemir]{dunlop1997}
+\MakeUppercase{Dunlop, D.~J., Özdemir}, 1997, \emph{Rock Magnetism}.
+\newblock Cambridge University Press.
+\newblock ISBN: 9780511612794.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://dx.doi.org/10.1017/CBO9780511612794}\textgreater .
+\newblock Cambridge Books Online.
 
 \bibitem[\MakeUppercase{Dutra}\emph{ et~al.}(2014)Dutra, Marangoni, e
   Trindade]{dutra_etal_2014}

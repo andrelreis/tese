@@ -1,11 +1,12 @@
 \chapter{Testes sintéticos para estimativa da direção de magnetização}
 \label{chap:synt_tests}
 
-Aplicamos o método proposto em três conjuntos de dados sintéticos simulando diferentes cenários geológicos. O primeiro deles é um modelo contendo um conjunto de fontes com diferentes geometrias e mesma direção de magnetização. O segundo conjunto de dados é gerado por um modelo contendo múltiplas fontes com mesma direção de magnetização, porém uma delas representando uma fonte rasa. No terceiro teste violamos a hipótese de magnetização unidirecional simulando uma fonte rasa com diferente direção de magnetização.  
+Aplicamos o método proposto para estimar a direção de magnetização em três conjuntos de dados sintéticos simulando diferentes cenários geológicos. O primeiro deles é um modelo contendo um conjunto de fontes com diferentes geometrias e mesma direção de magnetização (Seção \ref{sec:unidir_model}). O segundo conjunto de dados é gerado por um modelo contendo múltiplas fontes com mesma direção de magnetização, porém uma delas representando uma fonte rasa (Seção \ref{sec:unidir_shallow}). No terceiro teste violamos a hipótese de magnetização unidirecional simulando uma fonte rasa com diferente direção de magnetização (Seção \ref{sec:difdir_shallow}).  
 
 Em todos os testes, os dados simulados foram calculados em um grid regular de $49 \times 25$ pontos (um total de $N = 1225$ observações) a uma altura constante de $100$ m. Assumimos uma área de observação que se extende por $12$ km ao longo do eixo $x$ e do eixo $y$, resultando em um espaçamento entre os dados de $250$ m e $500$ m ao longo dos eixos $x$ e $y$, respectivamente. Os dados foram contaminados com um ruído Gaussiano de média zero e desvio padão de $10$ nT. O campo geomagnético principal simulado possui $I_0 = -40^\circ$ e $D_0 = -22^\circ$ para a inclinação e declinação, respectivamente. Para o processo de inversão, utilizamos uma camada equivalente composta por um grid de $49 \times 25$ dipolos (um total de $M = 1225$ fontes equivalentes) posicionados a uma profundidade de $z_c = 1150$ m abaixo do plano de observação ($2,5$ vezes o maior espaçamento entre os dados). Para a escolha do parâmetro de regularização ($\mu$) utilizamos a curva-L. Nosso algoritmo começa com uma aproximação inicial $\bar{\mathbf{q}}^{0} = (-10^\circ,-10^\circ)$ para a inclinação e a declinação, respectivamente. 
 
 \section{Fontes de mesma direção de magnetização}
+\label{sec:unidir_model}
 
 Geramos um prisma poligonal cujo topo é posicionado a uma profundidade de $450$ m e a base a $3150$ m com intensidade de magnetização de $4$ A/m. Geramos também duas esferas com intensidade de magnetização igual a $3$ A/m e raio $500$ m. As coordenadas de seus respectivos centros são $x_c = 1800$ m, $y_c = -1800$ m e $z_c = 1000$ m e $x_c = 800$ m, $y_c = 800$ m and $z_c= 1000$ m. Simulamos dois prismas retangulares com $2.5$ A/m de intensidade de magnetização. O prisma menor possui topo a uma profundidade de $450$ m e lados de comprimento $1000$ m, $700$ m e $500$ m ao longo dos eixos $x$, $y$ e $z$, respectivamente. O prisma maior tem o topo localizado a uma profundidade de $500$ m e lados de comprimento $1000$ m, $2000$ m e $1550$ m ao longo dos eixos $x$, $y$ e $z$, respectivamente. Todas as fontes simuladas tem inclinação $-25^\circ$ e declinação $30^\circ$. O dado observado é mostrado na figura \ref{fig:data_fitting_1}a.
 
@@ -35,6 +36,7 @@ A figura \ref{fig:data_fitting_1}b mostra os dados preditos produzidos pela cama
 
 
 \section{Magnetização unidirecional com fonte rasa}
+\label{sec:unidir_shallow}
 
 Testamos a performance do método quando existe uma fonte rasa. O modelo é similar ao anterior com exceção do prisma menor, cujo topo é localizado a uma profundidade de $150$ m enquanto seu volume é mantido o mesmo. A intensidade de magnetização deste prisma raso é igual a $1,5$ A/m. A direção de magnetização de todas as fontes é $-25^\circ$ de inclinação e $30^\circ$ graus para a declinação. Os dados sintéticos são mostrados na figura \ref{fig:data_fitting_2}a.
 
@@ -63,6 +65,7 @@ A figura \ref{fig:data_fitting_2}b mostra a anomalia de campo total predita prod
 \end{figure}
 
 \section{Fonte rasa com direção de magnetização diferente}
+\label{sec:difdir_shallow}
 
 Neste teste simulamos a presença de uma fonte rasa com direção de magnetização diferente das demais. O prisma raso tem dimensão igual ao do teste anterior. No entanto, a direção de magnetização deste prisma é $20^\circ$ de inclinação e $-30^\circ$ de declinação, enquanto as outras fontes possuem inclinação $-25^\circ$ e declinação $30^\circ$. Os dados calculados são mostrados na figura \ref{fig:data_fitting_3}a. 
 

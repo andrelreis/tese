@@ -335,7 +335,7 @@ O que as equações \ref{eq:momentos_iguais} e \ref{eq:direcoes_iguais} nos diz 
 \subsection{Para a anomalia de campo total}
 \label{subsec:tf_prob_dir}
 
-Em situações práticas, não é possível determinar uma distribuição contínua de momentos magnéticos $p(x'',y'',z_{c})$ (equação \ref{eq:positivity_prop}) sobre a camada equivalente. Por esta razão, a camada tem que ser aproximada por um conjunto discreto de dipolos (fontes equivalentes) de volume unitário localizado a uma profundidade constante e igual a $z = z_c$. A anomalia de campo total produzida por esta camada discreta (anomalia de campo total predita) no ponto $(x_i,y_i,z_i)$, $i=1,\dots,N$, é dada por 
+Em situações práticas, não é possível determinar uma distribuição contínua de momentos magnéticos $p(x'',y'',z_{c})$ (equação \ref{eq:positivity_prop}) sobre a camada equivalente. Por esta razão, a camada tem que ser aproximada por um conjunto discreto de dipolos (fontes equivalentes) de volume unitário localizado a uma profundidade constante e igual a $z = z_c$ (Figura \ref{fig:eqlayer_tfa_sketch}). A anomalia de campo total produzida por esta camada discreta (anomalia de campo total predita) no ponto $(x_i,y_i,z_i)$, $i=1,\dots,N$, é dada por 
 
 \begin{equation}
 \Delta T_{i}(\mathbf{s}) = \mathbf{g}_{i}(\mathbf{q})^{\top} \mathbf{p},
@@ -375,10 +375,19 @@ Nesta equação, $\mathbf{M}_{ij}$ é uma matriz $3 \times 3$ dada por
 \end{equation}
 em que $\partial_{\alpha\beta} \frac{1}{r} \equiv \frac{\partial^{2}}{\partial \alpha \partial \beta} \frac{1}{r}$, representa a derivada segunda com respeito a $\alpha = x, y, z$ e $\beta = x, y, z$, do inverso da distância $\frac{1}{r}$ (equação \ref{eq:inverse-distance}) entre as coordenadas de observação $(x, y, z) = (x_{i}, y_{i}, z_{i})$ e as coordenadas das fontes equivalentes $(x'', y'', z_{c}) = (x_{j}, y_{j}, z_{c})$. As equações $\ref{eq:tfa_pred_i}$-$\ref{eq:Mij-matrix}$ mostram que a anomalia de campo total predita $\Delta T_{i}(\mathbf{s})$ possui uma relação linear com o vetor de momentos magnéticos $\mathbf{p}$ e uma relação não linear com o vetor de direção de magnetização $\mathbf{q}$ (equação \ref{eq:q_vetor}).
 
+%% Figura 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{Fig/eqlayer/eqlayer_figure_tfa.png}
+	\caption{Representação esquemática da camada equivalente para a anomalia de campo total. A camada é posicionada sobre o plano horizontal a uma profundidade $z=z_c$. $\Delta T_i$ é a anomalia de campo total predita no ponto $(x_i,y_i,z_i)$ produzida pelo conjunto de $M$ fontes equivalentes (pontos pretos). Cada fonte é localizada no ponto  $(x_j,y_j,z_c)$, $j = 1,\hdots, M$, e são representadas por um dipolo de volume unitário $\upsilon$ com direção de magnetização $\hat{\mathbf{m}}(\mathbf{q})$ e momento magnético $p_j$. $\hat{\mathbf{F}}_{0}$ é um vetor unitário na direção do campo geomagnético.}
+	\label{fig:eqlayer_tfa_sketch}
+\end{figure}
+
 \subsection{Para a componente vertical do campo magnético}
 \label{subsec:bz_prob_dir}
 
-De forma análoga a seção \ref{subsec:tf_prob_dir}, a componente vertical do campo de indução magnética (componente vertical predita) produzida por uma camada discreta posicionada a uma profundidade constante $z=z_c$ no ponto $(x_i,y_i,z_i)$, $i=1,\dots,N$, é dada por 
+De forma análoga a seção \ref{subsec:tf_prob_dir}, a componente vertical do campo de indução magnética (componente vertical predita) produzida por uma camada discreta posicionada a uma profundidade constante $z=z_c$ no ponto $(x_i,y_i,z_i)$, $i=1,\dots,N$, (Figura \ref{fig:eqlayer_bz_sketch}) é dada por 
 
 \begin{equation}
 B_{zi} (\mathbf{s})  = \mathbf{g}_{i}^{z}(\mathbf{q})^{\top} \, \mathbf{p},
@@ -410,6 +419,14 @@ Nesta equação, $\mathbf{M}_{ij}^{z^\top}$ é um vetor $1 \times 3$ dada por
 \label{eq:Mij-matrix-z}
 \end{equation}
 em que $\partial_{\alpha z} \frac{1}{r} \equiv \frac{\partial^{2}}{\partial \alpha \partial z} \frac{1}{r}$, representa a derivada segunda com respeito a $\alpha = x, y, z$, do inverso da distância $\frac{1}{r}$ (equação \ref{eq:inverse-distance}) entre as coordenadas de observação $(x, y, z) = (x_{i}, y_{i}, z_{i})$ e as coordenadas das fontes equivalentes $(x'', y'', z_{c}) = (x_{j}, y_{j}, z_{c})$. Note que, analogamente a seção \ref{subsec:tf_prob_dir}, a componente vertical do campo $B_{zi}(\mathbf{s})$ possui uma relação linear com o vetor de momentos magnéticos $\mathbf{p}$ e uma relação não linear com o vetor de direção de magnetização $\mathbf{q}$ (equação \ref{eq:q_vetor}).
+
+%% Figura
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{Fig/mag_vec/eqlayer_figure_bz.png}
+	\caption{Representação esquemática da camada equivalente para a componente vertical do campo magnético. A camada também é posicionada sobre o plano horizontal a uma profundidade $z=z_c$, de forma similar para a anomalia de campo total (Figura \ref{fig:eqlayer_tfa_sketch}). $B_{zi}$ é a componente vertical do campo magnético predita no ponto $(x_i,y_i,z_i)$ produzida pelo conjunto de $M$ fontes equivalentes (pontos pretos). Cada fonte é localizada no ponto  $(x_j,y_j,z_c)$, $j = 1,\hdots, M$, e são representadas por um dipolo de volume unitário $\upsilon$ com direção de magnetização $\hat{\mathbf{m}}(\mathbf{q})$ e momento magnético $p_j$.}
+	\label{fig:eqlayer_bz_sketch}
+\end{figure}
 
 
 \section{Problema inverso}
@@ -558,7 +575,7 @@ Assumimos neste caso que a camada equivalente depende somente do vetor de moment
 \left[ \mathbf{G}_{z}^{\top} \mathbf{G}_{z} + \mu \mathbf{I} \right] \bar{\mathbf{p}} = \mathbf{G}_{z}^{\top} \mathbf{B}_{z}^{o} \: ,
 \label{eq:linear_sys_p_z}
 \end{equation}
-em que $\mathbf{G}_{z}$ é uma matriz de dimensão $N \times M$ cujo $ij$-ésimo elemento é dado pela função harmônica $g_{ij}^{z}(\mathbf{q})$ (equação \ref{eq:g_ij-z}) avaliada na direção de magnetização fixa $\mathbf{q}$ e $\mathbf{I}$ é uma matriz identidade de dimensão $M \times M$. A equação \ref{eq:linear_sys_p_z} é denominada como estimador de mínimos quadrados. Após estimarmos uma distribuição de momentos magnéticos $\bar{\mathbf{p}}$ relativa a uma direção de magnetização arbitrária $\mathbf{q}$, calculamos as outras duas componentes do campo magnético aplicando a relação dada por:
+em que $\mathbf{G}_{z}$ é uma matriz de dimensão $N \times M$ cujo $ij$-ésimo elemento é dado pela função harmônica $g_{ij}^{z}(\mathbf{q})$ (equação \ref{eq:g_ij-z}) avaliada na direção de magnetização fixa $\mathbf{q}$ e $\mathbf{I}$ é uma matriz identidade de dimensão $M \times M$. A equação \ref{eq:linear_sys_p_z} é denominada como estimador de mínimos quadrados \citep{aster2005}. Após estimarmos uma distribuição de momentos magnéticos $\bar{\mathbf{p}}$ relativa a uma direção de magnetização arbitrária $\mathbf{q}$, calculamos as outras duas componentes do campo magnético aplicando a relação dada por:
 
 \begin{equation}
 \mathbf{B}_{x}^{p}  = \mathbf{G}_{x} \bar{\mathbf{p}}
@@ -589,7 +606,7 @@ em que
 \partial_{xy} \frac{1}{r} &
 \partial_{xz} \frac{1}{r}
 \end{bmatrix}^\top \quad 
-\label{eq:Mij-matrix-z}
+\label{eq:Mij-matrix-x}
 \end{equation}
 e 
 
@@ -599,7 +616,7 @@ e
 \partial_{yy} \frac{1}{r} &
 \partial_{yz} \frac{1}{r}
 \end{bmatrix}^\top \quad .
-\label{eq:Mij-matrix-z}
+\label{eq:Mij-matrix-y}
 \end{equation}
 As derivadas $\partial_{\alpha\beta} \frac{1}{r} \equiv \frac{\partial^{2}}{\partial \alpha \partial \beta} \frac{1}{r}$, representam as derivadas segundas com respeito a $\alpha = x, y$ e $\beta = x, y, z$, do inverso da distância $\frac{1}{r}$ (equação \ref{eq:inverse-distance}) entre as coordenadas de observação $(x, y, z) = (x_{i}, y_{i}, z_{i})$ e as coordenadas das fontes equivalentes $(x'', y'', z_{c}) = (x_{j}, y_{j}, z_{c})$. Além disso, calculamos a amplitude do campo magnético aplicando a relação
 
@@ -611,9 +628,9 @@ em que $\mathbf{B}_{x}^{p}$, $\mathbf{B}_{y}^{p}$ e $\mathbf{B}_{z}^{p}$ são as
 
 \section{A escolha da profundidade da camada ($\mathbf{z_{c}}$) e do parâmetro de regularização ($\mathbf{\mu}$)}
 
-O procedimento pelo qual utilizamos a camada equivalente para estimar a direção de magnetização total das fontes magnéticas e o cálculo das componentes do campo magnético requer a escolha de dois parâmetros principais. O primeiro é a profundidade da camada $z_c$ (COLOCAR FIGURAS) e o segundo é o parâmetro de regularização $\mu$ mostrado na equação \ref{eq:linear_sys_p}. 
+O procedimento pelo qual utilizamos a camada equivalente para estimar a direção de magnetização total das fontes magnéticas e o cálculo das componentes do campo magnético requer a escolha de dois parâmetros principais. O primeiro é a profundidade da camada $z_c$ (Figuras \ref{fig:eqlayer_tfa_sketch} e \ref{fig:eqlayer_bz_sketch}) e o segundo é o parâmetro de regularização $\mu$ mostrado na equação \ref{eq:linear_sys_p}. 
 
 O método utilizado para a escolha da profundidade da camada é baseado na abordagem clássica proposta por \cite{dampney1969}. O autor aponta que o posicionamento da camada deve satisfazer um intervalo de $2,5$ a $6,0$ vezes o espaçamento dos dados. Vale ressaltar que esta regra foi aplicada pelos autores em uma grade com dados regularmente espaçados. Contudo, a escolha para aplicar nosso método corresponde a um intervalo de $2$ a $3$ vezes o valor do maior espaçamento entre os dados. É necessário lembrar que este intervalo foi encontrado empiricamente. 
 
-Para resolver a equação \ref{eq:linear_sys_p}, temos que escolher um valor confiável para o parâmetro de regularização. Com este propósito, usamos o método da curva-L, que serve como uma filtragem de ruídos dos dados, sem que o resultado final perca informações. O "cotovelo" desta curva é o valor ótimo de parâmetro no qual é feito o balanço entre a função de ajuste e a função regularizadora. 
+Para resolver a equação \ref{eq:linear_sys_p}, temos que escolher um valor confiável para o parâmetro de regularização. Com este propósito, usamos o método da curva-L, que serve como uma filtragem de ruídos dos dados, sem que o resultado final perca informações. O 'cotovelo' desta curva é o valor ótimo de parâmetro no qual é feito o balanço entre a função de ajuste e a função regularizadora. 
 
