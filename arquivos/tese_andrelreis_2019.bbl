@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{14}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -13,6 +13,19 @@
 \newblock Academic Press.
 \newblock ISBN: 0120656043.
 
+\bibitem[\MakeUppercase{Carlson}\emph{ et~al.}(2007)Carlson, Araujo,
+  Junqueira-Brod, Gaspar, Brod, Petrinovic, Hollanda, Pimentel, e
+  Sichel]{carlson_etal_2007}
+\MakeUppercase{Carlson, R.~W., Araujo, A. L.~N., Junqueira-Brod, T.~C.,
+  \MakeLowercase{et~al.}}, 2007, \enquote{Chemical and isotopic relationships
+  between peridotite xenoliths and mafic–ultrapotassic rocks from Southern
+  Brazil}, \emph{Chemical Geology}, v.~242, n.~3, \penalty0 pp.~415 -- 434.
+\newblock ISSN: 0009-2541.
+\newblock \doi{https://doi.org/10.1016/j.chemgeo.2007.04.009}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S0009254107001933}\textgreater
+  .
+
 \bibitem[\MakeUppercase{Dampney}(1969)Dampney]{dampney1969}
 \MakeUppercase{Dampney, C. N.~G.}, 1969, \enquote{The equivalent source
   technique}, \emph{GEOPHYSICS}, v.~34, n.~1, \penalty0 pp.~39--53.
@@ -24,6 +37,32 @@
   gravity inversion of a complex interface in the presence of interfering
   sources}, \emph{GEOPHYSICS}, v.~72, n.~2, \penalty0 pp.~I13--I22.
 \newblock \doi{10.1190/1.2424545}.
+
+\bibitem[\MakeUppercase{Dutra}\emph{ et~al.}(2014)Dutra, Marangoni, e
+  Trindade]{dutra_etal_2014}
+\MakeUppercase{Dutra, A.~C., Marangoni, Y., Trindade, R. I.~F.}, 2014,
+  \enquote{{Aeromagnetic and physical-chemical properties of some complexes
+  from Goi\~A!`s Alkaline Province}}, \emph{{Brazilian Journal of Geology}},
+  v.~44 (09), \penalty0 pp.~361 -- 373.
+\newblock ISSN: 2317-4889.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.scielo.br/scielo.php?script=sci_arttext&pid=S2317-48892014000200361&nrm=iso}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Junqueira-Brod}\emph{ et~al.}(2005)Junqueira-Brod,
+  Gaspar, Brod, e Kafino]{junqueira_brod_2005}
+\MakeUppercase{Junqueira-Brod, T.~C., Gaspar, J.~C., Brod, J.~A.,
+  \MakeLowercase{et~al.}}, 2005, \enquote{Kamafugitic diatremes: their textures
+  and field relationships with examples from the Goiás alkaline province,
+  Brazil}, \emph{Journal of South American Earth Sciences}, v.~18, n.~3,
+  \penalty0 pp.~337 -- 353.
+\newblock ISSN: 0895-9811.
+\newblock \doi{https://doi.org/10.1016/j.jsames.2004.11.002}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S0895981105000167}\textgreater
+  .
+\newblock Volcanic rocks in Brazil through time and different tectonic
+  settings.
 
 \bibitem[\MakeUppercase{Lawson} e \MakeUppercase{Hanson}(1974)Lawson e
   Hanson]{lawson_hanson_1974}
@@ -37,6 +76,41 @@
   an equivalent source with positivity for low-latitude reduction to the pole
   without striation}, \emph{GEOPHYSICS}, v.~79, n.~6, \penalty0 pp.~J81--J90.
 \newblock \doi{10.1190/geo2014-0134.1}.
+
+\bibitem[\MakeUppercase{Marangoni}\emph{ et~al.}(2016)Marangoni, Zhang, e
+  Ferreira]{marangoni_etal_2016}
+\MakeUppercase{Marangoni, Y., Zhang, H., Ferreira, H.}, 2016, \enquote{GRAVITY
+  AND MAGNETIC INTEGRATED DATA INTERPRETATION OF THE CORRÉGO DOS BOIS COMPLEX,
+  GOIÁS ALKALINE PROVINCE, CENTRAL BRAZIL}, \emph{Revista Brasileira de
+  Geofísica}, v.~33, n.~4, \penalty0 pp.~599--610.
+\newblock ISSN: 1809-4511.
+\newblock \doi{10.22564/rbgf.v33i4.756}.
+
+\bibitem[\MakeUppercase{Marangoni} e \MakeUppercase{Mantovani}(2013)Marangoni e
+  Mantovani]{marangoni_mantovani_2013}
+\MakeUppercase{Marangoni, Y.~R., Mantovani, M.~S.}, 2013, \enquote{Geophysical
+  signatures of the alkaline intrusions bordering the Paraná Basin},
+  \emph{Journal of South American Earth Sciences}, v.~41, \penalty0 pp.~83 --
+  98.
+\newblock ISSN: 0895-9811.
+\newblock \doi{https://doi.org/10.1016/j.jsames.2012.08.004}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S089598111200140X}\textgreater
+  .
+\newblock Alkaline Magmatism and the Lithospheric Mantle : a special issue in
+  honour of the work of Celso de Barros Gomes on the occasion of his 77th
+  birthday.
+
+\bibitem[\MakeUppercase{Oliveira~Jr}\emph{ et~al.}(2015)Oliveira~Jr, Sales,
+  Barbosa, e Uieda]{oliveirajr_etal_2015}
+\MakeUppercase{Oliveira~Jr, V.~C., Sales, D.~P., Barbosa, V. C.~F.,
+  \MakeLowercase{et~al.}}, 2015, \enquote{Estimation of the total magnetization
+  direction of approximately spherical bodies}, \emph{Nonlinear Processes in
+  Geophysics}, v.~22, n.~2, \penalty0 pp.~215--232.
+\newblock \doi{10.5194/npg-22-215-2015}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://www.nonlin-processes-geophys.net/22/215/2015/}\textgreater
+  .
 
 \bibitem[\MakeUppercase{Pedersen}(1991)Pedersen]{pedersen1991}
 \MakeUppercase{Pedersen, L.~B.}, 1991, \enquote{Relations between potential
@@ -53,5 +127,13 @@
 \newblock \doi{10.1190/1.1442807}.
 \newblock Dispon{\' i}vel em:
   \textless\url{https://doi.org/10.1190/1.1442807}\textgreater .
+
+\bibitem[\MakeUppercase{Zhang}\emph{ et~al.}(2018)Zhang, Ravat, Marangoni,
+  Chen, e Hu]{zhang_etal_2018}
+\MakeUppercase{Zhang, H., Ravat, D., Marangoni, Y.~R., \MakeLowercase{et~al.}},
+  2018, \enquote{Improved total magnetization direction determination by
+  correlation of the normalized source strength derivative and the RTP fields},
+  \emph{GEOPHYSICS}, v.~0, n.~ja, \penalty0 pp.~1--45.
+\newblock \doi{10.1190/geo2017-0178.1}.
 
 \end{thebibliography}

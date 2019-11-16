@@ -4,12 +4,17 @@ The top-level auxiliary file: tese_andrelreis_2019.aux
 A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: metodologia.aux
 A level-1 auxiliary file: simulacoes_I.aux
+A level-1 auxiliary file: dados_reais_I.aux
 The style file: on-plain.bst
 Database file #1: references.bib.bib
 I was expecting a `,' or a `}'---line 239 of file references.bib.bib
  :  
  :  doi = {10.1111/j.1365-2478.1994.tb00209.x},
 (Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 405 of file references.bib.bib
+ : @article{zhang_etal_2018
+ :                         ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 417 of file references.bib.bib
  : @article{dampney1969
@@ -27,49 +32,58 @@ Repeated entry---line 748 of file references.bib.bib
  : @article{silvadias_etal_2010
  :                             ,
 I'm skipping whatever remains of this entry
+A bad cross reference---entry "dutra_etal_2014"
+refers to entry "10.5327/Z2317-4889201400030003", which doesn't exist
+Warning--I didn't find a database entry for "10.5327/Z2317-4889201400030003"
+Name 3 in "A. C. Dutra and Y. Marangoni and R. I. F. Trindade," has a comma at the end for entry dutra_etal_2014
+while executing---line 1353 of file on-plain.bst
 `address' is a missing field, not a string, for entry aster2005
+while executing---line 1437 of file on-plain.bst
+Name 3 in "A. C. Dutra and Y. Marangoni and R. I. F. Trindade," has a comma at the end for entry dutra_etal_2014
+while executing---line 1437 of file on-plain.bst
+Name 3 in "A. C. Dutra and Y. Marangoni and R. I. F. Trindade," has a comma at the end for entry dutra_etal_2014
 while executing---line 1437 of file on-plain.bst
 `address' is a missing field, not a string, for entry lawson_hanson_1974
 while executing---line 1437 of file on-plain.bst
-You've used 7 entries,
+You've used 14 entries,
             2972 wiz_defined-function locations,
-            647 strings with 5553 characters,
-and the built_in function-call counts, 3195 in all, are:
-= -- 270
-> -- 139
-< -- 9
-+ -- 52
-- -- 45
-* -- 324
-:= -- 475
-add.period$ -- 21
-call.type$ -- 7
-change.case$ -- 22
-chr.to.int$ -- 7
-cite$ -- 14
-duplicate$ -- 170
-empty$ -- 300
-format.name$ -- 56
-if$ -- 666
+            713 strings with 8042 characters,
+and the built_in function-call counts, 7462 in all, are:
+= -- 663
+> -- 392
+< -- 15
++ -- 143
+- -- 129
+* -- 789
+:= -- 1117
+add.period$ -- 53
+call.type$ -- 14
+change.case$ -- 59
+chr.to.int$ -- 14
+cite$ -- 28
+duplicate$ -- 349
+empty$ -- 629
+format.name$ -- 149
+if$ -- 1550
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 9
-newline$ -- 39
-num.names$ -- 28
-pop$ -- 64
+missing$ -- 16
+newline$ -- 78
+num.names$ -- 56
+pop$ -- 140
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 59
 quote$ -- 0
-skip$ -- 91
+skip$ -- 198
 stack$ -- 0
-substring$ -- 124
-swap$ -- 41
-text.length$ -- 5
+substring$ -- 309
+swap$ -- 88
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 67
+type$ -- 144
 warning$ -- 0
-while$ -- 26
+while$ -- 56
 width$ -- 0
-write$ -- 99
-(There were 7 error messages)
+write$ -- 212
+(There were 12 error messages)

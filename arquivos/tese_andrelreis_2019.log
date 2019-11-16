@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.28)  8 NOV 2019 13:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.28)  12 NOV 2019 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -793,7 +793,7 @@ LaTeX Warning: Label `eq:Mij-matrix-z' multiply defined.
 
 LaTeX Warning: Label `eq:Mij-matrix-z' multiply defined.
 
-) (./simulacoes_I.aux))
+) (./simulacoes_I.aux) (./dados_reais_I.aux))
 \openout1 = `tese_andrelreis_2019.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -923,12 +923,12 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 66.
 
 pdfTeX warning: pdflatex (file ./ON-logo.pdf): PDF inclusion: found PDF version
  <1.6>, but at most version <1.5> allowed
-<ON-logo.pdf, id=72, 532.95615pt x 168.19116pt>
+<ON-logo.pdf, id=76, 532.95615pt x 168.19116pt>
 File: ON-logo.pdf Graphic file (type pdf)
 <use ON-logo.pdf>
 Package pdftex.def Info: ON-logo.pdf  used on input line 66.
 (pdftex.def)             Requested size: 142.26378pt x 44.8938pt.
-<DIPPG-logo.png, id=73, 165.61874pt x 61.1886pt>
+<DIPPG-logo.png, id=77, 165.61874pt x 61.1886pt>
 File: DIPPG-logo.png Graphic file (type png)
 <use DIPPG-logo.png>
 Package pdftex.def Info: DIPPG-logo.png  used on input line 66.
@@ -981,9 +981,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 70.
  (./tese_andrelreis_2019.lof
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 16.
 
 [2
 
@@ -1174,7 +1174,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 ]
-<Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png, id=432, 2023.56pt x 79
+<Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png, id=438, 2023.56pt x 79
 4.97pt>
 File: Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png Graphic file (type
  png)
@@ -1187,7 +1187,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-<Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png, id=433, 72
+<Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png, id=439, 72
 2.7pt x 722.7pt>
 File: Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png Graphi
 c file (type png)
@@ -1195,7 +1195,7 @@ c file (type png)
 Package pdftex.def Info: Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NN
 LS_magRM.png  used on input line 24.
 (pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
-<Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png, id=434, 722.7pt x 722.7
+<Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png, id=440, 722.7pt x 722.7
 pt>
 File: Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png Graphic file (type 
 png)
@@ -1203,14 +1203,8 @@ png)
 Package pdftex.def Info: Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png 
  used on input line 31.
 (pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
-<Fig/eqlayer/unidir_test/Lcurve_RM.png, id=437, 722.7pt x 722.7pt>
-File: Fig/eqlayer/unidir_test/Lcurve_RM.png Graphic file (type png)
-<use Fig/eqlayer/unidir_test/Lcurve_RM.png>
-Package pdftex.def Info: Fig/eqlayer/unidir_test/Lcurve_RM.png  used on input l
-ine 38.
-(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 37.
 
 Overfull \hbox (103.91042pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
@@ -1218,9 +1212,9 @@ AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 18
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 40.
 [18 <./Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png>]
 Overfull \hbox (103.91042pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
@@ -1228,9 +1222,9 @@ AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 19
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 40.
 [19 <./Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png>]
 Overfull \hbox (103.91042pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
@@ -1238,139 +1232,126 @@ AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 20
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 40.
 [20 <./Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png>]
+<Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png, id=466, 2023.5
+6pt x 794.97pt>
+File: Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png Graphic fi
+le (type png)
+<use Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_m
+agRM.png  used on input line 46.
+(pdftex.def)             Requested size: 469.47308pt x 184.42831pt.
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 46--47
+ [][] 
+ []
+
+<Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.png, id
+=467, 722.7pt x 722.7pt>
+File: Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.pn
+g Graphic file (type png)
+<use Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.png
+>
+Package pdftex.def Info: Fig/eqlayer/unidir_shallow_test/magnetic_moment_positi
+ve_LM_NNLS_magRM.png  used on input line 53.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+<Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png, id=468, 722.7pt
+ x 722.7pt>
+File: Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png Graphic fil
+e (type png)
+<use Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_ma
+gRM.png  used on input line 60.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 65.
+
 Overfull \hbox (103.91042pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
 AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 21
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
-[21 <./Fig/eqlayer/unidir_test/Lcurve_RM.png>]
-<Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png, id=470, 2023.5
-6pt x 794.97pt>
-File: Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png Graphic fi
-le (type png)
-<use Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png>
-Package pdftex.def Info: Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_m
-agRM.png  used on input line 53.
-(pdftex.def)             Requested size: 469.47308pt x 184.42831pt.
-
-Overfull \hbox (42.68173pt too wide) in paragraph at lines 53--54
- [][] 
- []
-
-<Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.png, id
-=471, 722.7pt x 722.7pt>
-File: Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.pn
-g Graphic file (type png)
-<use Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.png
->
-Package pdftex.def Info: Fig/eqlayer/unidir_shallow_test/magnetic_moment_positi
-ve_LM_NNLS_magRM.png  used on input line 60.
-(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
-<Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png, id=472, 722.7pt
- x 722.7pt>
-File: Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png Graphic fil
-e (type png)
-<use Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png>
-Package pdftex.def Info: Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_ma
-gRM.png  used on input line 67.
-(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
-<Fig/eqlayer/unidir_shallow_test/Lcurve_RM.png, id=475, 722.7pt x 722.7pt>
-File: Fig/eqlayer/unidir_shallow_test/Lcurve_RM.png Graphic file (type png)
-<use Fig/eqlayer/unidir_shallow_test/Lcurve_RM.png>
-Package pdftex.def Info: Fig/eqlayer/unidir_shallow_test/Lcurve_RM.png  used on
- input line 74.
-(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 80.
-
+(babel)             in language  on input line 68.
+[21 <./Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png>]
 Overfull \hbox (103.91042pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
 AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 22
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
-[22 <./Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png>]
+(babel)             in language  on input line 68.
+[22 <./Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.p
+ng>]
 Overfull \hbox (103.91042pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
 AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 23
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
-[23 <./Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.p
-ng>]
+(babel)             in language  on input line 68.
+[23 <./Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png>]
+<Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png, id=495, 2
+023.56pt x 794.97pt>
+File: Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png Graph
+ic file (type png)
+<use Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_N
+NLS_magRM.png  used on input line 74.
+(pdftex.def)             Requested size: 469.47308pt x 184.42831pt.
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 74--75
+ [][] 
+ []
+
+<Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_magRM.pn
+g, id=496, 722.7pt x 722.7pt>
+File: Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_mag
+RM.png Graphic file (type png)
+<use Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_magR
+M.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_p
+ositive_LM_NNLS_magRM.png  used on input line 81.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+<Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png, id=497, 72
+2.7pt x 722.7pt>
+File: Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png Graphi
+c file (type png)
+<use Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NN
+LS_magRM.png  used on input line 88.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+)
 Overfull \hbox (103.91042pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
 AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 24
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
-[24 <./Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png>]
+(babel)             in language  on input line 87.
+[24 <./Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png>]
 Overfull \hbox (103.91042pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
 AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 25
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
-[25 <./Fig/eqlayer/unidir_shallow_test/Lcurve_RM.png>]
-<Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png, id=507, 2
-023.56pt x 794.97pt>
-File: Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png Graph
-ic file (type png)
-<use Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png>
-Package pdftex.def Info: Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_N
-NLS_magRM.png  used on input line 89.
-(pdftex.def)             Requested size: 469.47308pt x 184.42831pt.
-
-Overfull \hbox (42.68173pt too wide) in paragraph at lines 89--90
- [][] 
- []
-
-<Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_magRM.pn
-g, id=508, 722.7pt x 722.7pt>
-File: Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_mag
-RM.png Graphic file (type png)
-<use Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_magR
-M.png>
-Package pdftex.def Info: Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_p
-ositive_LM_NNLS_magRM.png  used on input line 96.
-(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
-<Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png, id=509, 72
-2.7pt x 722.7pt>
-File: Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png Graphi
-c file (type png)
-<use Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png>
-Package pdftex.def Info: Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NN
-LS_magRM.png  used on input line 103.
-(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
-<Fig/eqlayer/unidir_shallow_diff_test/Lcurve_RM.png, id=512, 722.7pt x 722.7pt>
-
-File: Fig/eqlayer/unidir_shallow_diff_test/Lcurve_RM.png Graphic file (type png
-)
-<use Fig/eqlayer/unidir_shallow_diff_test/Lcurve_RM.png>
-Package pdftex.def Info: Fig/eqlayer/unidir_shallow_diff_test/Lcurve_RM.png  us
-ed on input line 110.
-(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
-)
+(babel)             in language  on input line 87.
+[25 <./Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_ma
+gRM.png>]
 Overfull \hbox (103.91042pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
 AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 26
@@ -1380,70 +1361,165 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 87.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 87.
-[26 <./Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png>]
-Overfull \hbox (103.91042pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
-AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 27
+[26 <./Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png>]
+\openout2 = `dados_reais_I.aux'.
+
+
+(./dados_reais_I.tex
+Cap\'{\i }tulo 4.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+Overfull \hbox (16.536pt too wide) in paragraph at lines 7--8
+[]\OT1/cmr/m/n/12 Esta regi~ao foi alvo de um le-van-ta-mento ae-ro-magn^^Setic
+o no qual pos-sui o espa^^Xcamento
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 87.
-[27 <./Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_ma
-gRM.png>]
-Overfull \hbox (103.91042pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
-AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 28
+(babel)             in language  on input line 8.
+[27
+
+
+
+]
+<Fig/eqlayer/field_data_montes_claros/data_fitting_LM_NNLS_montesclaros.png, id
+=554, 2023.56pt x 794.97pt>
+File: Fig/eqlayer/field_data_montes_claros/data_fitting_LM_NNLS_montesclaros.pn
+g Graphic file (type png)
+<use Fig/eqlayer/field_data_montes_claros/data_fitting_LM_NNLS_montesclaros.png
+>
+Package pdftex.def Info: Fig/eqlayer/field_data_montes_claros/data_fitting_LM_N
+NLS_montesclaros.png  used on input line 12.
+(pdftex.def)             Requested size: 469.47308pt x 184.42831pt.
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 12--13
+ [][] 
+ []
+
+<Fig/eqlayer/field_data_montes_claros/magnetic_moment_positive_LM_NNLS_montescl
+aros.png, id=555, 722.7pt x 722.7pt>
+File: Fig/eqlayer/field_data_montes_claros/magnetic_moment_positive_LM_NNLS_mon
+tesclaros.png Graphic file (type png)
+<use Fig/eqlayer/field_data_montes_claros/magnetic_moment_positive_LM_NNLS_mont
+esclaros.png>
+Package pdftex.def Info: Fig/eqlayer/field_data_montes_claros/magnetic_moment_p
+ositive_LM_NNLS_montesclaros.png  used on input line 19.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+<Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.png, id=
+556, 722.7pt x 722.7pt>
+File: Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.png
+ Graphic file (type png)
+<use Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.png>
+
+Package pdftex.def Info: Fig/eqlayer/field_data_montes_claros/convergence_LM_NN
+LS_montesclaros.png  used on input line 26.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+<Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png, id=559, 650.4
+3pt x 650.43pt>
+File: Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png Graphic f
+ile (type png)
+<use Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png>
+Package pdftex.def Info: Fig/eqlayer/field_data_montes_claros/RTP_data_montes_c
+laros.png  used on input line 33.
+(pdftex.def)             Requested size: 384.1096pt x 384.11758pt.
+)
+Overfull \hbox (94.94812pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 4.  APLICA[][]AO A DADOS REAIS: COMPLEXO DE MONTES 
+CLAROS DE GOI[]AS \OT1/cmr/m/n/12 28
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 87.
-[28 <./Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png>]
-Overfull \hbox (103.91042pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
-AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 29
+(babel)             in language  on input line 89.
+[28 <./Fig/eqlayer/field_data_montes_claros/data_fitting_LM_NNLS_montesclaros.p
+ng>]
+Overfull \hbox (94.94812pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 4.  APLICA[][]AO A DADOS REAIS: COMPLEXO DE MONTES 
+CLAROS DE GOI[]AS \OT1/cmr/m/n/12 29
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 87.
-[29 <./Fig/eqlayer/unidir_shallow_diff_test/Lcurve_RM.png>]
+(babel)             in language  on input line 89.
+[29 <./Fig/eqlayer/field_data_montes_claros/magnetic_moment_positive_LM_NNLS_mo
+ntesclaros.png>]
+Overfull \hbox (94.94812pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 4.  APLICA[][]AO A DADOS REAIS: COMPLEXO DE MONTES 
+CLAROS DE GOI[]AS \OT1/cmr/m/n/12 30
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 89.
+[30 <./Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.pn
+g>]
+Overfull \hbox (94.94812pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 4.  APLICA[][]AO A DADOS REAIS: COMPLEXO DE MONTES 
+CLAROS DE GOI[]AS \OT1/cmr/m/n/12 31
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 89.
+[31 <./Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png>]
 (./tese_andrelreis_2019.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 55.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 55.
-)
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 26.
 
-AED: lastpage setting LastPage
+Underfull \hbox (badness 1983) in paragraph at lines 55--66
+\OT1/cmr/m/it/12 Ame-ri-can Earth Sci-en-ces\OT1/cmr/m/n/12 , v. 18, n. 3, pp. 
+337 -- 353.  ISSN:
+ []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 113.
+(babel)             in language  on input line 79.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 113.
-[30
+(babel)             in language  on input line 79.
+[32
 
 
 
 ]
+Underfull \hbox (badness 1466) in paragraph at lines 82--88
+\OT1/cmr/m/n/12 MAG-NE-TIC IN-TE-GRA-TED DATA IN-TER-PRE-TA-TION OF THE
+ []
+
+) 
+AED: lastpage setting LastPage
+
+Overfull \hbox (94.94812pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 4.  APLICA[][]AO A DADOS REAIS: COMPLEXO DE MONTES 
+CLAROS DE GOI[]AS \OT1/cmr/m/n/12 33
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 113.
+[33]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 113.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (./tese_andrelreis_2019.aux (./introducao.aux) (./metodologia.aux)
-(./simulacoes_I.aux))
+(./simulacoes_I.aux) (./dados_reais_I.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `tese_andrelreis_2019.out' has not changed.
-(rerunfilecheck)             Checksum: 9630795153AD23EDC1102B0E2A23EEC8;1564.
+(rerunfilecheck)             Checksum: F8FE4298D8CB0ADD242B2FE00982465C;1669.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1451,13 +1527,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 10569 strings out of 492982
- 153366 string characters out of 6134895
- 291916 words of memory out of 5000000
- 13770 multiletter control sequences out of 15000+600000
+ 10622 strings out of 492982
+ 155189 string characters out of 6134895
+ 293109 words of memory out of 5000000
+ 13800 multiletter control sequences out of 15000+600000
  13861 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,16n,39p,1467b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,16n,39p,3130b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
@@ -1473,10 +1549,10 @@ m/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on tese_andrelreis_2019.pdf (34 pages, 12945867 bytes).
+Output written on tese_andrelreis_2019.pdf (37 pages, 16001793 bytes).
 PDF statistics:
- 625 PDF objects out of 1000 (max. 8388607)
- 534 compressed objects within 6 object streams
- 137 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 690 PDF objects out of 1000 (max. 8388607)
+ 595 compressed objects within 6 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 220 words of extra memory for PDF output out of 10000 (max. 10000000)
 
