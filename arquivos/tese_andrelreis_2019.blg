@@ -42,6 +42,8 @@ Name 3 in "A. C. Dutra and Y. Marangoni and R. I. F. Trindade," has a comma at t
 while executing---line 1353 of file on-plain.bst
 `address' is a missing field, not a string, for entry aster2005
 while executing---line 1437 of file on-plain.bst
+`address' is a missing field, not a string, for entry butler1998
+while executing---line 1437 of file on-plain.bst
 `address' is a missing field, not a string, for entry collinson1983
 while executing---line 1437 of file on-plain.bst
 `address' is a missing field, not a string, for entry dunlop1997
@@ -54,45 +56,45 @@ while executing---line 1437 of file on-plain.bst
 while executing---line 1437 of file on-plain.bst
 `address' is a missing field, not a string, for entry lawson_hanson_1974
 while executing---line 1437 of file on-plain.bst
-You've used 18 entries,
+You've used 20 entries,
             2972 wiz_defined-function locations,
-            744 strings with 8606 characters,
-and the built_in function-call counts, 8858 in all, are:
-= -- 779
-> -- 441
-< -- 20
-+ -- 162
-- -- 144
-* -- 906
-:= -- 1335
-add.period$ -- 67
-call.type$ -- 18
-change.case$ -- 69
-chr.to.int$ -- 18
-cite$ -- 36
-duplicate$ -- 437
-empty$ -- 772
-format.name$ -- 170
-if$ -- 1844
+            756 strings with 8929 characters,
+and the built_in function-call counts, 9538 in all, are:
+= -- 835
+> -- 461
+< -- 22
++ -- 170
+- -- 150
+* -- 961
+:= -- 1437
+add.period$ -- 71
+call.type$ -- 20
+change.case$ -- 73
+chr.to.int$ -- 20
+cite$ -- 40
+duplicate$ -- 481
+empty$ -- 848
+format.name$ -- 178
+if$ -- 1987
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 23
-newline$ -- 99
-num.names$ -- 72
-pop$ -- 175
+missing$ -- 26
+newline$ -- 106
+num.names$ -- 80
+pop$ -- 193
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 72
 quote$ -- 0
-skip$ -- 242
+skip$ -- 264
 stack$ -- 0
-substring$ -- 333
-swap$ -- 104
+substring$ -- 360
+swap$ -- 112
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 173
+type$ -- 190
 warning$ -- 0
-while$ -- 69
+while$ -- 77
 width$ -- 0
-write$ -- 268
-(There were 15 error messages)
+write$ -- 290
+(There were 16 error messages)

@@ -22,6 +22,8 @@
 \contentsline {subsection}{\numberline {5.1.1}Camada equivalente com a mesma dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o da amostra}{35}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Camada equivalente com dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o diferente da amostra}{38}{subsection.5.1.2}
 \contentsline {section}{\numberline {5.2}Simula\IeC {\c c}\IeC {\~a}o de amostra com heterogeneidades}{41}{section.5.2}
-\contentsline {chapter}{\numberline {A}Dedu\IeC {\c c}\IeC {\~a}o da equa\IeC {\c c}\IeC {\~a}o \ref {eq:positivity_prop}}{42}{appendix.A}
-\contentsline {chapter}{\numberline {B}Fontes magnetizadas verticalmente}{44}{appendix.B}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{46}{appendix*.4}
+\contentsline {subsection}{\numberline {5.2.1}Camada equivalente com a mesma dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o da amostra}{41}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Camada equivalente com dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o diferente da amostra}{45}{subsection.5.2.2}
+\contentsline {chapter}{\numberline {A}Dedu\IeC {\c c}\IeC {\~a}o da equa\IeC {\c c}\IeC {\~a}o \ref {eq:positivity_prop}}{48}{appendix.A}
+\contentsline {chapter}{\numberline {B}Fontes magnetizadas verticalmente}{50}{appendix.B}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{52}{appendix*.4}

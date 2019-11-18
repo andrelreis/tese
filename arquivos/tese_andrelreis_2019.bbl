@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -13,6 +13,11 @@
 \newblock Academic Press.
 \newblock ISBN: 0120656043.
 
+\bibitem[\MakeUppercase{Butler}(1998)Butler]{butler1998}
+\MakeUppercase{Butler, R.~F.}, 1998, \emph{Paleomagnetism: Magnetic domains to
+  geologic terranes}.
+\newblock Univertsity of Arizona.
+
 \bibitem[\MakeUppercase{Carlson}\emph{ et~al.}(2007)Carlson, Araujo,
   Junqueira-Brod, Gaspar, Brod, Petrinovic, Hollanda, Pimentel, e
   Sichel]{carlson_etal_2007}
@@ -25,6 +30,11 @@
 \newblock Dispon{\' i}vel em:
   \textless\url{http://www.sciencedirect.com/science/article/pii/S0009254107001933}\textgreater
   .
+
+\bibitem[\MakeUppercase{Clark}(1997)Clark]{clark1997}
+\MakeUppercase{Clark, D.}, 1997, \enquote{Magnetic petrophysics and magnetic
+  petrology: aids to geological interpretation of magnetic surveys}, \emph{AGSO
+  Journal of Australian Geology and Geophysics}, v.~17, \penalty0 pp.~83--104.
 
 \bibitem[\MakeUppercase{Collinson}(1983)Collinson]{collinson1983}
 \MakeUppercase{Collinson, D.}, 1983, \emph{Methods in rock magnetism and

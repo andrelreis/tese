@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  16 NOV 2019 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  18 NOV 2019 18:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -917,13 +917,13 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 67.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./ON-logo.pdf): PDF inclusion: found PD
 F version <1.6>, but at most version <1.5> allowed
-<ON-logo.pdf, id=104, 532.95615pt x 168.19116pt>
+<ON-logo.pdf, id=112, 532.95615pt x 168.19116pt>
 File: ON-logo.pdf Graphic file (type pdf)
  <use ON-logo.pdf>
 Package pdftex.def Info: ON-logo.pdf used on input line 67.
 (pdftex.def)             Requested size: 142.26378pt x 44.8938pt.
 
-<DIPPG-logo.png, id=105, 165.61874pt x 61.1886pt>
+<DIPPG-logo.png, id=113, 165.61874pt x 61.1886pt>
 File: DIPPG-logo.png Graphic file (type png)
  <use DIPPG-logo.png>
 Package pdftex.def Info: DIPPG-logo.png used on input line 67.
@@ -958,14 +958,14 @@ Package babel Info: Redefining portuges shorthand "|
 go.png>]
 (./tese_andrelreis_2019.toc
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 26.
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 ...\ref {eq:positivity_prop}}{42}{appendix.A}
+l.26 ...iferente da amostra}{45}{subsection.5.2.2}
                                                    [1
 
 ])
@@ -992,7 +992,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 25.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 25.
- [4])
+ [4]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 32.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 32.
+ [5])
 \tf@lof=\write5
 \openout5 = `tese_andrelreis_2019.lof'.
 
@@ -1000,7 +1005,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 79.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 79.
- [5]
+ [6]
 \openout2 = `introducao.aux'.
 
  (./introducao.tex
@@ -1086,7 +1091,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 343.
  [9]
-<Fig/eqlayer/eqlayer_figure_tfa.png, id=439, 461.725pt x 436.029pt>
+<Fig/eqlayer/eqlayer_figure_tfa.png, id=504, 461.725pt x 436.029pt>
 File: Fig/eqlayer/eqlayer_figure_tfa.png Graphic file (type png)
 
 <use Fig/eqlayer/eqlayer_figure_tfa.png>
@@ -1117,7 +1122,7 @@ Package babel Info: Redefining portuges shorthand "|
                                                   \fi \fi 
 l.406 
        <./Fig/eqlayer/eqlayer_figure_tfa.png>]
-<Fig/mag_vec/eqlayer_figure_bz.png, id=461, 461.725pt x 427.999pt>
+<Fig/mag_vec/eqlayer_figure_bz.png, id=526, 461.725pt x 427.999pt>
 File: Fig/mag_vec/eqlayer_figure_bz.png Graphic file (type png)
 
 <use Fig/mag_vec/eqlayer_figure_bz.png>
@@ -1211,7 +1216,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 ]
-<Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png, id=580, 2023.56pt x 79
+<Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png, id=648, 2023.56pt x 79
 4.97pt>
 File: Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png Graphic file (type
  png)
@@ -1225,7 +1230,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 18--19
  []
 
 
-<Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png, id=581, 72
+<Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png, id=649, 72
 2.7pt x 722.7pt>
 File: Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png Graphi
 c file (type png)
@@ -1235,7 +1240,7 @@ Package pdftex.def Info: Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NN
 LS_magRM.png used on input line 25.
 (pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
 
-<Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png, id=582, 722.7pt x 722.7
+<Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png, id=650, 722.7pt x 722.7
 pt>
 File: Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png Graphic file (type 
 png)
@@ -1294,7 +1299,7 @@ Package babel Info: Redefining portuges shorthand "|
                                                   \fi \fi 
 l.42 
       <./Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png>]
-<Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png, id=609, 2023.5
+<Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png, id=676, 2023.5
 6pt x 794.97pt>
 File: Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png Graphic fi
 le (type png)
@@ -1310,7 +1315,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 48--49
 
 
 <Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.png, id
-=610, 722.7pt x 722.7pt>
+=677, 722.7pt x 722.7pt>
 File: Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.pn
 g Graphic file (type png)
 
@@ -1320,7 +1325,7 @@ Package pdftex.def Info: Fig/eqlayer/unidir_shallow_test/magnetic_moment_positi
 ve_LM_NNLS_magRM.png used on input line 55.
 (pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
 
-<Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png, id=611, 722.7pt
+<Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png, id=678, 722.7pt
  x 722.7pt>
 File: Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png Graphic fil
 e (type png)
@@ -1381,7 +1386,7 @@ Package babel Info: Redefining portuges shorthand "|
                                                   \fi \fi 
 l.71 
       <./Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png>]
-<Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png, id=637, 2
+<Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png, id=705, 2
 023.56pt x 794.97pt>
 File: Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png Graph
 ic file (type png)
@@ -1397,7 +1402,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 77--78
 
 
 <Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_magRM.pn
-g, id=638, 722.7pt x 722.7pt>
+g, id=706, 722.7pt x 722.7pt>
 File: Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_mag
 RM.png Graphic file (type png)
 
@@ -1407,7 +1412,7 @@ Package pdftex.def Info: Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_p
 ositive_LM_NNLS_magRM.png used on input line 84.
 (pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
 
-<Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png, id=639, 72
+<Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png, id=707, 72
 2.7pt x 722.7pt>
 File: Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png Graphi
 c file (type png)
@@ -1490,7 +1495,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 ]
 <Fig/eqlayer/field_data_montes_claros/data_fitting_LM_NNLS_montesclaros.png, id
-=696, 2023.56pt x 794.97pt>
+=762, 2023.56pt x 794.97pt>
 File: Fig/eqlayer/field_data_montes_claros/data_fitting_LM_NNLS_montesclaros.pn
 g Graphic file (type png)
 
@@ -1506,7 +1511,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 12--13
 
 
 <Fig/eqlayer/field_data_montes_claros/magnetic_moment_positive_LM_NNLS_montescl
-aros.png, id=697, 722.7pt x 722.7pt>
+aros.png, id=763, 722.7pt x 722.7pt>
 File: Fig/eqlayer/field_data_montes_claros/magnetic_moment_positive_LM_NNLS_mon
 tesclaros.png Graphic file (type png)
 
@@ -1517,7 +1522,7 @@ ositive_LM_NNLS_montesclaros.png used on input line 19.
 (pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
 
 <Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.png, id=
-698, 722.7pt x 722.7pt>
+764, 722.7pt x 722.7pt>
 File: Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.png
  Graphic file (type png)
 
@@ -1526,7 +1531,7 @@ Package pdftex.def Info: Fig/eqlayer/field_data_montes_claros/convergence_LM_NN
 LS_montesclaros.png used on input line 26.
 (pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
 
-<Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png, id=701, 650.4
+<Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png, id=767, 650.4
 3pt x 650.43pt>
 File: Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png Graphic f
 ile (type png)
@@ -1613,14 +1618,14 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 6.
 
-<Fig/mag_vec/amostra_homo_correto/noisy_bz_sample.png, id=732, 722.7pt x 722.7p
+<Fig/mag_vec/amostra_homo_correto/noisy_bz_sample.png, id=799, 722.7pt x 722.7p
 t>
 File: Fig/mag_vec/amostra_homo_correto/noisy_bz_sample.png Graphic file (type p
 ng)
  <use Fig/mag_vec/amostra_homo_correto/noisy_bz_sample.png>
 Package pdftex.def Info: Fig/mag_vec/amostra_homo_correto/noisy_bz_sample.png u
 sed on input line 14.
-(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+(pdftex.def)             Requested size: 341.43437pt x 341.43344pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 19.
 Package babel Info: Redefining portuges shorthand "|
@@ -1648,7 +1653,7 @@ Package babel Info: Redefining portuges shorthand "|
                                                   \fi \fi 
 l.23 
       <./Fig/mag_vec/amostra_homo_correto/noisy_bz_sample.png>]
-<Fig/mag_vec/amostra_homo_correto/results_data_fitting_Bz.png, id=767, 2023.56p
+<Fig/mag_vec/amostra_homo_correto/results_data_fitting_Bz.png, id=834, 2023.56p
 t x 794.97pt>
 File: Fig/mag_vec/amostra_homo_correto/results_data_fitting_Bz.png Graphic file
  (type png)
@@ -1658,7 +1663,7 @@ Package pdftex.def Info: Fig/mag_vec/amostra_homo_correto/results_data_fitting_
 Bz.png used on input line 28.
 (pdftex.def)             Requested size: 384.1096pt x 150.9003pt.
 
-<Fig/mag_vec/amostra_homo_correto/field_components_eqlayer.png, id=768, 1589.94
+<Fig/mag_vec/amostra_homo_correto/field_components_eqlayer.png, id=835, 1589.94
 pt x 1589.94pt>
 File: Fig/mag_vec/amostra_homo_correto/field_components_eqlayer.png Graphic fil
 e (type png)
@@ -1668,7 +1673,7 @@ Package pdftex.def Info: Fig/mag_vec/amostra_homo_correto/field_components_eqla
 yer.png used on input line 35.
 (pdftex.def)             Requested size: 426.79135pt x 426.79071pt.
 
-<Fig/mag_vec/amostra_homo_correto/comparison_true_estimated.png, id=771, 2023.5
+<Fig/mag_vec/amostra_homo_correto/comparison_true_estimated.png, id=838, 2023.5
 6pt x 1300.86pt>
 File: Fig/mag_vec/amostra_homo_correto/comparison_true_estimated.png Graphic fi
 le (type png)
@@ -1733,7 +1738,7 @@ Package babel Info: Redefining portuges shorthand "|
                                                   \fi \fi 
 l.52 
       <./Fig/mag_vec/amostra_homo_correto/comparison_true_estimated.png>]
-<Fig/mag_vec/amostra_homo_errado/results_data_fitting_Bz.png, id=811, 2023.56pt
+<Fig/mag_vec/amostra_homo_errado/results_data_fitting_Bz.png, id=877, 2023.56pt
  x 794.97pt>
 File: Fig/mag_vec/amostra_homo_errado/results_data_fitting_Bz.png Graphic file 
 (type png)
@@ -1742,7 +1747,7 @@ Package pdftex.def Info: Fig/mag_vec/amostra_homo_errado/results_data_fitting_B
 z.png used on input line 57.
 (pdftex.def)             Requested size: 384.1096pt x 150.9003pt.
 
-<Fig/mag_vec/amostra_homo_errado/field_components_eqlayer.png, id=812, 1589.94p
+<Fig/mag_vec/amostra_homo_errado/field_components_eqlayer.png, id=878, 1589.94p
 t x 1589.94pt>
 File: Fig/mag_vec/amostra_homo_errado/field_components_eqlayer.png Graphic file
  (type png)
@@ -1752,7 +1757,7 @@ Package pdftex.def Info: Fig/mag_vec/amostra_homo_errado/field_components_eqlay
 er.png used on input line 64.
 (pdftex.def)             Requested size: 426.79135pt x 426.79071pt.
 
-<Fig/mag_vec/amostra_homo_errado/comparison_true_estimated.png, id=815, 2023.56
+<Fig/mag_vec/amostra_homo_errado/comparison_true_estimated.png, id=881, 2023.56
 pt x 1300.86pt>
 File: Fig/mag_vec/amostra_homo_errado/comparison_true_estimated.png Graphic fil
 e (type png)
@@ -1768,68 +1773,254 @@ Overfull \hbox (64.01608pt too wide) in paragraph at lines 71--72
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 78.
-)
+
 Overfull \hbox (272.29808pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
 ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 38
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 82.
 [38pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.92 \include{simulacoes_II}
-                             <./Fig/mag_vec/amostra_homo_errado/results_data_fi
-tting_Bz.png>]
+l.82 
+      <./Fig/mag_vec/amostra_homo_errado/results_data_fitting_Bz.png>]
 Overfull \hbox (272.29808pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
 ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 39
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 82.
 [39pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.92 \include{simulacoes_II}
-                             <./Fig/mag_vec/amostra_homo_errado/field_component
-s_eqlayer.png>]
+l.82 
+      <./Fig/mag_vec/amostra_homo_errado/field_components_eqlayer.png>]
 Overfull \hbox (272.29808pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
 ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 40
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 82.
 [40pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.92 \include{simulacoes_II}
-                             <./Fig/mag_vec/amostra_homo_errado/comparison_true
-_estimated.png>]
+l.82 
+      <./Fig/mag_vec/amostra_homo_errado/comparison_true_estimated.png>]
+<Fig/mag_vec/simulacao_real_correto/noisy_bz_sample.png, id=904, 722.7pt x 722.
+7pt>
+File: Fig/mag_vec/simulacao_real_correto/noisy_bz_sample.png Graphic file (type
+ png)
+ <use Fig/mag_vec/simulacao_real_correto/noisy_bz_sample.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_correto/noisy_bz_sample.png
+ used on input line 86.
+(pdftex.def)             Requested size: 341.43437pt x 341.43344pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+
+<Fig/mag_vec/simulacao_real_correto/results_data_fitting_Bz.png, id=927, 2023.5
+6pt x 794.97pt>
+File: Fig/mag_vec/simulacao_real_correto/results_data_fitting_Bz.png Graphic fi
+le (type png)
+
+<use Fig/mag_vec/simulacao_real_correto/results_data_fitting_Bz.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_correto/results_data_fittin
+g_Bz.png used on input line 101.
+(pdftex.def)             Requested size: 384.1096pt x 150.9003pt.
+
+<Fig/mag_vec/simulacao_real_correto/field_components_eqlayer.png, id=928, 1589.
+94pt x 1589.94pt>
+File: Fig/mag_vec/simulacao_real_correto/field_components_eqlayer.png Graphic f
+ile (type png)
+
+<use Fig/mag_vec/simulacao_real_correto/field_components_eqlayer.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_correto/field_components_eq
+layer.png used on input line 108.
+(pdftex.def)             Requested size: 426.79135pt x 426.79071pt.
+
+<Fig/mag_vec/simulacao_real_correto/comparison_true_estimated.png, id=931, 2023
+.56pt x 1300.86pt>
+File: Fig/mag_vec/simulacao_real_correto/comparison_true_estimated.png Graphic 
+file (type png)
+
+<use Fig/mag_vec/simulacao_real_correto/comparison_true_estimated.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_correto/comparison_true_est
+imated.png used on input line 115.
+(pdftex.def)             Requested size: 490.80743pt x 315.5078pt.
+
+Overfull \hbox (64.01608pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 121.
+
 Overfull \hbox (272.29808pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
 ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 41
  []
 
 Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+[41]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 42
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.125 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.125 
+       <./Fig/mag_vec/simulacao_real_correto/noisy_bz_sample.png> <./Fig/mag_ve
+c/simulacao_real_correto/results_data_fitting_Bz.png>]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 43
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+[43pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+0}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.125 
+       <./Fig/mag_vec/simulacao_real_correto/field_components_eqlayer.png>]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 44
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+[44pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.125 
+       <./Fig/mag_vec/simulacao_real_correto/comparison_true_estimated.png>]
+<Fig/mag_vec/simulacao_real_errado/results_data_fitting_Bz.png, id=977, 2023.56
+pt x 794.97pt>
+File: Fig/mag_vec/simulacao_real_errado/results_data_fitting_Bz.png Graphic fil
+e (type png)
+
+<use Fig/mag_vec/simulacao_real_errado/results_data_fitting_Bz.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_errado/results_data_fitting
+_Bz.png used on input line 130.
+(pdftex.def)             Requested size: 384.1096pt x 150.9003pt.
+
+<Fig/mag_vec/simulacao_real_errado/field_components_eqlayer.png, id=978, 1589.9
+4pt x 1589.94pt>
+File: Fig/mag_vec/simulacao_real_errado/field_components_eqlayer.png Graphic fi
+le (type png)
+
+<use Fig/mag_vec/simulacao_real_errado/field_components_eqlayer.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_errado/field_components_eql
+ayer.png used on input line 137.
+(pdftex.def)             Requested size: 426.79135pt x 426.79071pt.
+
+<Fig/mag_vec/simulacao_real_errado/comparison_true_estimated.png, id=981, 2023.
+56pt x 1300.86pt>
+File: Fig/mag_vec/simulacao_real_errado/comparison_true_estimated.png Graphic f
+ile (type png)
+
+<use Fig/mag_vec/simulacao_real_errado/comparison_true_estimated.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_errado/comparison_true_esti
+mated.png used on input line 144.
+(pdftex.def)             Requested size: 490.80743pt x 315.5078pt.
+
+Overfull \hbox (64.01608pt too wide) in paragraph at lines 144--145
+ [][] 
+ []
+
+)
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 45
+ []
+
+Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 92.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 92.
-[41]
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.92 \include{simulacoes_II}
+                             <./Fig/mag_vec/simulacao_real_errado/results_data_
+fitting_Bz.png>]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 46
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+[46pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.92 \include{simulacoes_II}
+                             <./Fig/mag_vec/simulacao_real_errado/field_compone
+nts_eqlayer.png>]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 47
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.92 \include{simulacoes_II}
+                             <./Fig/mag_vec/simulacao_real_errado/comparison_tr
+ue_estimated.png>]
 \openout2 = `deducao.aux'.
 
  (./deducao.tex
@@ -1848,11 +2039,11 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 40.
-[42
+[48
 
 
 
-] <Fig/eqlayer/surface_Green.png, id=862, 240.6591pt x 216.81pt>
+] <Fig/eqlayer/surface_Green.png, id=1026, 240.6591pt x 216.81pt>
 File: Fig/eqlayer/surface_Green.png Graphic file (type png)
 
 <use Fig/eqlayer/surface_Green.png>
@@ -1860,19 +2051,19 @@ Package pdftex.def Info: Fig/eqlayer/surface_Green.png used on input line 55.
 (pdftex.def)             Requested size: 320.0935pt x 288.37352pt.
 )
 
-LaTeX Warning: Reference `EQ:POSITIVITY_PROP' on page 43 undefined on input lin
-e 110.
+LaTeX Warning: Reference `EQ:POSITIVITY_PROP' on page 49 undefined on input lin
+e 102.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 110.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 110.
-[43pdfTeX warning (ext4): destination with the same identifier (name{figure.A.1
+(babel)             in language  on input line 102.
+[49pdfTeX warning (ext4): destination with the same identifier (name{figure.A.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.110 \include{deducao}
+l.102 \include{deducao}
                         <./Fig/eqlayer/surface_Green.png>]
 \openout2 = `magnetizacao_vertical.aux'.
 
@@ -1885,80 +2076,80 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 31.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 31.
-[44
+[50
 
 
 
 ])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 111.
- [45] (./tese_andrelreis_2019.bbl
+(babel)             in language  on input line 103.
+ [51] (./tese_andrelreis_2019.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 26.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 26.
-
-Underfull \hbox (badness 1983) in paragraph at lines 70--81
-\OT1/cmr/m/it/12 Ame-ri-can Earth Sci-en-ces\OT1/cmr/m/n/12 , v. 18, n. 3, pp. 
-337 -- 353.  ISSN:
- []
-
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 31.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 81.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 81.
-[46
+(babel)             in language  on input line 76.
+ [52
 
 
 
 ]
-Underfull \hbox (badness 1466) in paragraph at lines 102--108
+Underfull \hbox (badness 1983) in paragraph at lines 80--91
+\OT1/cmr/m/it/12 Ame-ri-can Earth Sci-en-ces\OT1/cmr/m/n/12 , v. 18, n. 3, pp. 
+337 -- 353.  ISSN:
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 112--118
 \OT1/cmr/m/n/12 MAG-NE-TIC IN-TE-GRA-TED DATA IN-TER-PRE-TA-TION OF THE
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 157.
+(babel)             in language  on input line 160.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 157.
-[47]) 
+(babel)             in language  on input line 160.
+[53]) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 120.
+(babel)             in language  on input line 112.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 120.
-[48]
+(babel)             in language  on input line 112.
+[54]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 120.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+(babel)             in language  on input line 112.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (./tese_andrelreis_2019.aux (./introducao.aux) (./metodologia.aux)
 (./simulacoes_I.aux) (./dados_reais_I.aux) (./simulacoes_II.aux) (./deducao.aux
 ) (./magnetizacao_vertical.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `tese_andrelreis_2019.out' has not changed.
-(rerunfilecheck)             Checksum: 312EF13EA81040523CA86743DB97D9E1;2377.
+(rerunfilecheck)             Checksum: 6B6AE11105CA95CCF10579A4FB7F2A55;2641.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 10724 strings out of 493029
- 158196 string characters out of 6136233
- 307845 words of memory out of 5000000
- 13798 multiletter control sequences out of 15000+600000
+ 10789 strings out of 493029
+ 160756 string characters out of 6136233
+ 322954 words of memory out of 5000000
+ 13843 multiletter control sequences out of 15000+600000
  13861 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,16n,39p,3130b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,16n,39p,3130b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
@@ -1974,10 +2165,10 @@ m/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on tese_andrelreis_2019.pdf (54 pages, 40753263 bytes).
+Output written on tese_andrelreis_2019.pdf (61 pages, 66005947 bytes).
 PDF statistics:
- 1017 PDF objects out of 1200 (max. 8388607)
- 879 compressed objects within 9 object streams
- 194 named destinations out of 1000 (max. 500000)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1184 PDF objects out of 1200 (max. 8388607)
+ 1021 compressed objects within 11 object streams
+ 212 named destinations out of 1000 (max. 500000)
+ 377 words of extra memory for PDF output out of 10000 (max. 10000000)
 
