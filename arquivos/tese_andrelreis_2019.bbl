@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -31,6 +31,13 @@
   \textless\url{http://www.sciencedirect.com/science/article/pii/S0009254107001933}\textgreater
   .
 
+\bibitem[\MakeUppercase{Carporzen}\emph{ et~al.}(2005)Carporzen, Gilder, e
+  Hart]{carporzen_etal_2005}
+\MakeUppercase{Carporzen, L., Gilder, S., Hart, R.}, 2005,
+  \enquote{Palaeomagnetism of the Vredefort meteorite crater and implications
+  for craters on Mars}, \emph{Nature}, v.~435, \penalty0 pp.~198–201.
+\newblock \doi{10.1038/nature03560}.
+
 \bibitem[\MakeUppercase{Clark}(1997)Clark]{clark1997}
 \MakeUppercase{Clark, D.}, 1997, \enquote{Magnetic petrophysics and magnetic
   petrology: aids to geological interpretation of magnetic surveys}, \emph{AGSO
@@ -53,6 +60,18 @@
   gravity inversion of a complex interface in the presence of interfering
   sources}, \emph{GEOPHYSICS}, v.~72, n.~2, \penalty0 pp.~I13--I22.
 \newblock \doi{10.1190/1.2424545}.
+
+\bibitem[\MakeUppercase{Dressler} e \MakeUppercase{Reimold}(2004)Dressler e
+  Reimold]{dressler_reimold_2004}
+\MakeUppercase{Dressler, B., Reimold, W.}, 2004, \enquote{Order or chaos?
+  Origin and mode of emplacement of breccias in floors of large impact
+  structures}, \emph{Earth-Science Reviews}, v.~67, n.~1, \penalty0 pp.~1 --
+  54.
+\newblock ISSN: 0012-8252.
+\newblock \doi{https://doi.org/10.1016/j.earscirev.2004.01.007}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S001282520400008X}\textgreater
+  .
 
 \bibitem[\MakeUppercase{Dunlop} e \MakeUppercase{Özdemir}(1997)Dunlop e
   Özdemir]{dunlop1997}
@@ -93,6 +112,18 @@
 \MakeUppercase{Kellogg, O.~D.}, 1967, \emph{Foundations of Potential Theory}.
 \newblock Springer-Verlag.
 \newblock ISBN: 978-3-642-86750-7.
+
+\bibitem[\MakeUppercase{Lana}\emph{ et~al.}(2003)Lana, Gibson, Reimold, e
+  Minnitt]{lana_etal_2003}
+\MakeUppercase{Lana, C., Gibson, R.~L., Reimold, W.~U.,
+  \MakeLowercase{et~al.}}, 2003, \enquote{{Geology and geochemistry of a
+  granite-greenstone association in the southeastern Vredefort dome, South
+  Africa}}, \emph{South African Journal of Geology}, v.~106, n.~4 (12),
+  \penalty0 pp.~291--314.
+\newblock ISSN: 1012-0750.
+\newblock \doi{10.2113/106.4.291}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://doi.org/10.2113/106.4.291}\textgreater .
 
 \bibitem[\MakeUppercase{Lawson} e \MakeUppercase{Hanson}(1974)Lawson e
   Hanson]{lawson_hanson_1974}
@@ -142,6 +173,17 @@
   \textless\url{https://www.nonlin-processes-geophys.net/22/215/2015/}\textgreater
   .
 
+\bibitem[\MakeUppercase{Passchier}(1982)Passchier]{passchier_1982}
+\MakeUppercase{Passchier, C.}, 1982, \enquote{Pseudotachylyte and the
+  development of ultramylonite bands in the Saint-Barthélemy Massif, French
+  Pyrenees}, \emph{Journal of Structural Geology}, v.~4, n.~1, \penalty0 pp.~69
+  -- 79.
+\newblock ISSN: 0191-8141.
+\newblock \doi{https://doi.org/10.1016/0191-8141(82)90008-6}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/0191814182900086}\textgreater
+  .
+
 \bibitem[\MakeUppercase{Pedersen}(1991)Pedersen]{pedersen1991}
 \MakeUppercase{Pedersen, L.~B.}, 1991, \enquote{Relations between potential
   fields and some equivalent sources}, \emph{GEOPHYSICS}, v.~56, n.~7,
@@ -158,10 +200,38 @@
 \newblock Dispon{\' i}vel em:
   \textless\url{https://doi.org/10.1190/1.1442807}\textgreater .
 
+\bibitem[\MakeUppercase{Pilkington} e \MakeUppercase{Grieve}(1992)Pilkington e
+  Grieve]{pilkington_grieve_1992}
+\MakeUppercase{Pilkington, M., Grieve, R. A.~F.}, 1992, \enquote{The
+  geophysical signature of terrestrial impact craters}, \emph{Reviews of
+  Geophysics}, v.~30, n.~2, \penalty0 pp.~161--181.
+\newblock \doi{10.1029/92RG00192}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/92RG00192}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Pilkington} e
+  \MakeUppercase{Hildebrand}(2003)Pilkington e
+  Hildebrand]{pilkington_hildebrand_2003}
+\MakeUppercase{Pilkington, M., Hildebrand, A.~R.}, 2003, \enquote{Transient and
+  disruption cavity dimensions of complex terrestrial impact structures derived
+  from magnetic data}, \emph{Geophysical Research Letters}, v.~30, n.~21.
+\newblock \doi{10.1029/2003GL018294}.
+
 \bibitem[\MakeUppercase{Roy}(1962)Roy]{roy1962}
 \MakeUppercase{Roy, A.}, 1962, \enquote{Ambiguity in geophysical
   interpretation}, \emph{GEOPHYSICS}, v.~27, n.~1, \penalty0 pp.~90--99.
 \newblock \doi{10.1190/1.1438985}.
+
+\bibitem[\MakeUppercase{Yokoyama}\emph{ et~al.}(2015)Yokoyama, Nédélec,
+  Baratoux, Trindade, Fabre, e Berger]{yokoyama_etal_2015}
+\MakeUppercase{Yokoyama, E., Nédélec, A., Baratoux, D.,
+  \MakeLowercase{et~al.}}, 2015, \enquote{Hydrothermal alteration in basalts
+  from Vargeão impact structure, south Brazil, and implications for
+  recognition of impact-induced hydrothermalism on Mars}, \emph{Icarus},
+  v.~252, \penalty0 pp.~347 -- 365.
+\newblock ISSN: 0019-1035.
+\newblock \doi{https://doi.org/10.1016/j.icarus.2015.02.001}.
 
 \bibitem[\MakeUppercase{Zhang}\emph{ et~al.}(2018)Zhang, Ravat, Marangoni,
   Chen, e Hu]{zhang_etal_2018}

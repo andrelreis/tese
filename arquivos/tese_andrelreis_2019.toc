@@ -1,4 +1,4 @@
-\select@language {brazil}
+\babel@toc {brazil}{}
 \contentsline {chapter}{Lista de Figuras}{iii}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Metodologia}{2}{chapter.2}
@@ -24,6 +24,7 @@
 \contentsline {section}{\numberline {5.2}Simula\IeC {\c c}\IeC {\~a}o de amostra com heterogeneidades}{41}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Camada equivalente com a mesma dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o da amostra}{41}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Camada equivalente com dire\IeC {\c c}\IeC {\~a}o de magnetiza\IeC {\c c}\IeC {\~a}o diferente da amostra}{45}{subsection.5.2.2}
-\contentsline {chapter}{\numberline {A}Dedu\IeC {\c c}\IeC {\~a}o da equa\IeC {\c c}\IeC {\~a}o \ref {eq:positivity_prop}}{48}{appendix.A}
-\contentsline {chapter}{\numberline {B}Fontes magnetizadas verticalmente}{50}{appendix.B}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{52}{appendix*.4}
+\contentsline {chapter}{\numberline {6}Aplica\IeC {\c c}\IeC {\~a}o a dados de laborat\IeC {\'o}rio: amostra da cratera de Vredefort}{48}{chapter.6}
+\contentsline {chapter}{\numberline {A}Dedu\IeC {\c c}\IeC {\~a}o da equa\IeC {\c c}\IeC {\~a}o \ref {eq:positivity_prop}}{51}{appendix.A}
+\contentsline {chapter}{\numberline {B}Fontes magnetizadas verticalmente}{53}{appendix.B}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{55}{appendix*.4}

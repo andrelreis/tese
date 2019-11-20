@@ -1,11 +1,12 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tese_andrelreis_2019.aux
 A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: metodologia.aux
 A level-1 auxiliary file: simulacoes_I.aux
 A level-1 auxiliary file: dados_reais_I.aux
 A level-1 auxiliary file: simulacoes_II.aux
+A level-1 auxiliary file: dados_reais_II.aux
 A level-1 auxiliary file: deducao.aux
 A level-1 auxiliary file: magnetizacao_vertical.aux
 The style file: on-plain.bst
@@ -35,6 +36,10 @@ Repeated entry---line 748 of file references.bib.bib
  : @article{silvadias_etal_2010
  :                             ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 874 of file references.bib.bib
+ : @article{lana_etal_2003
+ :                        ,
+I'm skipping whatever remains of this entry
 A bad cross reference---entry "dutra_etal_2014"
 refers to entry "10.5327/Z2317-4889201400030003", which doesn't exist
 Warning--I didn't find a database entry for "10.5327/Z2317-4889201400030003"
@@ -56,45 +61,45 @@ while executing---line 1437 of file on-plain.bst
 while executing---line 1437 of file on-plain.bst
 `address' is a missing field, not a string, for entry lawson_hanson_1974
 while executing---line 1437 of file on-plain.bst
-You've used 20 entries,
+You've used 27 entries,
             2972 wiz_defined-function locations,
-            756 strings with 8929 characters,
-and the built_in function-call counts, 9538 in all, are:
-= -- 835
-> -- 461
-< -- 22
-+ -- 170
-- -- 150
-* -- 961
-:= -- 1437
-add.period$ -- 71
-call.type$ -- 20
-change.case$ -- 73
-chr.to.int$ -- 20
-cite$ -- 40
-duplicate$ -- 481
-empty$ -- 848
-format.name$ -- 178
-if$ -- 1987
+            816 strings with 10851 characters,
+and the built_in function-call counts, 13207 in all, are:
+= -- 1171
+> -- 639
+< -- 31
++ -- 235
+- -- 208
+* -- 1349
+:= -- 1982
+add.period$ -- 100
+call.type$ -- 27
+change.case$ -- 100
+chr.to.int$ -- 27
+cite$ -- 54
+duplicate$ -- 655
+empty$ -- 1164
+format.name$ -- 249
+if$ -- 2759
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 26
-newline$ -- 106
-num.names$ -- 80
-pop$ -- 193
+missing$ -- 33
+newline$ -- 142
+num.names$ -- 108
+pop$ -- 250
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 99
 quote$ -- 0
-skip$ -- 264
+skip$ -- 364
 stack$ -- 0
-substring$ -- 360
-swap$ -- 112
-text.length$ -- 11
+substring$ -- 516
+swap$ -- 158
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 190
+type$ -- 267
 warning$ -- 0
-while$ -- 77
+while$ -- 104
 width$ -- 0
-write$ -- 290
-(There were 16 error messages)
+write$ -- 397
+(There were 17 error messages)
