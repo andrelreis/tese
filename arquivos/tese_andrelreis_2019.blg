@@ -1,12 +1,15 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tese_andrelreis_2019.aux
+A level-1 auxiliary file: resumo.aux
+A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: metodologia.aux
 A level-1 auxiliary file: simulacoes_I.aux
 A level-1 auxiliary file: dados_reais_I.aux
 A level-1 auxiliary file: simulacoes_II.aux
 A level-1 auxiliary file: dados_reais_II.aux
+A level-1 auxiliary file: conclusoes.aux
 A level-1 auxiliary file: deducao.aux
 A level-1 auxiliary file: magnetizacao_vertical.aux
 The style file: on-plain.bst
@@ -63,7 +66,7 @@ while executing---line 1437 of file on-plain.bst
 while executing---line 1437 of file on-plain.bst
 You've used 27 entries,
             2972 wiz_defined-function locations,
-            816 strings with 10851 characters,
+            819 strings with 10887 characters,
 and the built_in function-call counts, 13207 in all, are:
 = -- 1171
 > -- 639
