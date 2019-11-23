@@ -1,0 +1,443 @@
+\begin{thebibliography}{54}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem[\MakeUppercase{Aster}\emph{ et~al.}(2005)Aster, Borchers, e
+  Thurber]{aster2005}
+\MakeUppercase{Aster, R.~C., Borchers, B., Thurber, C.~H.}, 2005,
+  \emph{Parameter Estimation and Inverse Problems (International Geophysics)}.
+\newblock Academic Press.
+\newblock ISBN: 0120656043.
+
+\bibitem[\MakeUppercase{Baratchart}\emph{ et~al.}(2013)Baratchart, Hardin,
+  Lima, Saff, e Weiss]{baratchart2013}
+\MakeUppercase{Baratchart, L., Hardin, D.~P., Lima, E.~A.,
+  \MakeLowercase{et~al.}}, 2013, \enquote{Characterizing kernels of operators
+  related to thin-plate magnetizations via generalizations of {Hodge}
+  decompositions}, \emph{Inverse Problems}, v.~29, n.~1 (jan.), \penalty0
+  pp.~015004(29pp).
+\newblock ISSN: 0266-5611.
+\newblock \doi{10.1088/0266-5611/29/1/015004}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://iopscience.iop.org/0266-5611/29/1/015004}\textgreater .
+
+\bibitem[\MakeUppercase{Barnes} e \MakeUppercase{Lumley}(2011)Barnes e
+  Lumley]{barnes-lumley_2011}
+\MakeUppercase{Barnes, G., Lumley, J.}, 2011, \enquote{Processing gravity
+  gradient data}, \emph{GEOPHYSICS}, v.~76, n.~2, \penalty0 pp.~I33--I47.
+\newblock \doi{10.1190/1.3548548}.
+
+\bibitem[\MakeUppercase{Bhattacharyya}(1966)Bhattacharyya]{bhattacharyya1966}
+\MakeUppercase{Bhattacharyya, B.~K.}, 1966, \enquote{A method for computing the
+  total magnetization vector and the dimensions of a rectangular block shaped
+  from magnetic anomalies}, \emph{GEOPHYSICS}, v.~31, n.~1, \penalty0
+  pp.~74--96.
+\newblock \doi{10.1190/1.1439765}.
+
+\bibitem[\MakeUppercase{Butler}(1998)Butler]{butler1998}
+\MakeUppercase{Butler, R.~F.}, 1998, \emph{Paleomagnetism: Magnetic domains to
+  geologic terranes}.
+\newblock Univertsity of Arizona.
+
+\bibitem[\MakeUppercase{Carlson}\emph{ et~al.}(2007)Carlson, Araujo,
+  Junqueira-Brod, Gaspar, Brod, Petrinovic, Hollanda, Pimentel, e
+  Sichel]{carlson_etal_2007}
+\MakeUppercase{Carlson, R.~W., Araujo, A. L.~N., Junqueira-Brod, T.~C.,
+  \MakeLowercase{et~al.}}, 2007, \enquote{Chemical and isotopic relationships
+  between peridotite xenoliths and mafic–ultrapotassic rocks from Southern
+  Brazil}, \emph{Chemical Geology}, v.~242, n.~3, \penalty0 pp.~415 -- 434.
+\newblock ISSN: 0009-2541.
+\newblock \doi{https://doi.org/10.1016/j.chemgeo.2007.04.009}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S0009254107001933}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Carporzen}\emph{ et~al.}(2005)Carporzen, Gilder, e
+  Hart]{carporzen_etal_2005}
+\MakeUppercase{Carporzen, L., Gilder, S., Hart, R.}, 2005,
+  \enquote{Palaeomagnetism of the Vredefort meteorite crater and implications
+  for craters on Mars}, \emph{Nature}, v.~435, \penalty0 pp.~198–201.
+\newblock \doi{10.1038/nature03560}.
+
+\bibitem[\MakeUppercase{Clark}(1997)Clark]{clark1997}
+\MakeUppercase{Clark, D.}, 1997, \enquote{Magnetic petrophysics and magnetic
+  petrology: aids to geological interpretation of magnetic surveys}, \emph{AGSO
+  Journal of Australian Geology and Geophysics}, v.~17, \penalty0 pp.~83--104.
+
+\bibitem[\MakeUppercase{Collinson}(1983)Collinson]{collinson1983}
+\MakeUppercase{Collinson, D.}, 1983, \emph{Methods in rock magnetism and
+  palaeomagnetism techniques and instrumentation}.
+\newblock Chapman and Hall.
+\newblock ISBN: 978-94-015-3979-1.
+
+\bibitem[\MakeUppercase{Cordell}(1992)Cordell]{cordell_1992}
+\MakeUppercase{Cordell, L.}, 1992, \enquote{A scattered equivalent-source
+  method for interpolation and gridding of potential-field data in three
+  dimensions}, \emph{GEOPHYSICS}, v.~57, n.~4, \penalty0 pp.~629--636.
+\newblock \doi{10.1190/1.1443275}.
+
+\bibitem[\MakeUppercase{Dampney}(1969)Dampney]{dampney1969}
+\MakeUppercase{Dampney, C. N.~G.}, 1969, \enquote{The equivalent source
+  technique}, \emph{GEOPHYSICS}, v.~34, n.~1, \penalty0 pp.~39--53.
+\newblock \doi{10.1190/1.1439996}.
+
+\bibitem[\MakeUppercase{Dannemiller} e \MakeUppercase{Li}(2006)Dannemiller e
+  Li]{dannemiller_li_2006}
+\MakeUppercase{Dannemiller, N., Li, Y.}, 2006, \enquote{A new method for
+  determination of magnetization direction}, \emph{GEOPHYSICS}, v.~71, n.~6,
+  \penalty0 pp.~L69--L73.
+\newblock \doi{10.1190/1.2356116}.
+
+\bibitem[\MakeUppercase{Dias}\emph{ et~al.}(2007)Dias, Barbosa, e
+  Silva]{silvadias_etal_2010}
+\MakeUppercase{Dias, F. J.~S., Barbosa, V.~C., Silva, J.~B.}, 2007, \enquote{2D
+  gravity inversion of a complex interface in the presence of interfering
+  sources}, \emph{GEOPHYSICS}, v.~72, n.~2, \penalty0 pp.~I13--I22.
+\newblock \doi{10.1190/1.2424545}.
+
+\bibitem[\MakeUppercase{Dressler} e \MakeUppercase{Reimold}(2004)Dressler e
+  Reimold]{dressler_reimold_2004}
+\MakeUppercase{Dressler, B., Reimold, W.}, 2004, \enquote{Order or chaos?
+  Origin and mode of emplacement of breccias in floors of large impact
+  structures}, \emph{Earth-Science Reviews}, v.~67, n.~1, \penalty0 pp.~1 --
+  54.
+\newblock ISSN: 0012-8252.
+\newblock \doi{https://doi.org/10.1016/j.earscirev.2004.01.007}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S001282520400008X}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Dunlop} e \MakeUppercase{Özdemir}(1997)Dunlop e
+  Özdemir]{dunlop1997}
+\MakeUppercase{Dunlop, D.~J., Özdemir}, 1997, \emph{Rock Magnetism}.
+\newblock Cambridge University Press.
+\newblock ISBN: 9780511612794.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://dx.doi.org/10.1017/CBO9780511612794}\textgreater .
+\newblock Cambridge Books Online.
+
+\bibitem[\MakeUppercase{Dutra}\emph{ et~al.}(2014)Dutra, Marangoni, e
+  Trindade]{dutra_etal_2014}
+\MakeUppercase{Dutra, A.~C., Marangoni, Y., Trindade, R. I.~F.}, 2014,
+  \enquote{{Aeromagnetic and physical-chemical properties of some complexes
+  from Goi\~A!`s Alkaline Province}}, \emph{{Brazilian Journal of Geology}},
+  v.~44 (09), \penalty0 pp.~361 -- 373.
+\newblock ISSN: 2317-4889.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.scielo.br/scielo.php?script=sci_arttext&pid=S2317-48892014000200361&nrm=iso}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Emilia} e \MakeUppercase{Massey}(1974)Emilia e
+  Massey]{emilia_massey_1974}
+\MakeUppercase{Emilia, D.~A., Massey, R.~L.}, 1974, \enquote{MAGNETIZATION
+  ESTIMATION FOR NONUNIFORMLY MAGNETIZED SEAMOUNTS}, \emph{GEOPHYSICS}, v.~39,
+  n.~2, \penalty0 pp.~223--231.
+\newblock \doi{10.1190/1.1440423}.
+
+\bibitem[\MakeUppercase{Fedi}\emph{ et~al.}(1994)Fedi, Florio, e
+  Rapolla]{fedi_etal_1994}
+\MakeUppercase{Fedi, M., Florio, G., Rapolla, A.}, 1994, \enquote{A method to
+  estimate the total magnetization direction from a distortion analysis of
+  magnetic anomalies1}, \emph{Geophysical Prospecting}, v.~42, n.~3, \penalty0
+  pp.~261--274.
+
+\bibitem[\MakeUppercase{Gerovska}\emph{ et~al.}(2009)Gerovska, Araúzo-Bravo, e
+  Stavrev]{gerovska_etal_2009}
+\MakeUppercase{Gerovska, D., Araúzo-Bravo, M.~J., Stavrev, P.}, 2009,
+  \enquote{Estimating the magnetization direction of sources from southeast
+  Bulgaria through correlation between reduced-to-the-pole and total magnitude
+  anomalies}, \emph{Geophysical Prospecting}, v.~57, n.~4, \penalty0
+  pp.~491--505.
+\newblock \doi{10.1111/j.1365-2478.2008.00761.x}.
+
+\bibitem[\MakeUppercase{Gusp\'{i}} e \MakeUppercase{Novara}(2009)Gusp\'{i} e
+  Novara]{guspi-novara_2009}
+\MakeUppercase{Gusp\'{i}, F., Novara, I.}, 2009, \enquote{Reduction to the pole
+  and transformations of scattered magnetic data using Newtonian equivalent
+  sources}, \emph{GEOPHYSICS}, v.~74, n.~5, \penalty0 pp.~L67--L73.
+\newblock \doi{10.1190/1.3170690}.
+
+\bibitem[\MakeUppercase{Hansen} e \MakeUppercase{Miyazaki}(1984)Hansen e
+  Miyazaki]{hansen-miyazaki_1984}
+\MakeUppercase{Hansen, R.~O., Miyazaki, Y.}, 1984, \enquote{Continuation of
+  potential fields between arbitrary surfaces}, \emph{GEOPHYSICS}, v.~49, n.~6,
+  \penalty0 pp.~787--795.
+\newblock \doi{10.1190/1.1441707}.
+
+\bibitem[\MakeUppercase{Junqueira-Brod}\emph{ et~al.}(2005)Junqueira-Brod,
+  Gaspar, Brod, e Kafino]{junqueira_brod_2005}
+\MakeUppercase{Junqueira-Brod, T.~C., Gaspar, J.~C., Brod, J.~A.,
+  \MakeLowercase{et~al.}}, 2005, \enquote{Kamafugitic diatremes: their textures
+  and field relationships with examples from the Goiás alkaline province,
+  Brazil}, \emph{Journal of South American Earth Sciences}, v.~18, n.~3,
+  \penalty0 pp.~337 -- 353.
+\newblock ISSN: 0895-9811.
+\newblock \doi{https://doi.org/10.1016/j.jsames.2004.11.002}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S0895981105000167}\textgreater
+  .
+\newblock Volcanic rocks in Brazil through time and different tectonic
+  settings.
+
+\bibitem[\MakeUppercase{Kellogg}(1967)Kellogg]{kellogg1967}
+\MakeUppercase{Kellogg, O.~D.}, 1967, \emph{Foundations of Potential Theory}.
+\newblock Springer-Verlag.
+\newblock ISBN: 978-3-642-86750-7.
+
+\bibitem[\MakeUppercase{Lana}\emph{ et~al.}(2003)Lana, Gibson, Reimold, e
+  Minnitt]{lana_etal_2003}
+\MakeUppercase{Lana, C., Gibson, R.~L., Reimold, W.~U.,
+  \MakeLowercase{et~al.}}, 2003, \enquote{{Geology and geochemistry of a
+  granite-greenstone association in the southeastern Vredefort dome, South
+  Africa}}, \emph{South African Journal of Geology}, v.~106, n.~4 (12),
+  \penalty0 pp.~291--314.
+\newblock ISSN: 1012-0750.
+\newblock \doi{10.2113/106.4.291}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://doi.org/10.2113/106.4.291}\textgreater .
+
+\bibitem[\MakeUppercase{Lawson} e \MakeUppercase{Hanson}(1974)Lawson e
+  Hanson]{lawson_hanson_1974}
+\MakeUppercase{Lawson, C.~L., Hanson, R.~J.}, 1974, \emph{Solving least squares
+  problems}.
+\newblock SIAM.
+
+\bibitem[\MakeUppercase{Le\~{a}o} e \MakeUppercase{Silva}(1989)Le\~{a}o e
+  Silva]{leao-silva_1989}
+\MakeUppercase{Le\~{a}o, J. W.~D., Silva, J. B.~C.}, 1989, \enquote{Discrete
+  linear transformations of potential field data}, \emph{GEOPHYSICS}, v.~54,
+  n.~4, \penalty0 pp.~497--507.
+\newblock \doi{10.1190/1.1442676}.
+
+\bibitem[\MakeUppercase{Lelièvre} e \MakeUppercase{Oldenburg}(2009)Lelièvre e
+  Oldenburg]{lelievre_oldenburg_2009}
+\MakeUppercase{Lelièvre, P.~G., Oldenburg, D.~W.}, 2009, \enquote{A 3D total
+  magnetization inversion applicable when significant, complicated remanence is
+  present}, \emph{GEOPHYSICS}, v.~74, n.~3, \penalty0 pp.~L21--L30.
+\newblock \doi{10.1190/1.3103249}.
+
+\bibitem[\MakeUppercase{Li} e \MakeUppercase{Li}(2014)Li e Li]{li_li_2014}
+\MakeUppercase{Li, S.-L., Li, Y.}, 2014, \enquote{Inversion of magnetic anomaly
+  on rugged observation surface in the presence of strong remanent
+  magnetization}, \emph{GEOPHYSICS}, v.~79, n.~2, \penalty0 pp.~J11--J19.
+\newblock \doi{10.1190/geo2013-0126.1}.
+
+\bibitem[\MakeUppercase{Li} e \MakeUppercase{Oldenburg}(2010)Li e
+  Oldenburg]{li-oldenburg_2010}
+\MakeUppercase{Li, Y., Oldenburg, D.~W.}, 2010, \enquote{Rapid construction of
+  equivalent sources using wavelets}, \emph{GEOPHYSICS}, v.~75, n.~3, \penalty0
+  pp.~L51--L59.
+\newblock \doi{10.1190/1.3378764}.
+
+\bibitem[\MakeUppercase{Li}\emph{ et~al.}(2014)Li, Nabighian, e
+  Oldenburg]{li_etal_2014}
+\MakeUppercase{Li, Y., Nabighian, M., Oldenburg, D.~W.}, 2014, \enquote{Using
+  an equivalent source with positivity for low-latitude reduction to the pole
+  without striation}, \emph{GEOPHYSICS}, v.~79, n.~6, \penalty0 pp.~J81--J90.
+\newblock \doi{10.1190/geo2014-0134.1}.
+
+\bibitem[\MakeUppercase{Lima}\emph{ et~al.}(2013)Lima, Weiss, Baratchart,
+  Hardin, e Saff]{lima2013}
+\MakeUppercase{Lima, E.~A., Weiss, B.~P., Baratchart, L.,
+  \MakeLowercase{et~al.}}, 2013, \enquote{Fast inversion of magnetic field maps
+  of unidirectional planar geological magnetization}, \emph{J. Geophys. Res.:
+  Solid Earth}, v.~118, n.~6, \penalty0 pp.~2723--2752.
+\newblock \doi{10.1002/jgrb.50229}.
+
+\bibitem[\MakeUppercase{Liu}\emph{ et~al.}(2015)Liu, Hu, Xi, Liu, e
+  Xu]{liu_etal_2015}
+\MakeUppercase{Liu, S., Hu, X., Xi, Y., \MakeLowercase{et~al.}}, 2015,
+  \enquote{2D sequential inversion of total magnitude and total magnetic
+  anomaly data affected by remanent magnetization}, \emph{GEOPHYSICS}, v.~80,
+  n.~3, \penalty0 pp.~K1--K12.
+\newblock \doi{10.1190/geo2014-0019.1}.
+
+\bibitem[\MakeUppercase{Marangoni}\emph{ et~al.}(2016)Marangoni, Zhang, e
+  Ferreira]{marangoni_etal_2016}
+\MakeUppercase{Marangoni, Y., Zhang, H., Ferreira, H.}, 2016, \enquote{GRAVITY
+  AND MAGNETIC INTEGRATED DATA INTERPRETATION OF THE CORRÉGO DOS BOIS COMPLEX,
+  GOIÁS ALKALINE PROVINCE, CENTRAL BRAZIL}, \emph{Revista Brasileira de
+  Geofísica}, v.~33, n.~4, \penalty0 pp.~599--610.
+\newblock ISSN: 1809-4511.
+\newblock \doi{10.22564/rbgf.v33i4.756}.
+
+\bibitem[\MakeUppercase{Marangoni} e \MakeUppercase{Mantovani}(2013)Marangoni e
+  Mantovani]{marangoni_mantovani_2013}
+\MakeUppercase{Marangoni, Y.~R., Mantovani, M.~S.}, 2013, \enquote{Geophysical
+  signatures of the alkaline intrusions bordering the Paraná Basin},
+  \emph{Journal of South American Earth Sciences}, v.~41, \penalty0 pp.~83 --
+  98.
+\newblock ISSN: 0895-9811.
+\newblock \doi{https://doi.org/10.1016/j.jsames.2012.08.004}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/S089598111200140X}\textgreater
+  .
+\newblock Alkaline Magmatism and the Lithospheric Mantle : a special issue in
+  honour of the work of Celso de Barros Gomes on the occasion of his 77th
+  birthday.
+
+\bibitem[\MakeUppercase{Martinez} e \MakeUppercase{Li}(2016)Martinez e
+  Li]{martinez_li_2016}
+\MakeUppercase{Martinez, C., Li, Y.}, 2016, \enquote{Denoising of gravity
+  gradient data using an equivalent source technique}, \emph{GEOPHYSICS},
+  v.~81, n.~4, \penalty0 pp.~G67--G79.
+\newblock \doi{10.1190/geo2015-0379.1}.
+
+\bibitem[\MakeUppercase{Medeiros} e \MakeUppercase{Silva}(1996)Medeiros e
+  Silva]{medeiros_silva1996}
+\MakeUppercase{Medeiros, W.~E., Silva, J. B.~C.}, 1996, \enquote{Geophysical
+  inversion using approximate equality constraints}, \emph{GEOPHYSICS}, v.~61,
+  n.~6, \penalty0 pp.~1678--1688.
+\newblock \doi{10.1190/1.1444086}.
+
+\bibitem[\MakeUppercase{Mendon\c{c}a} e \MakeUppercase{Silva}(1994)Mendon\c{c}a
+  e Silva]{mendonca-silva_1994}
+\MakeUppercase{Mendon\c{c}a, C.~A., Silva, J. B.~C.}, 1994, \enquote{The
+  equivalent data concept applied to the interpolation of potential field
+  data}, \emph{GEOPHYSICS}, v.~59, n.~5, \penalty0 pp.~722--732.
+\newblock \doi{10.1190/1.1443630}.
+
+\bibitem[\MakeUppercase{Oliveira{ }Jr.}\emph{ et~al.}(2013)Oliveira{ }Jr.,
+  Barbosa, e Uieda]{oliveirajr-etal_2013}
+\MakeUppercase{Oliveira{ }Jr., V.~C., Barbosa, V. C.~F., Uieda, L.}, 2013,
+  \enquote{Polynomial equivalent layer}, \emph{GEOPHYSICS}, v.~78, n.~1,
+  \penalty0 pp.~G1--G13.
+\newblock \doi{10.1190/geo2012-0196.1}.
+
+\bibitem[\MakeUppercase{Oliveira~Jr}\emph{ et~al.}(2015)Oliveira~Jr, Sales,
+  Barbosa, e Uieda]{oliveirajr_etal_2015}
+\MakeUppercase{Oliveira~Jr, V.~C., Sales, D.~P., Barbosa, V. C.~F.,
+  \MakeLowercase{et~al.}}, 2015, \enquote{Estimation of the total magnetization
+  direction of approximately spherical bodies}, \emph{Nonlinear Processes in
+  Geophysics}, v.~22, n.~2, \penalty0 pp.~215--232.
+\newblock \doi{10.5194/npg-22-215-2015}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://www.nonlin-processes-geophys.net/22/215/2015/}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Parker}\emph{ et~al.}(1987)Parker, Shure, e
+  Hildebrand]{parker_etal_1987}
+\MakeUppercase{Parker, R.~L., Shure, L., Hildebrand, J.~A.}, 1987, \enquote{The
+  application of inverse theory to seamount magnetism}, \emph{Reviews of
+  Geophysics}, v.~25, n.~1, \penalty0 pp.~17--40.
+\newblock \doi{10.1029/RG025i001p00017}.
+
+\bibitem[\MakeUppercase{Passchier}(1982)Passchier]{passchier_1982}
+\MakeUppercase{Passchier, C.}, 1982, \enquote{Pseudotachylyte and the
+  development of ultramylonite bands in the Saint-Barthélemy Massif, French
+  Pyrenees}, \emph{Journal of Structural Geology}, v.~4, n.~1, \penalty0 pp.~69
+  -- 79.
+\newblock ISSN: 0191-8141.
+\newblock \doi{https://doi.org/10.1016/0191-8141(82)90008-6}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://www.sciencedirect.com/science/article/pii/0191814182900086}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Pedersen}(1991)Pedersen]{pedersen1991}
+\MakeUppercase{Pedersen, L.~B.}, 1991, \enquote{Relations between potential
+  fields and some equivalent sources}, \emph{GEOPHYSICS}, v.~56, n.~7,
+  \penalty0 pp.~961--971.
+\newblock \doi{10.1190/1.1443129}.
+
+\bibitem[\MakeUppercase{Pedersen} e \MakeUppercase{Rasmussen}(1990)Pedersen e
+  Rasmussen]{pedersen_rasmussen1990}
+\MakeUppercase{Pedersen, L.~B., Rasmussen, T.~M.}, 1990, \enquote{The gradient
+  tensor of potential field anomalies: Some implications on data collection and
+  data processing of maps}, \emph{GEOPHYSICS}, v.~55, n.~12, \penalty0
+  pp.~1558--1566.
+\newblock \doi{10.1190/1.1442807}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://doi.org/10.1190/1.1442807}\textgreater .
+
+\bibitem[\MakeUppercase{Phillips}(2005)Phillips]{phillips2005}
+\MakeUppercase{Phillips, D.~J.}, 2005, \enquote{Can we estimate total
+  magnetization directions from aeromagnetic data using Helbig's integrals?}
+  \emph{Earth, Planets and Space}, v.~57, n.~8 (Aug), \penalty0 pp.~681--689.
+\newblock ISSN: 1880-5981.
+\newblock \doi{10.1186/BF03351848}.
+
+\bibitem[\MakeUppercase{Pilkington} e \MakeUppercase{Grieve}(1992)Pilkington e
+  Grieve]{pilkington_grieve_1992}
+\MakeUppercase{Pilkington, M., Grieve, R. A.~F.}, 1992, \enquote{The
+  geophysical signature of terrestrial impact craters}, \emph{Reviews of
+  Geophysics}, v.~30, n.~2, \penalty0 pp.~161--181.
+\newblock \doi{10.1029/92RG00192}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/92RG00192}\textgreater
+  .
+
+\bibitem[\MakeUppercase{Pilkington} e
+  \MakeUppercase{Hildebrand}(2003)Pilkington e
+  Hildebrand]{pilkington_hildebrand_2003}
+\MakeUppercase{Pilkington, M., Hildebrand, A.~R.}, 2003, \enquote{Transient and
+  disruption cavity dimensions of complex terrestrial impact structures derived
+  from magnetic data}, \emph{Geophysical Research Letters}, v.~30, n.~21.
+\newblock \doi{10.1029/2003GL018294}.
+
+\bibitem[\MakeUppercase{Roy}(1962)Roy]{roy1962}
+\MakeUppercase{Roy, A.}, 1962, \enquote{Ambiguity in geophysical
+  interpretation}, \emph{GEOPHYSICS}, v.~27, n.~1, \penalty0 pp.~90--99.
+\newblock \doi{10.1190/1.1438985}.
+
+\bibitem[\MakeUppercase{Ryuji} e \MakeUppercase{Uchiyama}(2005)Ryuji e
+  Uchiyama]{kubota2005}
+\MakeUppercase{Ryuji, K., Uchiyama, A.}, 2005, \enquote{Three-dimensional
+  magnetization vector inversion of a seamount}, \emph{Earth, Planets and
+  Space}, v.~57, n.~8 (Aug), \penalty0 pp.~691--699".
+\newblock \doi{10.1186/BF03351849}.
+
+\bibitem[\MakeUppercase{Silva}(1986)Silva]{silva_1986}
+\MakeUppercase{Silva, J. B.~C.}, 1986, \enquote{Reduction to the pole as an
+  inverse problem and its application to low-latitude anomalies},
+  \emph{GEOPHYSICS}, v.~51, n.~2, \penalty0 pp.~369--382.
+\newblock \doi{10.1190/1.1442096}.
+
+\bibitem[\MakeUppercase{Siqueira}\emph{ et~al.}(2017)Siqueira, Jr., e
+  Barbosa]{siqueira_etal_2017}
+\MakeUppercase{Siqueira, F. C.~L., Jr., V. C.~O., Barbosa, V. C.~F.}, 2017,
+  \enquote{Fast iterative equivalent-layer technique for gravity data
+  processing: A method grounded on excess mass constraint}, \emph{GEOPHYSICS},
+  v.~82, n.~4, \penalty0 pp.~G57--G69.
+\newblock \doi{10.1190/geo2016-0332.1}.
+
+\bibitem[\MakeUppercase{Tontini} e \MakeUppercase{Pedersen}(2008)Tontini e
+  Pedersen]{tontini_pedersen_2008}
+\MakeUppercase{Tontini, F.~C., Pedersen, L.~B.}, 2008, \enquote{Interpreting
+  magnetic data by integral moments}, \emph{Geophysical Journal International},
+  v.~174, n.~3, \penalty0 pp.~815--824.
+\newblock \doi{10.1111/j.1365-246X.2008.03872.x}.
+
+\bibitem[\MakeUppercase{Weiss}\emph{ et~al.}(2007)Weiss, Lima, Fong, e
+  Baudenbacher]{weiss2007}
+\MakeUppercase{Weiss, B.~P., Lima, E.~A., Fong, L.~E., \MakeLowercase{et~al.}},
+  2007, \enquote{Paleomagnetic analysis using SQUID microscopy}, \emph{Journal
+  of Geophysical Research: Solid Earth}, v.~112, n.~B9, \penalty0 pp.~n/a--n/a.
+\newblock ISSN: 2156-2202.
+\newblock \doi{10.1029/2007JB004940}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{http://dx.doi.org/10.1029/2007JB004940}\textgreater .
+\newblock B09105.
+
+\bibitem[\MakeUppercase{Yokoyama}\emph{ et~al.}(2015)Yokoyama, Nédélec,
+  Baratoux, Trindade, Fabre, e Berger]{yokoyama_etal_2015}
+\MakeUppercase{Yokoyama, E., Nédélec, A., Baratoux, D.,
+  \MakeLowercase{et~al.}}, 2015, \enquote{Hydrothermal alteration in basalts
+  from Vargeão impact structure, south Brazil, and implications for
+  recognition of impact-induced hydrothermalism on Mars}, \emph{Icarus},
+  v.~252, \penalty0 pp.~347 -- 365.
+\newblock ISSN: 0019-1035.
+\newblock \doi{https://doi.org/10.1016/j.icarus.2015.02.001}.
+
+\bibitem[\MakeUppercase{Zhang}\emph{ et~al.}(2018)Zhang, Ravat, Marangoni,
+  Chen, e Hu]{zhang_etal_2018}
+\MakeUppercase{Zhang, H., Ravat, D., Marangoni, Y.~R., \MakeLowercase{et~al.}},
+  2018, \enquote{Improved total magnetization direction determination by
+  correlation of the normalized source strength derivative and the RTP fields},
+  \emph{GEOPHYSICS}, v.~0, n.~ja, \penalty0 pp.~1--45.
+\newblock \doi{10.1190/geo2017-0178.1}.
+
+\end{thebibliography}

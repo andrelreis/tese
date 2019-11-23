@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  29 OCT 2019 19:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.28)  23 NOV 2019 00:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tese_andrelreis_2019.tex
 (./tese_andrelreis_2019.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./on.cls
 Document Class: on 2011/02/08\ v2.2\ ON Dissertations and Theses
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
@@ -35,22 +35,28 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language81
+\langwohyphens=\language84
 LaTeX Info: Redefining \_ on input line 43.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/02/24 3.9q The Babel package
+Package: babel 2018/02/14 3.18 The Babel package
 
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
+Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/02/24 3.9q Babel common definitions
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count90
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -65,33 +71,25 @@ Package babel Info: Making " an active character on input line 145.
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count90
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
@@ -100,10 +98,10 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen106
 \extrarowheight=\dimen107
 \NC@list=\toks15
@@ -119,7 +117,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@ftn=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eqparbox/eqparbox.sty
-Package: eqparbox 2013/03/15 v4.0 Create equal-widthed boxes
+Package: eqparbox 2017/09/03 v4.1 Create equal-widthed boxes
 \eqp@tempdima=\skip47
 \eqp@tempdimb=\skip48
 \eqp@tabular@box=\box26
@@ -134,15 +132,17 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks17
 ))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
@@ -172,14 +172,14 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@posthook=\toks20
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -391,11 +391,17 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+01E02 (decimal 7682)
-   defining Unicode char U+01E03 (decimal 7683)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201A (decimal 8218)
@@ -407,12 +413,14 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -453,7 +461,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -477,7 +485,7 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
@@ -494,23 +502,23 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen123
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count98
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count99
 \leftroot@=\count100
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count101
 \DOTSCASE@=\count102
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
 \big@size=\dimen124
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count103
 \c@MaxMatrixCols=\count104
 \dotsspace@=\muskip10
@@ -531,8 +539,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \multlinegap=\skip51
 \multlinetaggap=\skip52
 \mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -545,63 +553,63 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen131
 \Hy@linkcounter=\count110
 \Hy@pagecounter=\count111
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -610,47 +618,46 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
+Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count113
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5041.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen132
 \Fld@menulength=\count114
 \Field@Width=\dimen133
 \Fld@charsize=\dimen134
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count115
 \c@Item=\count116
 \c@Hfootnote=\count117
 )
-
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count118
 \c@bookmark@seq@number=\count119
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
@@ -681,23 +688,20 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@bottom=\skip59
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
-Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
 \c@AlgoLine=\count124
 \algocf@hangindent=\skip60
 
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count125
+)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-********************************************************
-Package `algorithm2e' Release 5.1 -- october 19 2015 --
-- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
-- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
-subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
-- Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
-********************************************************
 \skiptotal=\skip61
 \skiplinenumber=\skip62
 \skiprule=\skip63
@@ -723,106 +727,122 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \algocf@untilbox=\box34
 \algocf@skipuntil=\skip73
 \algocf@capbox=\box35
-\algoheightruledefault=\skip74
-\algoheightrule=\skip75
-\algotitleheightruledefault=\skip76
-\algotitleheightrule=\skip77
-\c@algocfline=\count125
-\c@algocfproc=\count126
-\c@algocf=\count127
+\algocf@lcaptionbox=\skip74
+\algoheightruledefault=\skip75
+\algoheightrule=\skip76
+\algotitleheightruledefault=\skip77
+\algotitleheightrule=\skip78
+\c@algocfline=\count126
+\c@algocfproc=\count127
+\c@algocf=\count128
 \algocf@algoframe=\box36
 \algocf@algobox=\box37
-) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count128
-\calc@Bcount=\count129
+\calc@Acount=\count129
+\calc@Bcount=\count130
 \calc@Adimen=\dimen143
 \calc@Bdimen=\dimen144
-\calc@Askip=\skip78
-\calc@Bskip=\skip79
+\calc@Askip=\skip79
+\calc@Bskip=\skip80
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count130
-\calc@Cskip=\skip80
+\calc@Ccount=\count131
+\calc@Cskip=\skip81
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
 \AM@pagewidth=\dimen145
 \AM@pageheight=\dimen146
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box38
-\AM@toc@title=\toks27
-\c@AM@survey=\count131
+\AM@global@opts=\toks27
+\AM@toc@title=\toks28
+\c@AM@survey=\count132
 \AM@templatesizebox=\box39
 )
-(./tese_andrelreis_2019.aux (./vred/metodologia.aux))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count133
+\float@exts=\toks29
+\float@box=\box40
+\@float@everytoks=\toks30
+\@floatcapt=\box41
+)
+(./tese_andrelreis_2019.aux (./resumo.aux) (./abstract.aux) (./introducao.aux)
+(./metodologia.aux) (./simulacoes_I.aux) (./dados_reais_I.aux)
+(./simulacoes_II.aux) (./dados_reais_II.aux) (./conclusoes.aux) (./deducao.aux)
+(./magnetizacao_vertical.aux))
 \openout1 = `tese_andrelreis_2019.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 28.
+(lastpage)             ! on input line 29.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count132
+\scratchcounter=\count134
 \scratchdimen=\dimen147
-\scratchbox=\box40
-\nofMPsegments=\count133
-\nofMParguments=\count134
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count135
+\scratchbox=\box42
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count137
 \MPscratchDim=\dimen148
-\MPnumerator=\count136
-\makeMPintoPDFobject=\count137
-\everyMPtoPDFconversion=\toks29
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -863,19 +883,19 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring OFF on input line 28.
+\AtBeginShipoutBox=\box43
+Package hyperref Info: Link coloring OFF on input line 29.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count138
+\c@section@level=\count140
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 (./tese_andrelreis_2019.out) (./tese_andrelreis_2019.out)
 \@outlinefile=\write3
@@ -883,185 +903,1399 @@ LaTeX Info: Redefining \nameref on input line 28.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 66.
-Package hyperref Info: Option `breaklinks' set `true' on input line 66.
-Package hyperref Info: Option `raiselinks' set `true' on input line 66.
-Package hyperref Info: Option `pageanchor' set `true' on input line 66.
+(babel)             in language  on input line 67.
+Package hyperref Info: Option `breaklinks' set `true' on input line 67.
+Package hyperref Info: Option `raiselinks' set `true' on input line 67.
+Package hyperref Info: Option `pageanchor' set `true' on input line 67.
 
 
-pdfTeX warning: /usr/bin/pdflatex (file ./ON-logo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<ON-logo.pdf, id=32, 532.95615pt x 168.19116pt>
+pdfTeX warning: pdflatex (file ./ON-logo.pdf): PDF inclusion: found PDF version
+ <1.6>, but at most version <1.5> allowed
+<ON-logo.pdf, id=120, 532.95615pt x 168.19116pt>
 File: ON-logo.pdf Graphic file (type pdf)
- <use ON-logo.pdf>
-Package pdftex.def Info: ON-logo.pdf used on input line 66.
+<use ON-logo.pdf>
+Package pdftex.def Info: ON-logo.pdf  used on input line 67.
 (pdftex.def)             Requested size: 142.26378pt x 44.8938pt.
-
-<DIPPG-logo.png, id=33, 165.61874pt x 61.1886pt>
+<DIPPG-logo.png, id=121, 165.61874pt x 61.1886pt>
 File: DIPPG-logo.png Graphic file (type png)
- <use DIPPG-logo.png>
-Package pdftex.def Info: DIPPG-logo.png used on input line 66.
+<use DIPPG-logo.png>
+Package pdftex.def Info: DIPPG-logo.png  used on input line 67.
 (pdftex.def)             Requested size: 113.81102pt x 42.04742pt.
 
-Underfull \hbox (badness 7221) in paragraph at lines 66--66
+Underfull \hbox (badness 7221) in paragraph at lines 67--67
 []\OT1/cmr/m/n/12 Tese apresentada ao Programa de P^^Sos-
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 66--66
+Underfull \hbox (badness 7667) in paragraph at lines 67--67
 \OT1/cmr/m/n/12 gradua^^Xc~ao em Geof^^S^^Psica do Observat^^Sorio
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 67.
  [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./ON-logo.pdf> <./DIPPG-lo
 go.png>]
-(./tese_andrelreis_2019.toc)
-\tf@toc=\write4
-\openout4 = `tese_andrelreis_2019.toc'.
+\openout2 = `resumo.aux'.
+
+
+(./resumo.tex)
+Overfull \hbox (1.7528pt too wide) in paragraph at lines 2--68
+\OT1/cmr/m/n/12 dos de ano-ma-lia de campo to-tal es-ti-mando uma dis-tri-bui^^
+Xc~ao de mo-men-tos magn^^Seticos
+ []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 68.
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70   \listoffigures
-                          % lista de figuras [1
+l.68   \include{resumo}
+                          % resumo em português - deve ser utilizado por to...
+[1
+
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 70.
- (./tese_andrelreis_2019.lof)
+(babel)             in language  on input line 68.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 68.
+ [2]
+\openout2 = `abstract.aux'.
+
+ (./abstract.tex)
+Overfull \hbox (6.9097pt too wide) in paragraph at lines 2--69
+[]\OT1/cmr/m/n/12 The equivalent-layer tech-nique is com-monly used for pro-ces
+s-ing total-field anomaly
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 69.
+[3
+
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 69.
+ [4] (./tese_andrelreis_2019.toc
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 28.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 28.
+ [5
+
+
+])
+\tf@toc=\write4
+\openout4 = `tese_andrelreis_2019.toc'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
+ [6]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
+ (./tese_andrelreis_2019.lof
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 14.
+
+[7
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 27.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 27.
+ [8]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+ [9])
 \tf@lof=\write5
 \openout5 = `tese_andrelreis_2019.lof'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 73.
+ [10]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 79.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 79.
+ [11]
+\openout2 = `introducao.aux'.
 
-[2
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 81.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 81.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 81.
- [1
-
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 91.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 91.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 91.
- [2
-
-]
-\openout2 = `vred/metodologia.aux'.
-
- (./vred/metodologia.tex
+ (./introducao.tex
 Cap\'{\i }tulo 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 4.
-
-LaTeX Warning: Reference `eq:mag_vec' on page 3 undefined on input line 30.
-
+(babel)             in language  on input line 5.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 31.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 31.
-[3
+(babel)             in language  on input line 5.
+[1
+
 
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 122.
+(babel)             in language  on input line 9.
+ [2])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 84.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 84.
+ [3]
+\openout2 = `metodologia.aux'.
+
+ (./metodologia.tex
+Cap\'{\i }tulo 2.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 41.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 41.
+[4
+
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 99.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 99.
+ [5]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 140.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 140.
+ [6]
+Overfull \hbox (8.74695pt too wide) in paragraph at lines 169--170
+[]\OT1/cmr/m/n/12 Como os co-e-fi-ci-en-tes $\OML/cmm/m/it/12 a[]$ \OT1/cmr/m/n
+/12 s~ao n~ao nu-los, con-clui-mos que as cinco fun^^Xc~oes harm^onicas
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 187.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 187.
+[7]
+Overfull \hbox (19.73788pt too wide) in paragraph at lines 211--212
+[]\OT1/cmr/m/n/12 O as-pecto mais in-te-res-sante so-bre a dis-tri-bui^^Xc~ao d
+e mo-men-tos magn^^Seticos $\OML/cmm/m/it/12 p\OT1/cmr/m/n/12 (\OML/cmm/m/it/12
+ x[]; y[]; z[]\OT1/cmr/m/n/12 )$
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 213.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 217.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 217.
+[8]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 253.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 253.
+ [9]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 301.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 301.
+ [10]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 332.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 335.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 343.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 343.
+ [11]
+<Fig/eqlayer/eqlayer_figure_tfa.png, id=668, 461.725pt x 436.029pt>
+File: Fig/eqlayer/eqlayer_figure_tfa.png Graphic file (type png)
+<use Fig/eqlayer/eqlayer_figure_tfa.png>
+Package pdftex.def Info: Fig/eqlayer/eqlayer_figure_tfa.png  used on input line
+ 382.
+(pdftex.def)             Requested size: 298.75264pt x 282.12476pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 386.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 386.
+ [12]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 387.
+
+Overfull \hbox (5.50417pt too wide) in paragraph at lines 390--391
+\OT1/cmr/m/n/12 De forma an^^Saloga a se^^Xc~ao []2.3.1[], a com-po-nente ver-t
+i-cal do campo de indu^^Xc~ao magn^^Setica
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 406.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 406.
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.406 
+       <./Fig/eqlayer/eqlayer_figure_tfa.png>]
+<Fig/mag_vec/eqlayer_figure_bz.png, id=692, 461.725pt x 427.999pt>
+File: Fig/mag_vec/eqlayer_figure_bz.png Graphic file (type png)
+<use Fig/mag_vec/eqlayer_figure_bz.png>
+Package pdftex.def Info: Fig/mag_vec/eqlayer_figure_bz.png  used on input line 
+426.
+(pdftex.def)             Requested size: 298.75264pt x 276.92908pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 432.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 434.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 439.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 439.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.439 
+       <./Fig/mag_vec/eqlayer_figure_bz.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 483.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 483.
+ [15]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 535.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 535.
+ [16]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 560.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 569.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 569.
+ [17]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 622.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 622.
+ [18]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 629.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 629.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 629.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 629.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 629.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 629.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 629.
+
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 95.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 95.
- [4] 
+(babel)             in language  on input line 86.
+ [19]
+\openout2 = `simulacoes_I.aux'.
+
+ (./simulacoes_I.tex
+Cap\'{\i }tulo 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 8.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 12.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 12.
+[20
+
+
+
+]
+<Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png, id=810, 2023.56pt x 79
+4.97pt>
+File: Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png Graphic file (type
+ png)
+<use Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png
+  used on input line 18.
+(pdftex.def)             Requested size: 469.47308pt x 184.42831pt.
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 18--19
+ [][] 
+ []
+
+<Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png, id=811, 72
+2.7pt x 722.7pt>
+File: Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png Graphi
+c file (type png)
+<use Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NN
+LS_magRM.png  used on input line 25.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+<Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png, id=812, 722.7pt x 722.7
+pt>
+File: Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png Graphic file (type 
+png)
+<use Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png 
+ used on input line 32.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+
+Overfull \hbox (103.91042pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
+AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 21
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 42.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 42.
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.42 
+      <./Fig/eqlayer/unidir_test/data_fitting_LM_NNLS_magRM.png>]
+Overfull \hbox (103.91042pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
+AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 22
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 42.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 42.
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.42 
+      <./Fig/eqlayer/unidir_test/magnetic_moment_positive_LM_NNLS_magRM.png>]
+Overfull \hbox (103.91042pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
+AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 23
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 42.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 42.
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.42 
+      <./Fig/eqlayer/unidir_test/convergence_LM_NNLS_magRM.png>]
+<Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png, id=838, 2023.5
+6pt x 794.97pt>
+File: Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png Graphic fi
+le (type png)
+<use Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_m
+agRM.png  used on input line 48.
+(pdftex.def)             Requested size: 469.47308pt x 184.42831pt.
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 48--49
+ [][] 
+ []
+
+<Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.png, id
+=839, 722.7pt x 722.7pt>
+File: Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.pn
+g Graphic file (type png)
+<use Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM.png
+>
+Package pdftex.def Info: Fig/eqlayer/unidir_shallow_test/magnetic_moment_positi
+ve_LM_NNLS_magRM.png  used on input line 55.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+<Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png, id=840, 722.7pt
+ x 722.7pt>
+File: Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png Graphic fil
+e (type png)
+<use Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_ma
+gRM.png  used on input line 62.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 67.
+
+Overfull \hbox (103.91042pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
+AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 24
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.71 
+      <./Fig/eqlayer/unidir_shallow_test/data_fitting_LM_NNLS_magRM.png>]
+Overfull \hbox (103.91042pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
+AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 25
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.71 
+      <./Fig/eqlayer/unidir_shallow_test/magnetic_moment_positive_LM_NNLS_magRM
+.png>]
+Overfull \hbox (103.91042pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
+AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 26
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.71 
+      <./Fig/eqlayer/unidir_shallow_test/convergence_LM_NNLS_magRM.png>]
+<Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png, id=867, 2
+023.56pt x 794.97pt>
+File: Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png Graph
+ic file (type png)
+<use Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_NNLS_magRM.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_shallow_diff_test/data_fitting_LM_N
+NLS_magRM.png  used on input line 77.
+(pdftex.def)             Requested size: 469.47308pt x 184.42831pt.
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 77--78
+ [][] 
+ []
+
+<Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_magRM.pn
+g, id=868, 722.7pt x 722.7pt>
+File: Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_mag
+RM.png Graphic file (type png)
+<use Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_positive_LM_NNLS_magR
+M.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_shallow_diff_test/magnetic_moment_p
+ositive_LM_NNLS_magRM.png  used on input line 84.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+<Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png, id=869, 72
+2.7pt x 722.7pt>
+File: Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png Graphi
+c file (type png)
+<use Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NNLS_magRM.png>
+Package pdftex.def Info: Fig/eqlayer/unidir_shallow_diff_test/convergence_LM_NN
+LS_magRM.png  used on input line 91.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+)
+Overfull \hbox (103.91042pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
+AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 27
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 88.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 88.
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.88 \include{simulacoes_I}
+                            <./Fig/eqlayer/unidir_shallow_diff_test/data_fittin
+g_LM_NNLS_magRM.png>]
+Overfull \hbox (103.91042pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
+AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 28
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 88.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 88.
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.88 \include{simulacoes_I}
+                            <./Fig/eqlayer/unidir_shallow_diff_test/magnetic_mo
+ment_positive_LM_NNLS_magRM.png>]
+Overfull \hbox (103.91042pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 3.  TESTES SINT[]ETICOS PARA ESTIMATIVA DA DIRE[][]
+AO DE MAGNETIZA[][]AO \OT1/cmr/m/n/12 29
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 88.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 88.
+[29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.88 \include{simulacoes_I}
+                            <./Fig/eqlayer/unidir_shallow_diff_test/convergence
+_LM_NNLS_magRM.png>]
+\openout2 = `dados_reais_I.aux'.
+
+ (./dados_reais_I.tex
+Cap\'{\i }tulo 4.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+Overfull \hbox (16.536pt too wide) in paragraph at lines 7--8
+[]\OT1/cmr/m/n/12 Esta regi~ao foi alvo de um le-van-ta-mento ae-ro-magn^^Setic
+o no qual pos-sui o espa^^Xcamento
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 8.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 8.
+[30
+
+
+
+]
+<Fig/eqlayer/field_data_montes_claros/data_fitting_LM_NNLS_montesclaros.png, id
+=923, 2023.56pt x 794.97pt>
+File: Fig/eqlayer/field_data_montes_claros/data_fitting_LM_NNLS_montesclaros.pn
+g Graphic file (type png)
+<use Fig/eqlayer/field_data_montes_claros/data_fitting_LM_NNLS_montesclaros.png
+>
+Package pdftex.def Info: Fig/eqlayer/field_data_montes_claros/data_fitting_LM_N
+NLS_montesclaros.png  used on input line 12.
+(pdftex.def)             Requested size: 469.47308pt x 184.42831pt.
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 12--13
+ [][] 
+ []
+
+<Fig/eqlayer/field_data_montes_claros/magnetic_moment_positive_LM_NNLS_montescl
+aros.png, id=924, 722.7pt x 722.7pt>
+File: Fig/eqlayer/field_data_montes_claros/magnetic_moment_positive_LM_NNLS_mon
+tesclaros.png Graphic file (type png)
+<use Fig/eqlayer/field_data_montes_claros/magnetic_moment_positive_LM_NNLS_mont
+esclaros.png>
+Package pdftex.def Info: Fig/eqlayer/field_data_montes_claros/magnetic_moment_p
+ositive_LM_NNLS_montesclaros.png  used on input line 19.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+<Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.png, id=
+925, 722.7pt x 722.7pt>
+File: Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.png
+ Graphic file (type png)
+<use Fig/eqlayer/field_data_montes_claros/convergence_LM_NNLS_montesclaros.png>
+
+Package pdftex.def Info: Fig/eqlayer/field_data_montes_claros/convergence_LM_NN
+LS_montesclaros.png  used on input line 26.
+(pdftex.def)             Requested size: 384.1096pt x 384.10986pt.
+<Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png, id=928, 650.4
+3pt x 650.43pt>
+File: Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png Graphic f
+ile (type png)
+<use Fig/eqlayer/field_data_montes_claros/RTP_data_montes_claros.png>
+Package pdftex.def Info: Fig/eqlayer/field_data_montes_claros/RTP_data_montes_c
+laros.png  used on input line 33.
+(pdftex.def)             Requested size: 384.1096pt x 384.11758pt.
+)
+Overfull \hbox (94.94812pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 4.  APLICA[][]AO A DADOS REAIS: COMPLEXO DE MONTES 
+CLAROS DE GOI[]AS \OT1/cmr/m/n/12 31
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 90.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 90.
+[31pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.90 \include{dados_reais_I}
+                             <./Fig/eqlayer/field_data_montes_claros/data_fitti
+ng_LM_NNLS_montesclaros.png>]
+Overfull \hbox (94.94812pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 4.  APLICA[][]AO A DADOS REAIS: COMPLEXO DE MONTES 
+CLAROS DE GOI[]AS \OT1/cmr/m/n/12 32
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 90.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 90.
+[32pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.90 \include{dados_reais_I}
+                             <./Fig/eqlayer/field_data_montes_claros/magnetic_m
+oment_positive_LM_NNLS_montesclaros.png>]
+Overfull \hbox (94.94812pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 4.  APLICA[][]AO A DADOS REAIS: COMPLEXO DE MONTES 
+CLAROS DE GOI[]AS \OT1/cmr/m/n/12 33
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 90.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 90.
+[33pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.90 \include{dados_reais_I}
+                             <./Fig/eqlayer/field_data_montes_claros/convergenc
+e_LM_NNLS_montesclaros.png>]
+Overfull \hbox (94.94812pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 4.  APLICA[][]AO A DADOS REAIS: COMPLEXO DE MONTES 
+CLAROS DE GOI[]AS \OT1/cmr/m/n/12 34
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 90.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 90.
+[34pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.90 \include{dados_reais_I}
+                             <./Fig/eqlayer/field_data_montes_claros/RTP_data_m
+ontes_claros.png>]
+\openout2 = `simulacoes_II.aux'.
+
+ (./simulacoes_II.tex
+Cap\'{\i }tulo 5.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 6.
+<Fig/mag_vec/amostra_homo_correto/noisy_bz_sample.png, id=959, 722.7pt x 722.7p
+t>
+File: Fig/mag_vec/amostra_homo_correto/noisy_bz_sample.png Graphic file (type p
+ng)
+<use Fig/mag_vec/amostra_homo_correto/noisy_bz_sample.png>
+Package pdftex.def Info: Fig/mag_vec/amostra_homo_correto/noisy_bz_sample.png  
+used on input line 14.
+(pdftex.def)             Requested size: 341.43437pt x 341.43344pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 23.
+[35
+
+
+
+]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 36
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 23.
+[36pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.23 
+      <./Fig/mag_vec/amostra_homo_correto/noisy_bz_sample.png>]
+<Fig/mag_vec/amostra_homo_correto/results_data_fitting_Bz.png, id=994, 2023.56p
+t x 794.97pt>
+File: Fig/mag_vec/amostra_homo_correto/results_data_fitting_Bz.png Graphic file
+ (type png)
+<use Fig/mag_vec/amostra_homo_correto/results_data_fitting_Bz.png>
+Package pdftex.def Info: Fig/mag_vec/amostra_homo_correto/results_data_fitting_
+Bz.png  used on input line 28.
+(pdftex.def)             Requested size: 384.1096pt x 150.9003pt.
+<Fig/mag_vec/amostra_homo_correto/field_components_eqlayer.png, id=995, 1589.94
+pt x 1589.94pt>
+File: Fig/mag_vec/amostra_homo_correto/field_components_eqlayer.png Graphic fil
+e (type png)
+<use Fig/mag_vec/amostra_homo_correto/field_components_eqlayer.png>
+Package pdftex.def Info: Fig/mag_vec/amostra_homo_correto/field_components_eqla
+yer.png  used on input line 35.
+(pdftex.def)             Requested size: 426.79135pt x 426.79071pt.
+<Fig/mag_vec/amostra_homo_correto/comparison_true_estimated.png, id=998, 2023.5
+6pt x 1300.86pt>
+File: Fig/mag_vec/amostra_homo_correto/comparison_true_estimated.png Graphic fi
+le (type png)
+<use Fig/mag_vec/amostra_homo_correto/comparison_true_estimated.png>
+Package pdftex.def Info: Fig/mag_vec/amostra_homo_correto/comparison_true_estim
+ated.png  used on input line 42.
+(pdftex.def)             Requested size: 490.80743pt x 315.5078pt.
+
+Overfull \hbox (64.01608pt too wide) in paragraph at lines 42--43
+ [][] 
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 37
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 52.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 52.
+[37pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.52 
+      <./Fig/mag_vec/amostra_homo_correto/results_data_fitting_Bz.png>]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 38
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 52.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 52.
+[38pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.52 
+      <./Fig/mag_vec/amostra_homo_correto/field_components_eqlayer.png>]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 39
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 52.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 52.
+[39pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.52 
+      <./Fig/mag_vec/amostra_homo_correto/comparison_true_estimated.png>]
+<Fig/mag_vec/amostra_homo_errado/results_data_fitting_Bz.png, id=1037, 2023.56p
+t x 794.97pt>
+File: Fig/mag_vec/amostra_homo_errado/results_data_fitting_Bz.png Graphic file 
+(type png)
+<use Fig/mag_vec/amostra_homo_errado/results_data_fitting_Bz.png>
+Package pdftex.def Info: Fig/mag_vec/amostra_homo_errado/results_data_fitting_B
+z.png  used on input line 57.
+(pdftex.def)             Requested size: 384.1096pt x 150.9003pt.
+<Fig/mag_vec/amostra_homo_errado/field_components_eqlayer.png, id=1038, 1589.94
+pt x 1589.94pt>
+File: Fig/mag_vec/amostra_homo_errado/field_components_eqlayer.png Graphic file
+ (type png)
+<use Fig/mag_vec/amostra_homo_errado/field_components_eqlayer.png>
+Package pdftex.def Info: Fig/mag_vec/amostra_homo_errado/field_components_eqlay
+er.png  used on input line 64.
+(pdftex.def)             Requested size: 426.79135pt x 426.79071pt.
+<Fig/mag_vec/amostra_homo_errado/comparison_true_estimated.png, id=1041, 2023.5
+6pt x 1300.86pt>
+File: Fig/mag_vec/amostra_homo_errado/comparison_true_estimated.png Graphic fil
+e (type png)
+<use Fig/mag_vec/amostra_homo_errado/comparison_true_estimated.png>
+Package pdftex.def Info: Fig/mag_vec/amostra_homo_errado/comparison_true_estima
+ted.png  used on input line 71.
+(pdftex.def)             Requested size: 490.80743pt x 315.5078pt.
+
+Overfull \hbox (64.01608pt too wide) in paragraph at lines 71--72
+ [][] 
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 78.
+
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 40
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 82.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 82.
+[40pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.82 
+      <./Fig/mag_vec/amostra_homo_errado/results_data_fitting_Bz.png>]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 41
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 82.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 82.
+[41pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.82 
+      <./Fig/mag_vec/amostra_homo_errado/field_components_eqlayer.png>]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 42
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 82.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 82.
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.82 
+      <./Fig/mag_vec/amostra_homo_errado/comparison_true_estimated.png>]
+<Fig/mag_vec/simulacao_real_correto/noisy_bz_sample.png, id=1064, 722.7pt x 722
+.7pt>
+File: Fig/mag_vec/simulacao_real_correto/noisy_bz_sample.png Graphic file (type
+ png)
+<use Fig/mag_vec/simulacao_real_correto/noisy_bz_sample.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_correto/noisy_bz_sample.png
+  used on input line 86.
+(pdftex.def)             Requested size: 341.43437pt x 341.43344pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+<Fig/mag_vec/simulacao_real_correto/results_data_fitting_Bz.png, id=1087, 2023.
+56pt x 794.97pt>
+File: Fig/mag_vec/simulacao_real_correto/results_data_fitting_Bz.png Graphic fi
+le (type png)
+<use Fig/mag_vec/simulacao_real_correto/results_data_fitting_Bz.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_correto/results_data_fittin
+g_Bz.png  used on input line 101.
+(pdftex.def)             Requested size: 384.1096pt x 150.9003pt.
+<Fig/mag_vec/simulacao_real_correto/field_components_eqlayer.png, id=1088, 1589
+.94pt x 1589.94pt>
+File: Fig/mag_vec/simulacao_real_correto/field_components_eqlayer.png Graphic f
+ile (type png)
+<use Fig/mag_vec/simulacao_real_correto/field_components_eqlayer.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_correto/field_components_eq
+layer.png  used on input line 108.
+(pdftex.def)             Requested size: 426.79135pt x 426.79071pt.
+<Fig/mag_vec/simulacao_real_correto/comparison_true_estimated.png, id=1091, 202
+3.56pt x 1300.86pt>
+File: Fig/mag_vec/simulacao_real_correto/comparison_true_estimated.png Graphic 
+file (type png)
+<use Fig/mag_vec/simulacao_real_correto/comparison_true_estimated.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_correto/comparison_true_est
+imated.png  used on input line 115.
+(pdftex.def)             Requested size: 490.80743pt x 315.5078pt.
+
+Overfull \hbox (64.01608pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 121.
+
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 43
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+[43]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 44
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+[44pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.125 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.125 
+       <./Fig/mag_vec/simulacao_real_correto/noisy_bz_sample.png> <./Fig/mag_ve
+c/simulacao_real_correto/results_data_fitting_Bz.png>]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 45
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+0}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.125 
+       <./Fig/mag_vec/simulacao_real_correto/field_components_eqlayer.png>]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 46
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 125.
+[46pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.125 
+       <./Fig/mag_vec/simulacao_real_correto/comparison_true_estimated.png>]
+<Fig/mag_vec/simulacao_real_errado/results_data_fitting_Bz.png, id=1137, 2023.5
+6pt x 794.97pt>
+File: Fig/mag_vec/simulacao_real_errado/results_data_fitting_Bz.png Graphic fil
+e (type png)
+<use Fig/mag_vec/simulacao_real_errado/results_data_fitting_Bz.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_errado/results_data_fitting
+_Bz.png  used on input line 130.
+(pdftex.def)             Requested size: 384.1096pt x 150.9003pt.
+<Fig/mag_vec/simulacao_real_errado/field_components_eqlayer.png, id=1138, 1589.
+94pt x 1589.94pt>
+File: Fig/mag_vec/simulacao_real_errado/field_components_eqlayer.png Graphic fi
+le (type png)
+<use Fig/mag_vec/simulacao_real_errado/field_components_eqlayer.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_errado/field_components_eql
+ayer.png  used on input line 137.
+(pdftex.def)             Requested size: 426.79135pt x 426.79071pt.
+<Fig/mag_vec/simulacao_real_errado/comparison_true_estimated.png, id=1141, 2023
+.56pt x 1300.86pt>
+File: Fig/mag_vec/simulacao_real_errado/comparison_true_estimated.png Graphic f
+ile (type png)
+<use Fig/mag_vec/simulacao_real_errado/comparison_true_estimated.png>
+Package pdftex.def Info: Fig/mag_vec/simulacao_real_errado/comparison_true_esti
+mated.png  used on input line 144.
+(pdftex.def)             Requested size: 490.80743pt x 315.5078pt.
+
+Overfull \hbox (64.01608pt too wide) in paragraph at lines 144--145
+ [][] 
+ []
+
+)
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 47
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.92 \include{simulacoes_II}
+                             <./Fig/mag_vec/simulacao_real_errado/results_data_
+fitting_Bz.png>]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 48
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+[48pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.92 \include{simulacoes_II}
+                             <./Fig/mag_vec/simulacao_real_errado/field_compone
+nts_eqlayer.png>]
+Overfull \hbox (272.29808pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 5.  TESTES SINT[]ETICOS PARA O C[]ALCULO DAS COMPON
+ENTES E DA AMPLITUDE DO VETOR MAGN[]ETICO \OT1/cmr/m/n/12 49
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 92.
+[49pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.92 \include{simulacoes_II}
+                             <./Fig/mag_vec/simulacao_real_errado/comparison_tr
+ue_estimated.png>]
+\openout2 = `dados_reais_II.aux'.
+
+ (./dados_reais_II.tex
+Cap\'{\i }tulo 6.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 8.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 8.
+[50
+
+
+
+]
+<Fig/mag_vec/aplicacao_vredefort/results_data_fitting_Bz.png, id=1196, 1806.75p
+t x 578.16pt>
+File: Fig/mag_vec/aplicacao_vredefort/results_data_fitting_Bz.png Graphic file 
+(type png)
+<use Fig/mag_vec/aplicacao_vredefort/results_data_fitting_Bz.png>
+Package pdftex.def Info: Fig/mag_vec/aplicacao_vredefort/results_data_fitting_B
+z.png  used on input line 12.
+(pdftex.def)             Requested size: 384.1096pt x 122.9081pt.
+<Fig/mag_vec/aplicacao_vredefort/field_components_eqlayer.png, id=1197, 1445.4p
+t x 1445.4pt>
+File: Fig/mag_vec/aplicacao_vredefort/field_components_eqlayer.png Graphic file
+ (type png)
+<use Fig/mag_vec/aplicacao_vredefort/field_components_eqlayer.png>
+Package pdftex.def Info: Fig/mag_vec/aplicacao_vredefort/field_components_eqlay
+er.png  used on input line 19.
+(pdftex.def)             Requested size: 426.79135pt x 426.7863pt.
+)
+Overfull \hbox (153.43506pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 6.  APLICA[][]AO A DADOS DE LABORAT[]ORIO: AMOSTRA 
+DA CRATERA DE VREDEFORT \OT1/cmr/m/n/12 51
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 94.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 94.
+[51pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.94 \include{dados_reais_II}
+                              <./Fig/mag_vec/aplicacao_vredefort/results_data_f
+itting_Bz.png>]
+Overfull \hbox (153.43506pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CAP[]ITULO 6.  APLICA[][]AO A DADOS DE LABORAT[]ORIO: AMOSTRA 
+DA CRATERA DE VREDEFORT \OT1/cmr/m/n/12 52
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 94.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 94.
+[52pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.94 \include{dados_reais_II}
+                              <./Fig/mag_vec/aplicacao_vredefort/field_componen
+ts_eqlayer.png>]
+\openout2 = `conclusoes.aux'.
+
+ (./conclusoes.tex
+Cap\'{\i }tulo 7.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 7.
+[53
+
+
+
+])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 96.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 96.
+ [54]
+\openout2 = `deducao.aux'.
+
+ (./deducao.tex
+Ap\^endice A.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+
+Overfull \hbox (15.07626pt too wide) detected at line 37
+[]\OT1/cmr/m/n/12 ^^@(\OML/cmm/m/it/12 x; y; z\OT1/cmr/m/n/12 ) = [] [] [] \OML
+/cmm/m/it/12 @[]\OT1/cmr/m/n/12 ^^@(\OML/cmm/m/it/12 x[]; y[]; z[]\OT1/cmr/m/n/
+12 )  [] ^^@(\OML/cmm/m/it/12 x[]; y[]; z[]\OT1/cmr/m/n/12 )  []   \OML/cmm/m/i
+t/12 dS[] ;  z[] > z ;
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 40.
+[55
+
+
+
+]
+<Fig/eqlayer/surface_Green.png, id=1246, 240.6591pt x 216.81pt>
+File: Fig/eqlayer/surface_Green.png Graphic file (type png)
+<use Fig/eqlayer/surface_Green.png>
+Package pdftex.def Info: Fig/eqlayer/surface_Green.png  used on input line 55.
+(pdftex.def)             Requested size: 320.0935pt x 288.37352pt.
+)
+
+LaTeX Warning: Reference `EQ:POSITIVITY_PROP' on page 56 undefined on input lin
+e 100.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 100.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 100.
+[56pdfTeX warning (ext4): destination with the same identifier (name{figure.A.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100 \include{deducao}
+                        <./Fig/eqlayer/surface_Green.png>]
+\openout2 = `magnetizacao_vertical.aux'.
+
+
+(./magnetizacao_vertical.tex
+Ap\^endice B.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 31.
+[57
+
+
+
+])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 101.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 101.
+ [58] (./tese_andrelreis_2019.bbl
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 26.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 26.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
+ [59
+
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 149.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 149.
+ [60]
+Underfull \hbox (badness 1983) in paragraph at lines 174--185
+\OT1/cmr/m/it/12 Ame-ri-can Earth Sci-en-ces\OT1/cmr/m/n/12 , v. 18, n. 3, pp. 
+337 -- 353.  ISSN:
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 223.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 223.
+[61]
+Underfull \hbox (badness 1466) in paragraph at lines 261--267
+\OT1/cmr/m/n/12 MAG-NE-TIC IN-TE-GRA-TED DATA IN-TER-PRE-TA-TION OF THE
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 296.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 296.
+[62]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 380.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 380.
+ [63]) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 108.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
-(./tese_andrelreis_2019.aux (./vred/metodologia.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
+(babel)             in language  on input line 110.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 110.
+[64]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 110.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+ (./tese_andrelreis_2019.aux (./resumo.aux) (./abstract.aux)
+(./introducao.aux) (./metodologia.aux) (./simulacoes_I.aux)
+(./dados_reais_I.aux) (./simulacoes_II.aux) (./dados_reais_II.aux)
+(./conclusoes.aux) (./deducao.aux) (./magnetizacao_vertical.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `tese_andrelreis_2019.out' has not changed.
-(rerunfilecheck)             Checksum: 49D89CFE6C5CEA060EDD0CD3E59E4FDF;677.
+(rerunfilecheck)             Checksum: 28B7A6243E91E95A6879724812898D84;2800.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 10115 strings out of 493029
- 143665 string characters out of 6136233
- 273969 words of memory out of 5000000
- 13436 multiletter control sequences out of 15000+600000
- 11382 words of font info for 42 fonts, out of 8000000 for 9000
+ 11117 strings out of 492982
+ 167361 string characters out of 6134895
+ 332377 words of memory out of 5000000
+ 14113 multiletter control sequences out of 15000+600000
+ 13861 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,14n,39p,964b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,16n,39p,3130b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb>
-Output written on tese_andrelreis_2019.pdf (7 pages, 156458 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on tese_andrelreis_2019.pdf (76 pages, 34033668 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1442 PDF objects out of 1728 (max. 8388607)
+ 1257 compressed objects within 13 object streams
+ 265 named destinations out of 1000 (max. 500000)
+ 403 words of extra memory for PDF output out of 10000 (max. 10000000)
 

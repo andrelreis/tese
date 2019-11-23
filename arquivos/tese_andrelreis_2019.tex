@@ -19,6 +19,7 @@
 \usepackage{subfigure} %para figuras múltimas, com (a), (b), (c), etc.
 \usepackage[english, ruled]{algorithm2e}
 \usepackage{pdfpages}
+\usepackage{float}
 
 % os dois comandos estão com problema e deverão ser
 % corrigidos futuramente
@@ -55,7 +56,7 @@
   \program{GEO}
     
   % Data (mês e ano)
-  \date{09}{2019}
+  \date{11}{2019}
 
   % Palavras-chave
   \keyword{Primeira palavra-chave}
@@ -64,8 +65,8 @@
 
   \maketitle
 
-  %\include{resumo}   % resumo em português - deve ser utilizado por todos os tipos de documento
-  %\include{abstract} % resumo em inglês - deve ser utilizado por todos os tipos de documento
+  \include{resumo}   % resumo em português - deve ser utilizado por todos os tipos de documento
+  \include{abstract} % resumo em inglês - deve ser utilizado por todos os tipos de documento
   \tableofcontents   % sumário - deve ser utilizado por todos os tipos de documento
   \listoffigures     % lista de figuras
   %\listoftables      % lista de tabelas
@@ -77,32 +78,33 @@
 
   \mainmatter
   
-  % Primeira parte do Doutorado
-\part{Generalização do vínculo de positividade em camadas equivalentes magnéticas}
+%%% corpo do texto
 
-%\include{eqlayer_I/abstract}   
-%\include{eqlayer_I/introduction}
-%\include{eqlayer_I/metodologia}
-%\include{eqlayer_I/simulations}
-%\include{eqlayer_I/real_data}
-%\include{eqlayer_I/conclusions}
- 
-% Segunda parte do Doutorado
-\part{Cálculo do vetor magnético a partir de dados de microscopia magnética no domínio do espaço}
-%\include{vred/introducao}
-%\include{vred/resumo}   
-%\include{vred/introducao}
-\include{vred/metodologia}
-%\include{vred/results}
- %\include{vred/conclusao}
+%% Introdução 
+\include{introducao}
+%% Metodologia (desenvolvimento teórico para as duas partes do projeto)
+\include{metodologia}
+%% Simulações numéricas I (eqlayer positividade)
+\include{simulacoes_I}
+%% Dados reais: Montes Claros de Goiás 
+\include{dados_reais_I}
+%%Simulações numéricas II (calculo magvec)
+\include{simulacoes_II}
+%% Dados reais: Cratera de Vredefort
+\include{dados_reais_II}
+%% Conclusoes
+\include{conclusoes}
 
-%\appendix
+%% Apêndices A e B 
+\appendix
+\include{deducao}
+\include{magnetizacao_vertical}
 
 \backmatter
 
 % estilo de citações por ordem alfabética (defaut da classe ONTeX)
-%\bibliographystyle{on-plain}
-%\bibliography{references.bib}
+\bibliographystyle{on-plain}
+\bibliography{references.bib}
 
   
 \end{document} 
