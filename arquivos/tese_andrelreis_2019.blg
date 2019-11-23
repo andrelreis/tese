@@ -31,9 +31,25 @@ Repeated entry---line 574 of file references.bib.bib
  : @article{pedersen1991
  :                      ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 601 of file references.bib.bib
+ : @article{baratchart2013
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 617 of file references.bib.bib
+ : @article {lima2013
+ :                   ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 628 of file references.bib.bib
  : @article{li_etal_2014
  :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 663 of file references.bib.bib
+ : @article{siqueira_etal_2017
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 684 of file references.bib.bib
+ : @article{li_li_2014
+ :                    ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 748 of file references.bib.bib
  : @article{silvadias_etal_2010
@@ -64,45 +80,45 @@ while executing---line 1437 of file on-plain.bst
 while executing---line 1437 of file on-plain.bst
 `address' is a missing field, not a string, for entry lawson_hanson_1974
 while executing---line 1437 of file on-plain.bst
-You've used 27 entries,
+You've used 54 entries,
             2972 wiz_defined-function locations,
-            819 strings with 10887 characters,
-and the built_in function-call counts, 13207 in all, are:
-= -- 1171
-> -- 639
-< -- 31
-+ -- 235
-- -- 208
-* -- 1349
-:= -- 1982
-add.period$ -- 100
-call.type$ -- 27
-change.case$ -- 100
-chr.to.int$ -- 27
-cite$ -- 54
-duplicate$ -- 655
-empty$ -- 1164
-format.name$ -- 249
-if$ -- 2759
+            1004 strings with 15729 characters,
+and the built_in function-call counts, 26824 in all, are:
+= -- 2383
+> -- 1242
+< -- 76
++ -- 457
+- -- 403
+* -- 2796
+:= -- 3941
+add.period$ -- 186
+call.type$ -- 54
+change.case$ -- 193
+chr.to.int$ -- 54
+cite$ -- 108
+duplicate$ -- 1335
+empty$ -- 2415
+format.name$ -- 499
+if$ -- 5641
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 33
-newline$ -- 142
-num.names$ -- 108
-pop$ -- 250
+missing$ -- 60
+newline$ -- 255
+num.names$ -- 216
+pop$ -- 471
 preamble$ -- 1
-purify$ -- 99
+purify$ -- 192
 quote$ -- 0
-skip$ -- 364
+skip$ -- 738
 stack$ -- 0
-substring$ -- 516
-swap$ -- 158
-text.length$ -- 16
+substring$ -- 1184
+swap$ -- 343
+text.length$ -- 43
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 267
+type$ -- 564
 warning$ -- 0
-while$ -- 104
+while$ -- 214
 width$ -- 0
-write$ -- 397
-(There were 17 error messages)
+write$ -- 758
+(There were 21 error messages)
