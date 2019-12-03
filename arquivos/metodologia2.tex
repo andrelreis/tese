@@ -1,0 +1,119 @@
+\chapter{Metodologia}
+\label{chap:metodologia}
+
+
+\section{Fundamentação teórica}
+\label{sec:fundamentacao}
+
+\begin{equation}
+\mathbf{B}(x, y, z) = - \nabla \Gamma(x, y, z)
+\label{eq:B-true-generic}
+\end{equation}
+
+\begin{equation}
+\Gamma(x, y, z) = - \gamma_{m} \iiint\limits_{\upsilon} \mathbf{m}(x', y', z') \cdot \nabla\frac{1}{r'} 
+\; d\upsilon'
+\label{eq:Gamma-generic}
+\end{equation}
+
+\begin{equation}
+\frac{1}{r'} = \frac{1}{\left[ (x - x')^{2} + (y - y')^{2} + (z - z')^{2} \right]^{\frac{1}{2}}}
+\label{eq:inv-r'}
+\end{equation}
+
+\begin{equation}
+\mathbf{m}(x', y', z') = \begin{bmatrix}
+m_{x}(x', y', z') \\
+m_{y}(x', y', z') \\
+m_{z}(x', y', z')
+\end{bmatrix}
+\label{eq:mag-vector-true-generic}
+\end{equation}
+
+\begin{equation}
+B_{\alpha}(x, y, z) = \gamma_{m} \iiint\limits_{\upsilon} 
+\mathbf{m}(x', y', z') \cdot \partial_{\alpha} \nabla \frac{1}{r'} 
+\; d\upsilon' \: , \quad \alpha = x, y, z \: ,
+\label{eq:B-alpha-true-generic}
+\end{equation}
+em que $\partial_{\alpha} \equiv \frac{\partial}{\partial \alpha}$ ...
+
+Presumindo que, em qualquer ponto $(x, y, z)$ fora das fontes magnéticas, nenhuma 
+componente $B_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-true-generic}) varia no tempo, 
+o campo de indução magnética $\mathbf{B}(x, y, z)$ (equação \ref{eq:B-true-generic}) é governado
+pela lei de Gauss
+\begin{equation}
+\nabla \cdot \mathbf{B}(x, y, z) = 
+\partial_{x} B_{x}(x, y, z) + \partial_{y} B_{y}(x, y, z) + \partial_{z} B_{z}(x, y, z) = 
+0
+\label{eq:lei-Gauss}
+\end{equation}
+e a lei de Ampère
+\begin{equation}
+\nabla \times \mathbf{B}(x, y, z) = \begin{bmatrix}
+\partial_{y} B_{z}(x, y, z) - \partial_{z} B_{y}(x, y, z) \\
+\partial_{z} B_{x}(x, y, z) - \partial_{x} B_{z}(x, y, z) \\
+\partial_{x} B_{y}(x, y, z) - \partial_{y} B_{x}(x, y, z) 
+\end{bmatrix} = 
+\begin{bmatrix}
+0 \\
+0 \\
+0
+\end{bmatrix} \: .
+\label{eq:lei-Ampere}
+\end{equation}
+
+
+
+Considere o vetor unitário 
+\begin{equation}
+\hat{\mathbf{u}}(I, D) = 
+\begin{bmatrix}
+\hat{u}_{x}(I, D) \\
+\hat{u}_{y}(I, D) \\
+\hat{u}_{z}(I, D) 
+\end{bmatrix} = 
+\begin{bmatrix}
+\cos I \, \cos D \\
+\cos I \, \sin D \\
+\sin I
+\end{bmatrix} \: ,
+\label{eq:u-hat}
+\end{equation}
+definido em termos de uma inclinação $I$ e uma declinação $D$.
+
+
+\begin{equation}
+\Delta T(x, y, z) = \hat{\mathbf{u}}(I_{0}, D_{0}) \cdot \mathbf{B}(x, y, z) \: .
+\label{eq:Delta-T-true}
+\end{equation}
+
+
+\section{Camada equivalente magnética}
+\label{sec:camada-equivalente}
+
+
+\begin{equation}
+\tilde{\mathbf{B}}(x, y, z) = - \nabla \Phi(x, y, z)
+\label{eq:B-layer}
+\end{equation}
+
+\begin{equation}
+\Phi(x, y, z) = - \gamma_{m} \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty} 
+p(x", y", z_{c}) \hat{\mathbf{u}}(I, D) \cdot \nabla \frac{1}{r"} \; dS" \: , \quad z_{c} > z \: ,
+\label{eq:Phi-generic}
+\end{equation}
+
+\begin{equation}
+\frac{1}{r"} = \frac{1}{}
+\end{equation}
+
+
+\section{Consequências das Leis de Gauss e Amp{\`e}re}
+\label{sec:Gauss-Ampere}
+
+
+
+
+\section{Distribuição de momentos positiva}
+\label{sec:distribuicao-positiva}
