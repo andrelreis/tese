@@ -13,7 +13,7 @@
 \begin{equation}
 \Gamma(x, y, z) = - \gamma_{m} \iiint\limits_{\upsilon} \mathbf{m}(x', y', z') \cdot \nabla\frac{1}{r'} 
 \; d\upsilon'
-\label{eq:Gamma-generic}
+\label{eq:Gamma-potential}
 \end{equation}
 
 \begin{equation}
@@ -100,18 +100,49 @@ definido em termos de uma inclinação $I$ e uma declinação $D$.
 
 \begin{equation}
 \Phi(x, y, z) = - \gamma_{m} \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty} 
-p(x", y", z_{c}) \hat{\mathbf{u}}(I, D) \cdot \nabla \frac{1}{r"} \; dS" \: , \quad z_{c} > z \: ,
-\label{eq:Phi-generic}
+p(x'', y'', z_{c}) \, \hat{\mathbf{u}}(I, D) \cdot \nabla \frac{1}{r''} \; dS'' \: , \quad z_{c} > z \: ,
+\label{eq:Phi-potential}
 \end{equation}
 
 \begin{equation}
-\frac{1}{r"} = \frac{1}{}
+\frac{1}{r''} = \frac{1}{\left[ (x - x'')^{2} + (y - y'')^{2} + (z - z_{c})^{2} \right]^{\frac{1}{2}}}
+\label{eq:inv-r''}
+\end{equation}
+
+\begin{equation}
+\tilde{B}_{\alpha}(x, y, z) = \gamma_{m} \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty} 
+p(x'', y'', z_{c}) \, \hat{\mathbf{u}}(I, D) \cdot \partial_{\alpha} \nabla \frac{1}{r''} \; dS'' 
+\: , \quad \alpha = x, y, z \: ,
+\label{eq:B-alpha-layer}
+\end{equation}
+
+\begin{equation}
+\Delta\tilde{T}(x, y, z) = \hat{\mathbf{u}}(I_{0}, D_{0}) \cdot \tilde{\mathbf{B}}(x, y, z) \: .
+\label{eq:Delta-T-layer}
 \end{equation}
 
 
 \section{Consequências das Leis de Gauss e Amp{\`e}re}
 \label{sec:Gauss-Ampere}
 
+Nesta seção, mostrarei que ...
+
+Considere três camadas equivalentes definidas na mesma coordenada vertical $z = z_{c}$, 
+com distribuições de intensidade de momento magnético 
+$p(x'', y'', z_{c}) \equiv p_{(\alpha)}$ e direções de magnetização uniforme definidas por 
+$\hat{\mathbf{u}}^{(\alpha)} \equiv \hat{\mathbf{u}}(I_{(\alpha)}, D_{(\alpha)})$,
+com componentes Cartesianas $\hat{u}^{(\alpha)}_{x} \equiv \hat{u}_{x}(I_{(\alpha)}, D_{(\alpha)})$
+(equação \ref{eq:u-hat}), em que $\alpha = x, y, z$. 
+
+Considere também, momentaneamente, que cada camada $\alpha$ produz uma componente 
+$\tilde{B}_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-layer}) de um mesmo 
+campo de indução magnética $\tilde{\mathbf{B}}(x, y, z)$ (equação \ref{eq:B-layer}).
+
+De acordo com a lei de Gauss (equação \ref{eq:lei-Gauss}),
+\begin{equation}
+\nabla \cdot \tilde{\mathbf{B}}(x, y, z) = I_{(x)} + I_{(y)} + I_{(z)} \: ,
+\label{eq:lei-Gauss-layer}
+\end{equation}
 
 
 
