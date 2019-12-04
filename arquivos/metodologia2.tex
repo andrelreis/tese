@@ -131,19 +131,130 @@ Considere três camadas equivalentes definidas na mesma coordenada vertical $z =
 com distribuições de intensidade de momento magnético 
 $p(x'', y'', z_{c}) \equiv p_{(\alpha)}$ e direções de magnetização uniforme definidas por 
 $\hat{\mathbf{u}}^{(\alpha)} \equiv \hat{\mathbf{u}}(I_{(\alpha)}, D_{(\alpha)})$,
-com componentes Cartesianas $\hat{u}^{(\alpha)}_{x} \equiv \hat{u}_{x}(I_{(\alpha)}, D_{(\alpha)})$
-(equação \ref{eq:u-hat}), em que $\alpha = x, y, z$. 
+com componentes Cartesianas $\hat{u}^{(\alpha)}_{\beta} \equiv \hat{u}_{\beta}(I_{(\alpha)}, D_{(\alpha)})$ 
+(equação \ref{eq:u-hat}), em que $\alpha = x, y, z$, $\beta = x, y, z$. 
 
-Considere também, momentaneamente, que cada camada $\alpha$ produz uma componente 
+Considere também, momentaneamente, que cada camada $\alpha$ produz a componente 
 $\tilde{B}_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-layer}) de um mesmo 
 campo de indução magnética $\tilde{\mathbf{B}}(x, y, z)$ (equação \ref{eq:B-layer}).
 
-De acordo com a lei de Gauss (equação \ref{eq:lei-Gauss}),
+Calculando o divergente do campo de indução magnética 
+$\tilde{\mathbf{B}}(x, y, z)$ (equação \ref{eq:B-layer}) produzido pela camada equivalente 
+e trocando a ordem das derivadas parciais, obtemos 
 \begin{equation}
-\nabla \cdot \tilde{\mathbf{B}}(x, y, z) = I_{(x)} + I_{(y)} + I_{(z)} \: ,
-\label{eq:lei-Gauss-layer}
+\nabla \cdot \tilde{\mathbf{B}}(x, y, z) = I_{1} + I_{2} + I_{3} \: ,
+\label{eq:divergent-layer}
 \end{equation}
+em que os termos são integrais de superfície dadas por
+\begin{equation*}
+\begin{split}
+I_{1} &= \gamma_{m} \iint
+p_{(x)} \hat{u}^{(x)}_{x} \partial_{xxx} \frac{1}{r''} +
+p_{(y)} \hat{u}^{(y)}_{x} \partial_{yyx} \frac{1}{r''} +
+p_{(z)} \hat{u}^{(z)}_{x} \partial_{zzx} \frac{1}{r''} \; dS'' \\
+I_{2} &= \gamma_{m} \iint
+p_{(x)} \hat{u}^{(x)}_{y} \partial_{xxy} \frac{1}{r''} +
+p_{(y)} \hat{u}^{(y)}_{y} \partial_{yyy} \frac{1}{r''} +
+p_{(z)} \hat{u}^{(z)}_{y} \partial_{zzy} \frac{1}{r''} \; dS'' \\
+I_{3} &= \gamma_{m} \iint
+p_{(x)} \hat{u}^{(x)}_{z} \partial_{xxz} \frac{1}{r''} +
+p_{(y)} \hat{u}^{(y)}_{z} \partial_{yyz} \frac{1}{r''} +
+p_{(z)} \hat{u}^{(z)}_{z} \partial_{zzz} \frac{1}{r''} \; dS''
+\end{split} \:\: .
+\end{equation*}
+Por conveniência, os limites de integração $-\infty$ e $+\infty$ foram omitidos.
+Sabemos que as derivadas primeiras $\partial_{\beta} \frac{1}{r''}$, $\beta = x, y, z$, de 
+$\frac{1}{r''}$ (equação \ref{eq:inv-r''}) são funções harmônicas. Esta propriedade permite 
+reescrever as integrais $I_{1}$, $I_{2}$ e $I_{3}$ da seguinte forma:
+\begin{equation}
+\begin{split}
+I_{1} &= \gamma_{m} \iint
+\left[ p_{(x)} \hat{u}^{(x)}_{x} - p_{(z)} \hat{u}^{(z)}_{x} \right] \partial_{xxx} \frac{1}{r''} +
+\left[ p_{(y)} \hat{u}^{(y)}_{x} - p_{(z)} \hat{u}^{(z)}_{x} \right] \partial_{yyx} \frac{1}{r''} +
+\; dS'' \\
+I_{2} &= \gamma_{m} \iint
+\left[ p_{(x)} \hat{u}^{(x)}_{y} - p_{(z)} \hat{u}^{(z)}_{y} \right] \partial_{xxy} \frac{1}{r''} +
+\left[ p_{(y)} \hat{u}^{(y)}_{y} - p_{(z)} \hat{u}^{(z)}_{y} \right] \partial_{yyy} \frac{1}{r''} +
+\; dS'' \\
+I_{3} &= \gamma_{m} \iint
+\left[ p_{(x)} \hat{u}^{(x)}_{z} - p_{(z)} \hat{u}^{(z)}_{z} \right] \partial_{xxz} \frac{1}{r''} +
+\left[ p_{(y)} \hat{u}^{(y)}_{z} - p_{(z)} \hat{u}^{(z)}_{z} \right] \partial_{yyz} \frac{1}{r''} +
+\; dS''
+\label{eq:divergent-layer-I123}
+\end{split} \:\: .
+\end{equation}
+Dessa forma, fica evidente que os integrandos de $I_{1}$, $I_{2}$ e $I_{3}$ (equação \ref{eq:divergent-layer-I123}) 
+são combinações lineares de funções linearmente independentes, que são derivadas 
+terceiras da função $\frac{1}{r''}$ (equação \ref{eq:inv-r''}).
+Note que, para o campo de indução magnética $\tilde{\mathbf{B}}(x, y, z)$ (equação \ref{eq:B-layer}) 
+respeitar a lei de Gauss (equação \ref{eq:lei-Gauss}), é necessário que as integrais $I_{1}$, $I_{2}$ e $I_{3}$ 
+sejam todas nulas.
+Neste caso, para que isso aconteça sem que as distribuições de intensidade de momento magnético 
+$p_{(x)}$, $p_{(y)}$ e $p_{(z)}$ sejam nulas em todos os pontos $(x'', y'', z_{c})$, é necessário 
+que os termos entre colchetes
+nos integrandos de $I_{1}$, $I_{2}$ e $I_{3}$ sejam nulos em todos os pontos $(x'', y'', z_{c})$.
+Isso, por sua vez, só é possível se as distribuições de intensidade de momento magnético 
+e as direções de magnetização uniforme das três camadas forem iguais entre si, isto é, se 
+$p_{(x)} = p_{(y)} = p_{(z)}$ e 
+$\hat{\mathbf{u}}^{(x)} = \hat{\mathbf{u}}^{(y)} = \hat{\mathbf{u}}^{(z)}$.
 
+Calculando o rotacional do campo de indução magnética 
+$\tilde{\mathbf{B}}(x, y, z)$ (equação \ref{eq:B-layer}) produzido pela camada 
+e trocando a ordem das derivadas parciais, obtemos
+\begin{equation}
+\nabla \times \tilde{\mathbf{B}}(x, y, z) = \begin{bmatrix}
+\gamma_{m} \iint
+\left[ p_{(z)} \, \hat{\mathbf{u}}^{(z)} - p_{(y)} \, \hat{\mathbf{u}}^{(y)} \right] \cdot 
+\partial_{yz} \nabla \frac{1}{r''} \; dS'' \\
+\gamma_{m} \iint
+\left[ p_{(x)} \, \hat{\mathbf{u}}^{(x)} - p_{(z)} \, \hat{\mathbf{u}}^{(z)} \right] \cdot 
+\partial_{xz} \nabla \frac{1}{r''} \; dS'' \\
+\gamma_{m} \iint
+\left[ p_{(y)} \, \hat{\mathbf{u}}^{(y)} - p_{(x)} \, \hat{\mathbf{u}}^{(x)} \right] \cdot 
+\partial_{xy} \nabla \frac{1}{r''} \; dS''
+\end{bmatrix} \: .
+\label{eq:curl-layer}
+\end{equation}
+Novamente, os limites de integração $-\infty$ e $+\infty$ foram omitidos por conveniência.
+Note que os integrandos das componentes do rotacional de $\tilde{\mathbf{B}}(x, y, z)$ 
+(equação \ref{eq:curl-layer}) são combinações lineares de funções linearmente 
+independentes, que são derivadas terceiras de $\frac{1}{r''}$ (equação \ref{eq:inv-r''}).
+Sabemos que, para o campo de indução magnética $\tilde{\mathbf{B}}(x, y, z)$ 
+(equação \ref{eq:B-layer}) respeitar a lei de Ampère (equação \ref{eq:lei-Ampere}), é necessário que as 
+três componentes de $\nabla \times \tilde{\mathbf{B}}(x, y, z)$ sejam nulas. 
+Neste caso, para que isso aconteça sem que as distribuições de intensidade de momento magnético 
+$p_{(x)}$, $p_{(y)}$ e $p_{(z)}$ sejam 
+nulas em todos os pontos $(x'', y'', z_{c})$, é necessário que os termos entre colchetes
+nos integrandos da equação \ref{eq:curl-layer} sejam nulos em todos os pontos $(x'', y'', z_{c})$.
+Mais uma vez, isso só é possível se as distribuições de intensidade de momento magnético 
+e as direções de magnetização uniforme das três camadas forem iguais entre si, isto é, se 
+$p_{(x)} = p_{(y)} = p_{(z)}$ e 
+$\hat{\mathbf{u}}^{(x)} = \hat{\mathbf{u}}^{(y)} = \hat{\mathbf{u}}^{(z)}$.
+
+De acordo com estes resultados teóricos, a hipótese de que cada componente $\tilde{B}_{\alpha}(x, y, z)$ 
+(equação \ref{eq:B-alpha-layer}), $\alpha = x, y, z$, de um mesmo campo de indução magnética $\tilde{\mathbf{B}}(x, y, z)$ 
+(equação \ref{eq:B-layer}) pode ser reproduzida por uma camada equivalente diferente resulta na 
+violação das leis de Gauss (equação \ref{eq:lei-Gauss}) de Ampère (equação \ref{eq:lei-Ampere}).
+Isto significa que há uma única camada equivalente localizada em $z = z_{c}$, 
+com uma determinada distribuição de intensidades de momento magnético $p(x'', y'', z_{c})$ e uma 
+determinada direção de magnetização uniforme $\hat{\mathbf{u}}(I, D)$ capaz de reproduzir, simultaneamente,
+as três componentes $\tilde{B}_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-layer}), $\alpha = x, y, z$, 
+de um campo de indução magnética $\tilde{\mathbf{B}}(x, y, z)$ (equação \ref{eq:B-layer}).
+
+Considere agora a existência de uma camada equivalente localizada em $z = z_{c}$, com uma determinada 
+distribuição de intensidades de momento magnético $p(x'', y'', z_{c})$ e uma determinada 
+direção de magnetização uniforme $\hat{\mathbf{u}}(I, D)$, que produz um campo de indução 
+magnética $\tilde{\mathbf{B}}(x, y, z)$ (equação \ref{eq:B-layer}). Adicionalmente, 
+considere que uma componente $\tilde{B}_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-layer}) 
+do campo produzido por esta camada reproduz a componente $B_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-true-generic}) 
+do campo produzido por uma fonte magnética arbitrária em todos os pontos $(x, y, z)$ localizados fora das fontes e acima 
+da camada ($z < z_{c}$). Utilizando o resultado teórico exposto acima, mostra-se que 
+esta mesma camada deve obrigatoriamente reproduzir as outras duas componentes do campo produzido 
+pelas fontes magnéticas. Caso contrário, cada componente do campo $\tilde{B}_{\alpha}(x, y, z)$ 
+(equação \ref{eq:B-alpha-layer}) produzido pela camada, e consequentemente do campo 
+$B_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-true-generic}) produzido pela fonte arbitrária, 
+deverá ser reproduzida por uma camada equivalente diferente, o que violaria as leis de 
+Gauss (equação \ref{eq:lei-Gauss}) de Ampère (equação \ref{eq:lei-Ampere}).
 
 
 \section{Distribuição de momentos positiva}
