@@ -234,7 +234,7 @@ $\hat{\mathbf{u}}^{(x)} = \hat{\mathbf{u}}^{(y)} = \hat{\mathbf{u}}^{(z)}$.
 De acordo com estes resultados teóricos, a hipótese de que cada componente $\tilde{B}_{\alpha}(x, y, z)$ 
 (equação \ref{eq:B-alpha-layer}), $\alpha = x, y, z$, de um mesmo campo de indução magnética $\tilde{\mathbf{B}}(x, y, z)$ 
 (equação \ref{eq:B-layer}) pode ser reproduzida por uma camada equivalente diferente resulta na 
-violação das leis de Gauss (equação \ref{eq:lei-Gauss}) de Ampère (equação \ref{eq:lei-Ampere}).
+violação das leis de Gauss (equação \ref{eq:lei-Gauss}) e de Ampère (equação \ref{eq:lei-Ampere}).
 Isto significa que há uma única camada equivalente localizada em $z = z_{c}$, 
 com uma determinada distribuição de intensidades de momento magnético $p(x'', y'', z_{c})$ e uma 
 determinada direção de magnetização uniforme $\hat{\mathbf{u}}(I, D)$ capaz de reproduzir, simultaneamente,
@@ -248,14 +248,186 @@ magnética $\tilde{\mathbf{B}}(x, y, z)$ (equação \ref{eq:B-layer}). Adicional
 considere que uma componente $\tilde{B}_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-layer}) 
 do campo produzido por esta camada reproduz a componente $B_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-true-generic}) 
 do campo produzido por uma fonte magnética arbitrária em todos os pontos $(x, y, z)$ localizados fora das fontes e acima 
-da camada ($z < z_{c}$). Utilizando o resultado teórico exposto acima, mostra-se que 
+da camada ($z < z_{c}$). Utilizando o resultado teórico exposto acima, conclui-se que 
 esta mesma camada deve obrigatoriamente reproduzir as outras duas componentes do campo produzido 
-pelas fontes magnéticas. Caso contrário, cada componente do campo $\tilde{B}_{\alpha}(x, y, z)$ 
-(equação \ref{eq:B-alpha-layer}) produzido pela camada, e consequentemente do campo 
-$B_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-true-generic}) produzido pela fonte arbitrária, 
+pelas fontes magnéticas. Caso contrário, cada componente $\tilde{B}_{\alpha}(x, y, z)$ 
+(equação \ref{eq:B-alpha-layer}) do campo produzido pela camada, e consequentemente cada componente 
+$B_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-true-generic}) do campo produzido pelas fontes arbitrárias, 
 deverá ser reproduzida por uma camada equivalente diferente, o que violaria as leis de 
-Gauss (equação \ref{eq:lei-Gauss}) de Ampère (equação \ref{eq:lei-Ampere}).
+Gauss (equação \ref{eq:lei-Gauss}) e de Ampère (equação \ref{eq:lei-Ampere}).
 
 
 \section{Distribuição de momentos positiva}
 \label{sec:distribuicao-positiva}
+
+
+Considere agora que o conjunto de fontes magnéticas possui direção de magnetização 
+uniforme, com inclinação $I_{t}$ e declinação $D_{t}$, de tal forma que o vetor 
+de magnetização total (equação \ref{eq:mag-vector-true-generic}) assuma a seguinte 
+forma:
+\begin{equation}
+\mathbf{m}(x', y', z') = m(x', y', z') \, \hat{\mathbf{u}}(I_{t}, D_{t}) \: ,
+\label{eq:mag-vector-true-uniform}
+\end{equation}
+em que $m(x', y', z')$ representa a intensidade de magnetização em um ponto $(x', y', z')$ 
+localizado no interior das fontes.
+Neste caso, o potencial magnético escalar $\Gamma(x, y, z)$ (equação \ref{eq:Gamma-potential}) 
+e o campo de indução magnética $\mathbf{B}(x, y, z)$ (equação \ref{eq:B-true-generic}) produzidos 
+pelas fontes ficam definidos por:
+\begin{equation}
+\Gamma(x, y, z) = - \gamma_{m} \iiint\limits_{\upsilon} 
+m(x', y', z') \, \hat{\mathbf{u}}(I_{t}, D_{t}) \cdot \nabla\frac{1}{r'} 
+\; d\upsilon'
+\label{eq:Gamma-potential-mag-uniform}
+\end{equation}
+e
+\begin{equation}
+\mathbf{B}(x, y, z) = \gamma_{m} \, \mathbf{M}(x, y, z) \, \hat{\mathbf{u}}(I_{t}, D_{t}) \: ,
+\label{eq:B-true-mag-uniform}
+\end{equation}
+em que $\mathbf{M}(x, y, z)$ é uma matriz dada por
+\begin{equation}
+	\mathbf{M}(x, y, z) = \begin{bmatrix}
+		\partial_{xx} \Omega(x, y, z) & 
+		\partial_{xy} \Omega(x, y, z) &
+		\partial_{xz} \Omega(x, y, z) \\
+		\partial_{xy} \Omega(x, y, z) & 
+		\partial_{yy} \Omega(x, y, z) &
+		\partial_{yz} \Omega(x, y, z) \\
+		\partial_{xz} \Omega(x, y, z) & 
+		\partial_{yz} \Omega(x, y, z) &
+		\partial_{zz} \Omega(x, y, z)
+	\end{bmatrix} \: ,
+	\label{eq:M-matrix}
+\end{equation}
+cujos elementos $\partial_{\alpha\beta} \Omega(x, y, z) \equiv 
+\frac{\partial^{2} \Omega(x, y, z)}{\partial \alpha \partial \beta}$, 
+$\alpha, \beta = x, y, z$, representam as derivadas segundas da função harmônica 
+\begin{equation}
+\Omega(x, y, z) = \iiint\limits_{\upsilon} 
+m(x', y', z') \, \frac{1}{r'} \: d\upsilon' \: ,
+\label{eq:Omega-potential}
+\end{equation}
+sendo $\frac{1}{r'}$ definida pela equação \ref{eq:inv-r'}.
+A intensidade de magnetização $m(x', y', z')$ é estritamente positiva em todos os pontos no interior das fontes. 
+Por conseguinte, $\Omega(x, y, z)$ é positiva em todos os pontos exteriores a fonte magnética. Do ponto de vista físico, 
+$\mathbf{M}(x, y, z)$ (equação \ref{eq:M-matrix}) e $\Omega(x, y, z)$ (equação \ref{eq:Omega-potential}) representam, 
+respectivamente, o tensor gradiente e o potencial gravitacional que seriam produzidos pelas fontes magnéticas no ponto 
+$(x,y,z)$, se elas tivessem distribuição de densidade proporcional a $m(x', y', z')$. Note que $\mathbf{M}(x, y, z)$ é 
+uma matriz simétrica, seu traço é nulo em todos os pontos $(x,y,z)$ exteriores as fontes magnéticas e possui cinco 
+componentes independentes que são funções harmônicas \citep{pedersen_rasmussen1990}. 
+Usando o campo de indução magnética $\mathbf{B}(x, y, z)$ (equação \ref{eq:B-true-mag-uniform}) produzido 
+por fontes magnéticas com direção de magnetização uniforme e explorando as propriedades da matriz 
+$\mathbf{M}(x, y, z)$ (equação \ref{eq:M-matrix}), podemos reescrever a anomalia de campo total 
+$\Delta T(x, y, z)$ (equação \ref{eq:Delta-T-true}) da seguinte forma:
+\begin{equation}
+	\begin{split}
+		\Delta T(x, y, z) = \:
+		& a_{xx} \, \partial_{xx} \Omega(x, y, z) + 
+		a_{xy} \, \partial_{xy} \Omega(x, y, z) + 
+		a_{xz} \, \partial_{xz} \Omega(x, y, z) + \\
+		& a_{yy} \, \partial_{yy} \Omega(x, y, z) + 
+		a_{yz} \, \partial_{yz} \Omega(x, y, z)
+	\end{split} \quad ,
+	\label{eq:Delta-T-true-mag-uniform}
+\end{equation}
+em que 
+\begin{equation}
+	\begin{split}
+		a_{xx} &= \hat{u}_{x}(I_{t}, D_{t}) \hat{u}_{x}(I_{0}, D_{0}) - \hat{u}_{z}(I_{t}, D_{t}) \hat{u}_{z}(I_{0}, D_{0}) \\
+		a_{xy} &= \hat{u}_{x}(I_{t}, D_{t}) \hat{u}_{y}(I_{0}, D_{0}) + \hat{u}_{y}(I_{t}, D_{t}) \hat{u}_{x}(I_{0}, D_{0}) \\
+		a_{xz} &= \hat{u}_{x}(I_{t}, D_{t}) \hat{u}_{z}(I_{0}, D_{0}) + \hat{u}_{z}(I_{t}, D_{t}) \hat{u}_{x}(I_{0}, D_{0}) \\
+		a_{yy} &= \hat{u}_{y}(I_{t}, D_{t}) \hat{u}_{y}(I_{0}, D_{0}) - \hat{u}_{z}(I_{t}, D_{t}) \hat{u}_{z}(I_{0}, D_{0}) \\
+		a_{yz} &= \hat{u}_{y}(I_{t}, D_{t}) \hat{u}_{z}(I_{0}, D_{0}) + \hat{u}_{z}(I_{t}, D_{t}) \hat{u}_{y}(I_{0}, D_{0})
+	\end{split}
+\label{eq:a-coefficients-sources}
+\end{equation}
+são constantes definidas pelas componentes $\hat{u}_{\alpha}(I_{0}, D_{0})$ e $\hat{u}_{\beta}(I_{t}, D_{t})$, 
+$\alpha = x, y, z$, $\beta = x, y, z$, dos vetores unitários $\hat{\mathbf{u}}(I_{0}, D_{0})$ e 
+$\hat{\mathbf{u}}(I_{t}, D_{t})$ (equação \ref{eq:u-hat}), respectivamente,
+definidos pela inclinação $I_{0}$ e declinação $D_{0}$ do campo principal na área de estudo e 
+pela inclinação $I_{t}$ e declinação $D_{t}$ da magnetização uniforme das fontes magnéticas. 
+Por simplicidade, omitimos a dependência dos coeficientes $a_{\alpha\beta}$ em relação aos parâmetros 
+$I_{0}$, $D_{0}$, $I_{t}$ e $D_{t}$.
+As equações \ref{eq:Delta-T-true-mag-uniform} e \ref{eq:a-coefficients-sources} mostram que a anomalia de campo 
+total $\Delta T(x, y, z)$ produzida por fontes magnéticas com direção de magnetização uniforme é 
+uma combinação linear de cinco funções harmônicas e independentes, que são derivadas segundas 
+de $\Omega(x, y, z)$ (equação \ref{eq:Omega-potential}).
+
+De forma análoga, é possível reescrever o campo de indução magnética $\tilde{\mathbf{B}}(x, y, z)$
+(equação \ref{eq:B-layer}) da seguinte forma:
+\begin{equation}
+\tilde{\mathbf{B}}(x, y, z) = \gamma_{m} \tilde{\mathbf{M}}(x, y, z) \hat{\mathbf{u}}(I, D) \: ,
+\label{eq:B-layer-alternative}
+\end{equation}
+em que $\tilde{\mathbf{M}}(x, y, z)$ é uma matriz dada por
+\begin{equation}
+	\tilde{\mathbf{M}}(x, y, z) = \begin{bmatrix}
+		\partial_{xx} \tilde{\Omega}(x, y, z) & 
+		\partial_{xy} \tilde{\Omega}(x, y, z) &
+		\partial_{xz} \tilde{\Omega}(x, y, z) \\
+		\partial_{xy} \tilde{\Omega}(x, y, z) & 
+		\partial_{yy} \tilde{\Omega}(x, y, z) &
+		\partial_{yz} \tilde{\Omega}(x, y, z) \\
+		\partial_{xz} \tilde{\Omega}(x, y, z) & 
+		\partial_{yz} \tilde{\Omega}(x, y, z) &
+		\partial_{zz} \tilde{\Omega}(x, y, z)
+	\end{bmatrix} \: ,
+	\label{eq:M-tilde-matrix}
+\end{equation}
+cujos elementos $\partial_{\alpha\beta} \tilde{\Omega}(x, y, z) \equiv 
+\frac{\partial^{2} \tilde{\Omega}(x, y, z)}{\partial \alpha \partial \beta}$, 
+$\alpha, \beta = x, y, z$, representam as derivadas segundas da função harmônica 
+\begin{equation}
+\tilde{\Omega}(x, y, z) = \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty} 
+p(x'', y'', z_{c}) \, \frac{1}{r''} \: dS'' \: , \quad z < z_{c} \: ,
+\label{eq:Omega-tilde-potential}
+\end{equation}
+sendo $\frac{1}{r''}$ definida pela equação \ref{eq:inv-r''}.
+Note que $\tilde{\mathbf{M}}(x, y, z)$ (equação \ref{eq:M-tilde-matrix}) também representa um tensor gradiente 
+\citep{pedersen_rasmussen1990} e, consequentemente, é simétrica, possui traço igual a zero em todos os pontos 
+$(x,y,z)$ acima da camada (com $z < z_{c}$) e possui cinco componentes independentes, que por sua vez são 
+definidas pelas segundas derivadas da função harmônica 
+$\tilde{\Omega}(x, y, z)$ (equação \ref{eq:Omega-tilde-potential}).
+Usando o campo de indução magnética $\tilde{\mathbf{B}}(x, y, z)$ (equação \ref{eq:B-layer-alternative}) produzido 
+por uma camada equivalente e explorando as propriedades da matriz 
+$\tilde{\mathbf{M}}(x, y, z)$ (equação \ref{eq:M-tilde-matrix}), podemos reescrever a anomalia de campo total 
+$\Delta \tilde{T}(x, y, z)$ (equação \ref{eq:Delta-T-layer}) da seguinte forma:
+\begin{equation}
+	\begin{split}
+		\Delta \tilde{T}(x, y, z) = \:
+		& \tilde{a}_{xx} \, \partial_{xx} \tilde{\Omega}(x, y, z) + 
+		\tilde{a}_{xy} \, \partial_{xy} \tilde{\Omega}(x, y, z) + 
+		\tilde{a}_{xz} \, \partial_{xz} \tilde{\Omega}(x, y, z) + \\
+		& \tilde{a}_{yy} \, \partial_{yy} \tilde{\Omega}(x, y, z) + 
+		\tilde{a}_{yz} \, \partial_{yz} \tilde{\Omega}(x, y, z)
+	\end{split} \quad ,
+	\label{eq:Delta-T-layer-alternative}
+\end{equation}
+em que
+\begin{equation}
+	\begin{split}
+		\tilde{a}_{xx} &= \hat{u}_{x}(I, D) \hat{u}_{x}(I_{0}, D_{0}) - \hat{u}_{z}(I, D) \hat{u}_{z}(I_{0}, D_{0}) \\
+		\tilde{a}_{xy} &= \hat{u}_{x}(I, D) \hat{u}_{y}(I_{0}, D_{0}) + \hat{u}_{y}(I, D) \hat{u}_{x}(I_{0}, D_{0}) \\
+		\tilde{a}_{xz} &= \hat{u}_{x}(I, D) \hat{u}_{z}(I_{0}, D_{0}) + \hat{u}_{z}(I, D) \hat{u}_{x}(I_{0}, D_{0}) \\
+		\tilde{a}_{yy} &= \hat{u}_{y}(I, D) \hat{u}_{y}(I_{0}, D_{0}) - \hat{u}_{z}(I, D) \hat{u}_{z}(I_{0}, D_{0}) \\
+		\tilde{a}_{yz} &= \hat{u}_{y}(I, D) \hat{u}_{z}(I_{0}, D_{0}) + \hat{u}_{z}(I, D) \hat{u}_{y}(I_{0}, D_{0})
+	\end{split}
+\label{eq:a-coefficients-layer}
+\end{equation}
+são constantes definidas tal como aquelas mostradas na equação \ref{eq:a-coefficients-sources}. 
+As diferenças aqui são os valores de inclinação $I$ e declinação $D$ da magnetização na camada equivalente, 
+que são diferentes daqueles associados às fontes ($I_{t}$ e $D_{t}$).
+Por conveniência, omitimos a dependência dos coeficientes $\tilde{a}_{\alpha\beta}$,
+$\alpha = x, y, z$, $\beta = x, y, z$, em relação aos parâmetros $I_{0}$, $D_{0}$, $I$ e $D$.
+As equações \ref{eq:Delta-T-layer-alternative} e \ref{eq:a-coefficients-layer} mostram que a anomalia de campo 
+total $\Delta \tilde{T}(x, y, z)$ produzida por uma camada equivalente também é 
+uma combinação linear de cinco funções harmônicas e independentes, que neste caso são derivadas segundas 
+de $\tilde{\Omega}(x, y, z)$ (equação \ref{eq:Omega-tilde-potential}).
+
+PAREI AQUI
+
+Considere uma camada equivalente localizada em $z = z_{c}$, com a mesma direção de magnetização 
+das fontes verdadeiras e com uma distribuição de intensidades de momento magnético $p(x'', y'', z_{c})$
+tal que a condição $\Delta T(x, y, z) = \Delta \tilde{T}(x, y, z)$ em todos os pontos $(x, y, z)$ localizados 
+acima da camada ($z < z_{c}$).
