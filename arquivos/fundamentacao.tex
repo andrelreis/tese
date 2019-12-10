@@ -1,9 +1,9 @@
-\chapter{Metodologia}
-\label{chap:metodologia}
+\chapter{Fundamentação teórica}
+\label{chap:fundamentacao}
 
 
-\section{Fundamentação teórica}
-\label{sec:fundamentacao}
+\section{Campo de indução magnética}
+\label{sec:campo}
 
 \begin{equation}
 \mathbf{B}(x, y, z) = - \nabla \Gamma(x, y, z)
@@ -129,7 +129,7 @@ As equações \ref{eq:B-layer}--\ref{eq:B-alpha-layer} definem o campo de induç
 magnética produzido por uma camada equivalente localizada em $z = z_{c}$,
 com distribuição de intensidade de momento magnético 
 $p(x'', y'', z_{c})$ e direção de magnetização uniforme definida por 
-$\hat{\mathbf{u}}(I, D)$ (equação \ref{eq:u-hat}). Nesta seção, mostrarei que, 
+$\hat{\mathbf{u}}(I, D)$ (equação \ref{eq:u-hat}). Nesta seção, mostro que, 
 se esta camada reproduz uma das componentes $B_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-true-generic})
 do campo de indução magnética $\mathbf{B}(x, y, z)$ (equação \ref{eq:B-true-generic}) 
 produzido por um conjunto de fontes magnéticas arbitrárias em todos os pontos 
@@ -288,8 +288,14 @@ Gauss (equação \ref{eq:lei-Gauss}) e de Ampère (equação \ref{eq:lei-Ampere}
 \section{Distribuição de momentos positiva}
 \label{sec:distribuicao-positiva}
 
+Nesta seção, considero o caso particular em que as fontes magnéticas possuem 
+direção de magnetização uniforme e a anomalia de campo total produzida por elas é 
+reproduzida por uma camada equivalente plana, localizada em $z = z_{c}$. 
+Neste caso, mostro que a distribuição de intensidades de momento magnético 
+$p(x'', y'', z_{c})$ na camada (equação \ref{eq:B-alpha-layer}) é toda positiva 
+se a direção de magnetização uniforme da camada é igual a das fontes.
 
-Considere agora que o conjunto de fontes magnéticas possui direção de magnetização 
+Considere um conjunto de fontes magnéticas com direção de magnetização 
 uniforme, com inclinação $I_{t}$ e declinação $D_{t}$, de tal forma que o vetor 
 de magnetização total (equação \ref{eq:mag-vector-true-generic}) seja dado por:
 \begin{equation}
@@ -560,13 +566,6 @@ $m(x', y', z')$ é estritamente positiva em todos os pontos $(x', y', z')$ no in
 $\partial_{z} \Omega(x'', y'', z_{c})$ é positiva em todos os pontos $(x'', y'', z_{c})$ localizados sobre 
 a camada equivalente.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.75\textwidth]{Fig/eqlayer/surface_Green.png}
-	\caption{ Representação 2D da superfícia utilizada para aplicar as identidades de Green. A superfície é formada por uma semi-esfera (linha traçejada) com raio infinito e o plano $z = z_{c}$ contendo a camada equivalente. Os pontos $(x, y, z)$ (ponto fechado) e $(x, y, z_{s})$ (ponto aberto) são posicionados simetricamente com respeito ao plano $z = z_{c}$ e definidos como $z = z_{c} - \Delta z$ e $z = z_{c} + \Delta z$, respectivamente.}
-	\label{fig:surface_Green}
-\end{figure}
-
 O aspecto mais interessante sobre a distribuição de intensidades de momento magnético 
 $p(x'', y'', z_{c})$ (equação \ref{eq:positivity_prop}) é que ela é definida como o produto de 
 uma constante positiva $\frac{1}{2\pi}$ e a função $\partial_{z} \Omega(x'',y'',z_{c})$, que é 
@@ -584,335 +583,9 @@ momentos magnéticos por que (1) é válida para todos os casos nos quais a magn
 equivalente tem a mesma direção da magnetização total das fontes, sendo ela puramente induzida ou não, 
 e (2) não requer que os dados observados de anomalia de campo total estejam sobre um plano.
 
-
-%%% Discretizing layer
-\section{Parametrização e o problema direto}
-\label{sec:par_prob_dir}
-
-\subsection{Para a anomalia de campo total}
-\label{subsec:tf_prob_dir}
-
-Em situações práticas, não é possível determinar uma distribuição contínua de momentos magnéticos 
-$p(x'',y'',z_{c})$ (equação \ref{eq:positivity_prop}) sobre a camada equivalente. Por esta razão, a 
-camada é aproximada por um conjunto discreto de $M$ dipolos (fontes equivalentes) localizados no plano 
-$z = z_{c}$ (Figura \ref{fig:eqlayer_tfa_sketch}). A anomalia de campo total produzida por esta camada 
-discreta (anomalia de campo total predita) no ponto $(x_{i},y_{i},z_{i})$, $i=1,\dots,N$, é dada por 
-\begin{equation}
-\Delta T_{i}(\mathbf{s}) = \mathbf{g}_{i}(\mathbf{q})^{\top} \mathbf{p},
-\label{eq:tfa_pred_i}
-\end{equation}
-em que $\mathbf{s}$ é um vetor $(M + 2) \times 1$ particionado dado por 
-\begin{equation}
-      \mathbf{s} = \begin{bmatrix}
-		\mathbf{p} \\
-		\mathbf{q}
-	\end{bmatrix} \: ,
-	\label{eq:s-vector}
-\end{equation}
-$\mathbf{q}$ é um vetor $2 \times 1$ definido em termos da inclinação e declinação ($I$ e $D$) 
-da magnetização total na camada equivalente (vetor de direção de magnetização)
-\begin{equation}
-\mathbf{q} = \begin{bmatrix}
-I \\ D 
-\end{bmatrix} \: ,
-\label{eq:q-vector}
-\end{equation}
-$\mathbf{p}$ é um vetor $M \times 1$ (vetor de momentos magnéticos) cujo $j$-ésimo elemento, $j=1,\dots,M$, 
-é a intensidade do momento magnético $p_{j}$ (em $A \, m^{2}$) do $j$-ésimo dipolo e 
-$\mathbf{g}_{i} (\mathbf{q})$ é outro vetor $M \times 1$ cujo $j$-ésimo elemento é definido pela função harmônica 
-\begin{equation}
-g_{ij} (\mathbf{q})  = \gamma_{m} \hat{\mathbf{u}}_{0}^T \, 
-\mathbf{M}_{ij} \, \hat{\mathbf{u}}(\mathbf{q}) \: .
-\label{eq:g_ij}
-\end{equation}
-Nesta equação, $\hat{\mathbf{u}}_{0} \equiv \hat{\mathbf{u}}(I_{0}, D_{0})$ e 
-$\hat{\mathbf{u}}(\mathbf{q}) \equiv \hat{\mathbf{u}}(I, D)$ são vetores unitários
-definidos pela equação \ref{eq:u-hat} em função da inclinação e declinação do 
-campo principal ($I_{0}$ e $D_{0}$) e da camada equivalente ($I$ e $D$),
-respectivamente, e $\mathbf{M}_{ij}$ é uma matriz $3 \times 3$ dada por 
-\begin{equation}
-\mathbf{M}_{ij} = \begin{bmatrix}
-\partial_{xx} \frac{1}{r''} & 
-\partial_{xy} \frac{1}{r''} &
-\partial_{xz} \frac{1}{r''} \\
-\partial_{xy} \frac{1}{r''} & 
-\partial_{yy} \frac{1}{r''} &
-\partial_{yz} \frac{1}{r''} \\
-\partial_{xz} \frac{1}{r''} & 
-\partial_{yz} \frac{1}{r''} &
-\partial_{zz} \frac{1}{r''}
-\end{bmatrix} \quad ,
-\label{eq:Mij-matrix}
-\end{equation}
-em que $\partial_{\alpha\beta} \frac{1}{r''} \equiv \frac{\partial^{2}}{\partial \alpha \partial \beta} \frac{1}{r''}$ 
-representa a segunda derivada da função $\frac{1}{r''}$ (equação \ref{eq:inv-r''}) em relação a $\alpha$ e $\beta$, 
-$\alpha = x, y, z$ e $\beta = x, y, z$, avaliada nas coordenadas $(x, y, z) = (x_{i}, y_{i}, z_{i})$ do $i$-ésimo dado  
-observado e $(x'', y'', z_{c}) = (x_{j}, y_{j}, z_{c})$ da $j$-ésima fonte equivalente.
-As equações $\ref{eq:tfa_pred_i}$-$\ref{eq:Mij-matrix}$ mostram que a anomalia de campo total predita 
-$\Delta T_{i}(\mathbf{s})$ possui uma relação linear com o vetor de momentos magnéticos $\mathbf{p}$ e uma 
-relação não linear com o vetor de direção de magnetização $\mathbf{q}$ (equação \ref{eq:q-vector}).
-
-%% Figura 
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.7\textwidth]{Fig/eqlayer/eqlayer_figure_tfa.png}
-	\caption{Representação esquemática da camada equivalente para a anomalia de campo total. A camada é posicionada 
-	sobre o plano horizontal a uma profundidade $z=z_{c}$. $\Delta T_{i}$ é a anomalia de campo total predita no ponto 
-	$(x_{i},y_{i},z_{i})$ produzida pelo conjunto de $M$ fontes equivalentes (pontos pretos). Cada fonte é localizada 
-	no ponto  $(x_{j},y_{j},z_{c})$, $j = 1, \dots, M$, e são representadas por um dipolo de volume unitário 
-	$\upsilon_{j}$ com direção de magnetização $\hat{\mathbf{u}}(\mathbf{q})$ e momento magnético $p_{j}$. 
-	$\hat{\mathbf{u}}_{0}$ é um vetor unitário na direção do campo principal.}
-	\label{fig:eqlayer_tfa_sketch}
+	\includegraphics[width=0.75\textwidth]{Fig/eqlayer/surface_Green.png}
+	\caption{ Representação 2D da superfícia utilizada para aplicar as identidades de Green. A superfície é formada por uma semi-esfera (linha traçejada) com raio infinito e o plano $z = z_{c}$ contendo a camada equivalente. Os pontos $(x, y, z)$ (ponto fechado) e $(x, y, z_{s})$ (ponto aberto) são posicionados simetricamente com respeito ao plano $z = z_{c}$ e definidos como $z = z_{c} - \Delta z$ e $z = z_{c} + \Delta z$, respectivamente.}
+	\label{fig:surface_Green}
 \end{figure}
-
-\subsection{Para a componente vertical do campo magnético}
-\label{subsec:bz_prob_dir}
-
-De forma análoga a seção \ref{subsec:tf_prob_dir}, a componente vertical do campo de indução magnética (componente vertical predita) produzida por uma camada discreta posicionada a uma profundidade constante $z=z_c$ no ponto $(x_i,y_i,z_i)$, $i=1,\dots,N$, (Figura \ref{fig:eqlayer_bz_sketch}) é dada por 
-
-\begin{equation}
-B_{zi} (\mathbf{s})  = \mathbf{g}_{i}^{z}(\mathbf{q})^{\top} \, \mathbf{p},
-\label{eq:pred_data_ith-z}
-\end{equation}
-em que $\mathbf{s}$ é um vetor $(M + 2) \times 1$ particionado (vetor de dados preditos) dado por 
-
-\begin{equation}
-      \mathbf{s} = \begin{bmatrix}
-		\mathbf{p} \\
-		\mathbf{q}
-	\end{bmatrix} \: ,
-	\label{eq:parameter-vector-z}
-\end{equation}
-$\mathbf{q}$ é o vetor direção de magnetização (equação \ref{eq:q_vetor}), $\mathbf{p}$ é um vetor $M \times 1$ (vetor de momentos magnéticos) cujo $j$-ésimo elemento, $j=1,\dots,M$, é a intensidade do momento magnético $p_{j}$ (em $A \, m^{2}$) dos $j$-ésimo dipolo e $\mathbf{g}_{i}^{z} (\mathbf{q})$ é outro vetor $M \times 1$ cujo $j$-ésimo elemento é definido pela função harmônica 
-
-\begin{equation}
-g_{ij}^{z}(\mathbf{q})  = \gamma_m \, \mathbf{M}_{ij}^{z^\top} \, \hat{\mathbf{m}}(\mathbf{q}) \: .
-\label{eq:g_ij-z}
-\end{equation}
-Nesta equação, $\mathbf{M}_{ij}^{z^\top}$ é um vetor $1 \times 3$ dada por 
-
-\begin{equation}
-\mathbf{M}_{ij}^{z^\top} = \begin{bmatrix}
-\partial_{xz} \frac{1}{r} & 
-\partial_{yz} \frac{1}{r} &
-\partial_{zz} \frac{1}{r}
-\end{bmatrix}^\top \quad ,
-\label{eq:Mij-matrix-z}
-\end{equation}
-em que $\partial_{\alpha z} \frac{1}{r} \equiv \frac{\partial^{2}}{\partial \alpha \partial z} \frac{1}{r}$, representa a derivada segunda com respeito a $\alpha = x, y, z$, do inverso da distância $\frac{1}{r}$ (equação \ref{eq:inverse-distance}) entre as coordenadas de observação $(x, y, z) = (x_{i}, y_{i}, z_{i})$ e as coordenadas das fontes equivalentes $(x'', y'', z_{c}) = (x_{j}, y_{j}, z_{c})$. Note que, analogamente a seção \ref{subsec:tf_prob_dir}, a componente vertical do campo $B_{zi}(\mathbf{s})$ possui uma relação linear com o vetor de momentos magnéticos $\mathbf{p}$ e uma relação não linear com o vetor de direção de magnetização $\mathbf{q}$ (equação \ref{eq:q_vetor}).
-
-%% Figura
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=.7\textwidth]{Fig/mag_vec/eqlayer_figure_bz.png}
-	\caption{Representação esquemática da camada equivalente para a componente vertical do campo magnético. A camada também é posicionada sobre o plano horizontal a uma profundidade $z=z_c$, de forma similar para a anomalia de campo total (Figura \ref{fig:eqlayer_tfa_sketch}). $B_{zi}$ é a componente vertical do campo magnético predita no ponto $(x_i,y_i,z_i)$ produzida pelo conjunto de $M$ fontes equivalentes (pontos pretos). Cada fonte é localizada no ponto  $(x_j,y_j,z_c)$, $j = 1,\hdots, M$, e são representadas por um dipolo de volume unitário $\upsilon$ com direção de magnetização $\hat{\mathbf{m}}(\mathbf{q})$ e momento magnético $p_j$.}
-	\label{fig:eqlayer_bz_sketch}
-\end{figure}
-
-PAREI AQUI
-
-\section{Problema inverso}
-
-\subsection{A estimativa da direção de magnetização}
-\label{subsec:mag_dir_est}
-
-%%%%% Defining the objective function
-Seja $\mathbf{\Delta T}^{o}$ o vetor de dados observados cujo $i$-ésimo elemento $\Delta T_{i}^{o}$ é a anomalia de campo total produzida por uma fonte magnética no ponto $(x_{i},y_{i},z_{i})$, $i = 1, \dots, N$. Similarmente, seja $\mathbf{\Delta T} (\mathbf{s})$ o vetor de dados preditos cujo $i$-ésimo elemento $\Delta T_{i}(\mathbf{s})$ (equação \ref{eq:tfa_pred_i}) é a anomalia de campo total produzida por uma camada equivalente discreta no mesmo ponto $(x_{i},y_{i},z_{i})$. Com o objetivo de estimarmos um vetor de parâmetros $\mathbf{s}$ (equação \ref{eq:parameter-vector}) que minimiza a diferença entre $\mathbf{\Delta T}^{o}$ e $\mathbf{\Delta T}(\mathbf{s})$, temos que resolver o problema inverso:
-
-\begin{subequations}
-	\begin{align}
-	& \text{minimizar}
-	& &\Psi(\mathbf{s}) =\lVert \mathbf{\Delta T}^{o} - \mathbf{\Delta T} (\mathbf{s}) 
-	\rVert_{2}^{2} + \, \mu f_0 \parallel \mathbf{p} \parallel_{2}^{2} \: , \\
-	& \text{sujeito a}
-	& & \mathbf{p} \geqslant \mathbf{0} \: .
-	\end{align}
-	\label{eq:positivity_goal_function}
-\end{subequations}
-O primeiro e o segundo termo da equação \ref{eq:positivity_goal_function}a são, respectivamente, a função de ajuste e a função regularizadora de Tikhonov de ordem zero, $\mu$ é o parâmetro de regularização, $\| \cdot \|_{2}^{2}$ representa o quadrado da norma Euclidiana e $f_{0}$ é um fator de normalização. Na inequação \ref{eq:positivity_goal_function}b, $\mathbf{0}$ é um vetor $M \times 1$ com todos os elementos iguais a zero no qual o sinal da inequação é aplicado elemento a elemento. Este vínculo de positividade sobre o vetor de momentos magnéticos $\mathbf{p}$ é incorporado utilizando o chamado \textit{estimador de mínimos quadrados não negativo} ou somente NNLS (do inglês \textit{Nonnegative least squares}) proposto por \cite{lawson_hanson_1974}.
-
-Para resolver este problema inverso, temos que considerar primeiramente uma expansão até segunda ordem da função objetivo (equação \ref{eq:positivity_goal_function}a) em torno de $\mathbf{s} = \mathbf{s}^{k}$ (equação \ref{eq:parameter-vector}):
-
-\begin{equation}
-\Psi(\mathbf{s}^{k} + \mathbf{\Delta s}^{k}) \approx \Psi(\mathbf{s}^{k}) + 
-{\mathbf{J}^{k}}^{\top} \mathbf{\Delta s}^{k} + 
-\frac{1}{2} {\mathbf{\Delta s}^{k}}^{\top} \mathbf{H}^{k} \mathbf{\Delta s}^{k}  \: ,
-\label{eq:sec_ord_goal}
-\end{equation}
-em que $\mathbf{\Delta s}^{k}$ é uma perturbação no vetor de parâmetros e os termos $\mathbf{J}^{k}$ e $\mathbf{H}^{k}$ são, respectivamente, o vetor gradiente e a matriz Hessiana avaliadas em $\mathbf{s}^{k}$. Então, estimamos o vetor de perturbação $\bar{\mathbf{\Delta s}}^k$ que minimiza a função expandida (equação \ref{eq:sec_ord_goal}) tomando o seu gradiente e igualando o resultado ao vetor nulo. Este procedimento nos leva ao sistema linear 
-
-\begin{equation}
-\mathbf{H}^{k} \bar{\mathbf{\Delta s}}^{k} = - \mathbf{J}^{k} \: ,
-\label{eq:linear_sys_GN}
-\end{equation}
-que representa o $k$-ésimo passo do método de Gauss-Newton \citep{aster2005} para a minimização da função objetivo (equação \ref{eq:positivity_goal_function}a). Reescrevemos este sistema linear desprezando as derivadas cruzadas na matriz Hessiana como: 
-
-\begin{equation}
-\left[
-\begin{array}{c|c}
-\mathbf{H}_{pp}^{k} & \mathbf{0} \\
-\hline
-\mathbf{0}^{\top} & \mathbf{H}_{qq}^{k}
-\end{array}
-\right] \left[ \begin{array}{c}
-\bar{\mathbf{\Delta p}}^{k} \\ 
-\bar{\mathbf{\Delta q}}^{k} 
-\end{array} \right] \approx -\left[ \begin{array}{c}
-\mathbf{J}_{p}^{k} \\ 
-\mathbf{J}_{q}^{k} 
-\end{array} \right] ,
-\label{eq:linear_sys_GN_block}
-\end{equation}
-em que $\mathbf{0}$ é uma matriz $M \times 2$ que contém todos os elementos iguais a zero, $\bar{\mathbf{\Delta p}}^{k} = \bar{\mathbf{p}}^{k+1} - \bar{\mathbf{p}}^{k}$ é a correção no vetor de momentos magnéticos $\mathbf{p}$, $\bar{\mathbf{\Delta q}}^{k} = \bar{\mathbf{q}}^{k+1} - \bar{\mathbf{q}}^{k}$ é a correção no vetor direção de magnetização e os termos $\mathbf{J}_{\alpha}^{k}$ e $\mathbf{H}_{\alpha \alpha}^{k}$, $\alpha = p,q$, são os vetores gradientes e as matrizes Hessianas calculadas com respeito aos elementos dos $\mathbf{p}$ e $\mathbf{q}$, respectivamente. 
-
-O vetor gradiente $\mathbf{J}_{p}^{k}$ e a matriz Hessiana $\mathbf{H}_{pp}^{k}$ (equação \ref{eq:linear_sys_GN_block}) relativas ao vetor de momentos magnéticos $\mathbf{p}$ (equação \ref{eq:parameter-vector}) são, respectivamente, 
-
-\begin{equation}
-\mathbf{J}_{p}^{k} = -2 {\mathbf{G}_{p}^{k}}^{\top} 
-\left[ \mathbf{\Delta T}^{o} - \mathbf{\Delta T} (\bar{\mathbf{s}}^{k}) \right] + 
-2\mu f_{0}^{k} \bar{\mathbf{p}}^{k} 
-\label{eq:grad_p}
-\end{equation}
-e 
-
-\begin{equation}
-\mathbf{H}_{pp}^{k} = 2 {\mathbf{G}_{p}^{k}}^{\top} \mathbf{G}_{p}^{k} + 
-2 \mu f_{0}^{k} \mathbf{I} \: ,
-\label{eq:hess_p}
-\end{equation}
-em que $\mathbf{G}_p^{k}$ é uma matriz de dimensão $N \times M$ cujo $ij$-ésimo elemento é dado pela função harmônica $g_{ij}(\bar{\mathbf{q}}^{k})$ (equação \ref{eq:g_ij}) avaliada na direção de magnetização $\bar{\mathbf{q}}^{k}$, $\mathbf{I}$ é uma matriz identidade de dimensão $M \times M$ e $f_{0}^{k}$ é um fator de normalização igual a 
-
-\begin{equation}
-f_{0}^{k} = \dfrac{trace \left({\mathbf{G}_{p}^{k}}^{\top} \mathbf{G}_{p}^{k} \right)}{M} \, .
-\label{eq:norm_factor}
-\end{equation}
-
-O vetor gradiente $\mathbf{J}_{q}^{k}$ e a matriz Hessiana $\mathbf{H}_{qq}^{k}$ (equação \ref{eq:linear_sys_GN_block}) relativas a direção de magnetização $\mathbf{q}$ (equação \ref{eq:q_vetor}) são, respectivamente, 
-
-\begin{equation}
-\mathbf{J}_{q}^{k} = -2 {\mathbf{G}_{q}^{k}}^{\top} 
-\left[ \mathbf{\Delta T}^{o} - \mathbf{\Delta T} (\bar{\mathbf{s}}^{k}) \right]
-\label{eq:grad_q}
-\end{equation}
-e
-
-\begin{equation}
-\mathbf{H}_{qq}^{k} \approx 2 {\mathbf{G}_{q}^{k}}{^\top} \mathbf{G}_{q}^{k} \: ,
-\label{eq:hess_q}
-\end{equation}
-em que $\mathbf{G}_{q}^{k}$ é uma matriz $N \times 2$ dada por 
-
-\begin{equation}
-\mathbf{G}_{q}^{k} = \begin{bmatrix}
-\partial_{I} \mathbf{g}_{1}(\bar{\mathbf{q}}^{k})^{\top} \bar{\mathbf{p}}^{k} & 
-\partial_{D} \mathbf{g}_{1}(\bar{\mathbf{q}}^{k})^{\top} \bar{\mathbf{p}}^{k} \\
-\vdots & \vdots  \\
-\partial_{I} \mathbf{g}_{N}(\bar{\mathbf{q}}^{k})^{\top} \bar{\mathbf{p}}^{k} & 
-\partial_{D} \mathbf{g}_{N}(\bar{\mathbf{q}}^{k})^{\top} \bar{\mathbf{p}}^{k} 
-\end{bmatrix} \: ,
-\label{eq:Gq}
-\end{equation}
-em que $\partial_{\alpha} \mathbf{g}_{i}(\bar{\mathbf{q}}^{k}) \equiv \frac{\partial \mathbf{g}_{i}(\bar{\mathbf{q}}^{k})}{\partial \alpha}$, $\alpha= I, D$, representa a primeira derivada do vetor $\mathbf{g}_{i}(\bar{\mathbf{q}}^{k})$ (equação \ref{eq:tfa_pred_i}) com respeito a inclinação $I$ e a declinação $D$ da magnetização total das fontes.
-
-\subsubsection{Processo iterativo para a estimativa da direção de magnetização}
-
-A iteração $k=0$ do nosso algoritmo começa com uma aproximação inicial $\bar{\mathbf{q}}^{k} = \bar{\mathbf{q}}^{0}$ para o vetor direção de magnetização $\mathbf{q}$ (equação \ref{eq:q_vetor}). Utilizando esta aproximação inicial $\bar{\mathbf{q}}^{k}$, a parte superior da equação \ref{eq:linear_sys_GN_block} nos leva ao seguinte sistema linear para o vetor de momentos magnéticos:
-
-\begin{equation}
-\left[ {\mathbf{G}_{p}^{k}}^{\top} \mathbf{G}_{p}^{k} + 
-\mu f_{0}^{k} \mathbf{I} \right] \bar{\mathbf{p}}^{k} = {\mathbf{G}_{p}^{k}}^{\top} \mathbf{\Delta T}^{o} \: .
-\label{eq:linear_sys_p}
-\end{equation}
-Para impor o vínculo de positividade (equação \ref{eq:positivity_goal_function}b) sobre a distribuição de momentos magnéticos, este sistema linear é resolvido usando o método de NNLS \citep{lawson_hanson_1974, silvadias_etal_2010}. Esta distribuição de momentos magnéticos é então usada para estimar uma correção $\bar{\mathbf{\Delta q}}^{k}$ no vetor direção de magnetização resolvendo um sistema não linear utilizando o método de Levenberg-Marquardt \citep{aster2005}:
-
-\begin{equation}
-\left[ {\mathbf{G}_{q}^{k}}^{\top} \mathbf{G}_{q}^{k} + \lambda \, \mathbf{I} \right] 
-\bar{\mathbf{\Delta q}}^{k} = {\mathbf{G}_{q}^{k}}^{\top} 
-\left[ \mathbf{\Delta T}^{o} - \mathbf{\Delta T} (\mathbf{s}^{k}) \right] \: ,
-\label{eq:linear_sys_q}
-\end{equation}
-em que $\lambda$ é o parâmetro de Marquardt e $\mathbf{I}$ é uma matriz identidade. Após estimarmos a correção $\bar{\mathbf{\Delta q}}^{k}$ na $k$-ésima iteração, atualizamos a direção de magnetização aplicando a correção a seguir:
-
-\begin{equation}
-\bar{\mathbf{q}}^{k+1} = \bar{\mathbf{q}}^{k} + \bar{\mathbf{\Delta q}}^{k} \: ,
-\label{eq:q_next}
-\end{equation}
-e utilizando esta nova direção para estimar uma nova distribuição de momentos magnéticos com a equação \ref{eq:linear_sys_p} e assim sucessivamente. O processo iterativo é interrompido quando a função objetivo (equação \ref{eq:positivity_goal_function}a) é invariante ao longo de sucessivas iterações. Mostramos também que este método falha em situações nas quais as fontes são magnetizadas verticalmente (Apêndice \ref{append:vertical-magnetization}).
-
-\subsection{O cálculo das componentes do campo magnético e a amplitude do campo}
-\label{subsec:componentes_vec}
-
-Seja $\mathbf{B}_{z}^{o}$ o vetor de dados observados cujo $i$-ésimo elemento $B_{zi}^{o}$ é a componente vertical do campo magnético produzida por uma fonte magnética no ponto $(x_{i},y_{i},z_{i})$, $i = 1, \dots, N$. Similarmente, seja $\mathbf{B}_{z}^{p} (\mathbf{s})$ o vetor de dados preditos cujo $i$-ésimo elemento $B_{zi}^{p}(\mathbf{s})$ (equação \ref{eq:pred_data_ith-z}) é a componente vertical do campo magnético produzida por uma camada equivalente discreta no mesmo ponto $(x_{i},y_{i},z_{i})$. Com o objetivo de minimizar a diferença entre $\mathbf{B}_{z}^{o}$ e $\mathbf{B}_{z}^{p} (\mathbf{s})$, temos que resolver a equação:
-
-\begin{equation}
-\Psi(\mathbf{s}) =\lVert \mathbf{B}_{z}^{o} - \mathbf{B}_{z}^{p} (\mathbf{s}) 
-	\rVert_{2}^{2} + \, \mu  \parallel \mathbf{p} \parallel_{2}^{2} \: , \\
-\label{eq:goal_function_vec}
-\end{equation}
-em que o primeiro e o segundo termo da equação \ref{eq:goal_function_vec} são a função de ajuste e a função regularizadora de Tikhonov de ordem zero, $\mu$ é o parâmetro de regularização e $\| \cdot \|_{2}^{2}$ representa o quadrado da norma Euclidiana. 
-
-Assumimos neste caso que a camada equivalente depende somente do vetor de momentos magnéticos $\mathbf{p}$ e, portanto, devemos impor uma direção de magnetização $\mathbf{q}$ arbitrária sobre ela. Com isso, o sistema linear que iremos resolver é dado por:
-
-\begin{equation}
-\left[ \mathbf{G}_{z}^{\top} \mathbf{G}_{z} + \mu \mathbf{I} \right] \bar{\mathbf{p}} = \mathbf{G}_{z}^{\top} \mathbf{B}_{z}^{o} \: ,
-\label{eq:linear_sys_p_z}
-\end{equation}
-em que $\mathbf{G}_{z}$ é uma matriz de dimensão $N \times M$ cujo $ij$-ésimo elemento é dado pela função harmônica $g_{ij}^{z}(\mathbf{q})$ (equação \ref{eq:g_ij-z}) avaliada na direção de magnetização fixa $\mathbf{q}$ e $\mathbf{I}$ é uma matriz identidade de dimensão $M \times M$. A equação \ref{eq:linear_sys_p_z} é denominada como estimador de mínimos quadrados \citep{aster2005}. Após estimarmos uma distribuição de momentos magnéticos $\bar{\mathbf{p}}$ relativa a uma direção de magnetização arbitrária $\mathbf{q}$, calculamos as outras duas componentes do campo magnético aplicando a relação dada por:
-
-\begin{equation}
-\mathbf{B}_{x}^{p}  = \mathbf{G}_{x} \bar{\mathbf{p}}
-\label{eq:pred_vec_x}
-\end{equation}
-e
-
-\begin{equation}
-\mathbf{B}_{y}^{p}  = \mathbf{G}_{y} \bar{\mathbf{p}}
-\label{eq:pred_vec_y}
-\end{equation}
-em que $\mathbf{B}_{x}^{p}$ e $\mathbf{B}_{y}^{p}$ são, respectivamente, os vetores de dados preditos com dimensão $N \times 1$ das componentes $x$ e $y$ do campo de indução magnética. As matrizes $\mathbf{G}_{x}$ e $\mathbf{G}_{y}$ possuem dimensão $N \times M $ cujo os elementos são dados por: 
-
-\begin{equation}
-g_{ij}^{x}(\mathbf{q})  = \gamma_m \, \mathbf{M}_{ij}^{x^\top} \, \hat{\mathbf{m}}(\mathbf{q}) \: 
-\label{eq:g_ij-x}
-\end{equation}
-e 
-\begin{equation}
-g_{ij}^{y}(\mathbf{q})  = \gamma_m \, \mathbf{M}_{ij}^{y^\top} \, \hat{\mathbf{m}}(\mathbf{q}) \: ,
-\label{eq:g_ij-y}
-\end{equation}
-em que 
-
-\begin{equation}
-\mathbf{M}_{ij}^{x^\top} = \begin{bmatrix}
-\partial_{xx} \frac{1}{r} & 
-\partial_{xy} \frac{1}{r} &
-\partial_{xz} \frac{1}{r}
-\end{bmatrix}^\top \quad 
-\label{eq:Mij-matrix-x}
-\end{equation}
-e 
-
-\begin{equation}
-\mathbf{M}_{ij}^{y^\top} = \begin{bmatrix}
-\partial_{xy} \frac{1}{r} & 
-\partial_{yy} \frac{1}{r} &
-\partial_{yz} \frac{1}{r}
-\end{bmatrix}^\top \quad .
-\label{eq:Mij-matrix-y}
-\end{equation}
-As derivadas $\partial_{\alpha\beta} \frac{1}{r} \equiv \frac{\partial^{2}}{\partial \alpha \partial \beta} \frac{1}{r}$, representam as derivadas segundas com respeito a $\alpha = x, y$ e $\beta = x, y, z$, do inverso da distância $\frac{1}{r}$ (equação \ref{eq:inverse-distance}) entre as coordenadas de observação $(x, y, z) = (x_{i}, y_{i}, z_{i})$ e as coordenadas das fontes equivalentes $(x'', y'', z_{c}) = (x_{j}, y_{j}, z_{c})$. Além disso, calculamos a amplitude do campo magnético aplicando a relação
-
-\begin{equation}
-\mathbf{B}_a = \sqrt{ \mathbf{B}_{x}^{p^2} + \mathbf{B}_{y}^{p^2} + \mathbf{B}_{z}^{p^2}}   
-\label{eq:amplitude_field}
-\end{equation}
-em que $\mathbf{B}_{x}^{p}$, $\mathbf{B}_{y}^{p}$ e $\mathbf{B}_{z}^{p}$ são as componentes do campo magnético e $\mathbf{B}_a$ é a vetor amplitude do campo magnético. 
-
-\section{A escolha da profundidade da camada ($\mathbf{z_{c}}$) e do parâmetro de regularização ($\mathbf{\mu}$)}
-
-O procedimento pelo qual utilizamos a camada equivalente para estimar a direção de magnetização total das fontes magnéticas e o cálculo das componentes do campo magnético requer a escolha de dois parâmetros principais. O primeiro é a profundidade da camada $z_c$ (Figuras \ref{fig:eqlayer_tfa_sketch} e \ref{fig:eqlayer_bz_sketch}) e o segundo é o parâmetro de regularização $\mu$ mostrado na equação \ref{eq:linear_sys_p}. 
-
-O método utilizado para a escolha da profundidade da camada é baseado na abordagem clássica proposta por \cite{dampney1969}. O autor aponta que o posicionamento da camada deve satisfazer um intervalo de $2,5$ a $6,0$ vezes o espaçamento dos dados. Vale ressaltar que esta regra foi aplicada pelos autores em uma grade com dados regularmente espaçados. Contudo, a escolha para aplicar nosso método corresponde a um intervalo de $2$ a $3$ vezes o valor do maior espaçamento entre os dados. É necessário lembrar que este intervalo foi encontrado empiricamente. 
-
-Para resolver a equação \ref{eq:linear_sys_p}, temos que escolher um valor confiável para o parâmetro de regularização. Com este propósito, usamos o método da curva-L, que serve como uma filtragem de ruídos dos dados, sem que o resultado final perca informações. O 'cotovelo' desta curva é o valor ótimo de parâmetro no qual é feito o balanço entre a função de ajuste e a função regularizadora. 
