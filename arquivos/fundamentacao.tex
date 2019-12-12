@@ -1,26 +1,30 @@
-\chapter{Fundamentação teórica}
+\chapter{Fundamentação e desenvolvimentos teóricos}
 \label{chap:fundamentacao}
 
 
 \section{Campo de indução magnética}
 \label{sec:campo}
 
+De acordo com as leis da magnetostática, um conjunto de fontes magnéticas arbitrárias produz, 
+na ausência de densidades de corrente, um campo de indução magnética dado por
 \begin{equation}
-\mathbf{B}(x, y, z) = - \nabla \Gamma(x, y, z)
+\mathbf{B}(x, y, z) = - \nabla \Gamma(x, y, z) \: ,
 \label{eq:B-true-generic}
 \end{equation}
-
+em que 
 \begin{equation}
 \Gamma(x, y, z) = - \gamma_{m} \iiint\limits_{\upsilon} \mathbf{m}(x', y', z') \cdot \nabla\frac{1}{r'} 
 \; d\upsilon'
 \label{eq:Gamma-potential}
 \end{equation}
-
+é o potencial magnético escalar, $(x', y', z')$ representa um ponto localizado no interior do 
+volume $\upsilon$ das fontes, 
 \begin{equation}
 \frac{1}{r'} = \frac{1}{\left[ (x - x')^{2} + (y - y')^{2} + (z - z')^{2} \right]^{\frac{1}{2}}}
 \label{eq:inv-r'}
 \end{equation}
-
+é a função inverso da distância entre um ponto $(x', y', z')$ e um ponto $(x, y, z)$ localizado fora
+das fontes e 
 \begin{equation}
 \mathbf{m}(x', y', z') = \begin{bmatrix}
 m_{x}(x', y', z') \\
@@ -29,19 +33,19 @@ m_{z}(x', y', z')
 \end{bmatrix}
 \label{eq:mag-vector-true-generic}
 \end{equation}
-
+é o vetor magnetização no interior das fontes \citep[][ p. 175, 193]{jackson1975}.
+A partir das equações acima, a componente $\alpha$, $\alpha = x, y, z$ do campo de indução 
+magnética produzido pelas fontes é dada por
 \begin{equation}
 B_{\alpha}(x, y, z) = \gamma_{m} \iiint\limits_{\upsilon} 
 \mathbf{m}(x', y', z') \cdot \partial_{\alpha} \nabla \frac{1}{r'} 
 \; d\upsilon' \: , \quad \alpha = x, y, z \: ,
 \label{eq:B-alpha-true-generic}
 \end{equation}
-em que $\partial_{\alpha} \equiv \frac{\partial}{\partial \alpha}$ ...
-
-Presumindo que, em qualquer ponto $(x, y, z)$ fora das fontes magnéticas, nenhuma 
-componente $B_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-true-generic}) varia no tempo, 
-o campo de indução magnética $\mathbf{B}(x, y, z)$ (equação \ref{eq:B-true-generic}) é governado
-pela lei de Gauss
+em que $\partial_{\alpha} \equiv \frac{\partial}{\partial \alpha}$ representa 
+a derivada parcial em relação a coordenada $\alpha = x, y, z$.
+Além disso, nestas condições, o campo de indução magnética $\mathbf{B}(x, y, z)$ (equação \ref{eq:B-true-generic}) 
+é governado pela lei de Gauss para campos magnéticos
 \begin{equation}
 \nabla \cdot \mathbf{B}(x, y, z) = 
 \partial_{x} B_{x}(x, y, z) + \partial_{y} B_{y}(x, y, z) + \partial_{z} B_{z}(x, y, z) = 
@@ -63,9 +67,17 @@ e a lei de Ampère
 \label{eq:lei-Ampere}
 \end{equation}
 
-
-
-Considere o vetor unitário 
+Usando as equações do campo de indução magnética produzido por um conjunto de fontes 
+magnéticas arbitrárias, é possível definir uma importante quantidade utilizada em  
+geofísica aplicada denominada a \textit{anomalia de campo total}. Esta quantidade é
+comumente definida da seguinte forma \citep[][ p. 179]{blakely1996}:
+\begin{equation}
+\Delta T(x, y, z) = \hat{\mathbf{u}}(I_{0}, D_{0}) \cdot \mathbf{B}(x, y, z) \: ,
+\label{eq:Delta-T-true}
+\end{equation}
+em que $I_{0}$ e $D_{0}$ são a inclinação e a declinação do campo principal na área de 
+estudo, respectivamente, e $\hat{\mathbf{u}}(I_{0}, D_{0})$ é um vetor unitário definido por 
+pela função vetorial
 \begin{equation}
 \hat{\mathbf{u}}(I, D) = 
 \begin{bmatrix}
@@ -80,13 +92,7 @@ Considere o vetor unitário
 \end{bmatrix} \: ,
 \label{eq:u-hat}
 \end{equation}
-definido em termos de uma inclinação $I$ e uma declinação $D$.
-
-
-\begin{equation}
-\Delta T(x, y, z) = \hat{\mathbf{u}}(I_{0}, D_{0}) \cdot \mathbf{B}(x, y, z) \: .
-\label{eq:Delta-T-true}
-\end{equation}
+para o caso particular em que $I = I_{0}$ e $D = D_{0}$.
 
 
 \section{Camada equivalente magnética}
