@@ -6,7 +6,8 @@
 \label{sec:campo}
 
 De acordo com as leis da magnetostática, um conjunto de fontes magnéticas arbitrárias produz, 
-na ausência de densidades de corrente, um campo de indução magnética dado por
+na ausência de densidades de corrente, um campo de indução magnética dado por 
+\citep[e.g., ][ p. 175, 193]{jackson1975}:
 \begin{equation}
 \mathbf{B}(x, y, z) = - \nabla \Gamma(x, y, z) \: ,
 \label{eq:B-true-generic}
@@ -33,7 +34,7 @@ m_{z}(x', y', z')
 \end{bmatrix}
 \label{eq:mag-vector-true-generic}
 \end{equation}
-é o vetor magnetização no interior das fontes \citep[][ p. 175, 193]{jackson1975}.
+é o vetor magnetização no interior das fontes.
 A partir das equações acima, a componente $\alpha$, $\alpha = x, y, z$ do campo de indução 
 magnética produzido pelas fontes é dada por
 \begin{equation}
@@ -76,7 +77,7 @@ comumente definida da seguinte forma \citep[][ p. 179]{blakely1996}:
 \label{eq:Delta-T-true}
 \end{equation}
 em que $I_{0}$ e $D_{0}$ são a inclinação e a declinação do campo principal na área de 
-estudo, respectivamente, e $\hat{\mathbf{u}}(I_{0}, D_{0})$ é um vetor unitário definido por 
+estudo, respectivamente, e $\hat{\mathbf{u}}(I_{0}, D_{0})$ é um vetor unitário definido  
 pela função vetorial
 \begin{equation}
 \hat{\mathbf{u}}(I, D) = 
@@ -99,33 +100,42 @@ para o caso particular em que $I = I_{0}$ e $D = D_{0}$.
 \label{sec:camada-equivalente}
 
 
+Considere uma camada contínua de dipolos definida sobre o plano $z = z_{c}$, com 
+direção de magnetização uniforme definida pelo vetor unitário $\hat{\mathbf{u}}(I, D)$,
+com inclinação $I$ e declinação $D$ arbitrárias. O campo de indução magnética 
+produzido por esta camada é dado por \citep[e.g., ][]{hansen_miyazaki1984}:
 \begin{equation}
 \tilde{\mathbf{B}}(x, y, z) = - \nabla \Phi(x, y, z)
 \label{eq:B-layer}
 \end{equation}
-
+em que
 \begin{equation}
 \Phi(x, y, z) = - \gamma_{m} \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty} 
 p(x'', y'', z_{c}) \, \hat{\mathbf{u}}(I, D) \cdot \nabla \frac{1}{r''} \; dS'' \: , \quad z_{c} > z \: ,
 \label{eq:Phi-potential}
 \end{equation}
-
+é o potencial magnético escalar,
 \begin{equation}
 \frac{1}{r''} = \frac{1}{\left[ (x - x'')^{2} + (y - y'')^{2} + (z - z_{c})^{2} \right]^{\frac{1}{2}}}
 \label{eq:inv-r''}
 \end{equation}
-
+é a função inverso da distância entre um ponto $(x'', y'', z_{c})$ localizado sobre a camada 
+e um ponto $(x, y, z)$ localizado acima da camada ($z < z_{c}$).
+Usando as equações acima, a componente $\tilde{B}_{\alpha}(x, y, z)$, $\alpha = x, y, z$, do campo de indução 
+magnética e a anomalia de campo total $\Delta\tilde{T}(x, y, z)$ produzidas pela camada de dipolos no 
+ponto $(x, y, z)$ são dadas por
 \begin{equation}
 \tilde{B}_{\alpha}(x, y, z) = \gamma_{m} \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty} 
 p(x'', y'', z_{c}) \, \hat{\mathbf{u}}(I, D) \cdot \partial_{\alpha} \nabla \frac{1}{r''} \; dS'' 
 \: , \quad \alpha = x, y, z \: ,
 \label{eq:B-alpha-layer}
 \end{equation}
-
+e
 \begin{equation}
 \Delta\tilde{T}(x, y, z) = \hat{\mathbf{u}}(I_{0}, D_{0}) \cdot \tilde{\mathbf{B}}(x, y, z) \: .
 \label{eq:Delta-T-layer}
 \end{equation}
+Esta camada de dipolos é comumente denominada \textit{camada equivalente}.
 
 
 \section{Consequências das Leis de Gauss e Amp{\`e}re}
