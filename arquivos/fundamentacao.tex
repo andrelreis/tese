@@ -123,7 +123,7 @@ p(x'', y'', z_{c}) \, \hat{\mathbf{u}}(I, D) \cdot \nabla \frac{1}{r''} \; dS'' 
 e um ponto $(x, y, z)$ localizado acima da camada ($z < z_{c}$).
 Usando as equações acima, a componente $\tilde{B}_{\alpha}(x, y, z)$, $\alpha = x, y, z$, do campo de indução 
 magnética e a anomalia de campo total $\Delta\tilde{T}(x, y, z)$ produzidas pela camada de dipolos no 
-ponto $(x, y, z)$ são dadas por
+ponto $(x, y, z)$ são dadas respectivamante por
 \begin{equation}
 \tilde{B}_{\alpha}(x, y, z) = \gamma_{m} \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty} 
 p(x'', y'', z_{c}) \, \hat{\mathbf{u}}(I, D) \cdot \partial_{\alpha} \nabla \frac{1}{r''} \; dS'' 
@@ -300,8 +300,9 @@ deverá ser reproduzida por uma camada equivalente diferente, o que violaria as 
 Gauss (equação \ref{eq:lei-Gauss}) e de Ampère (equação \ref{eq:lei-Ampere}).
 
 Os resultados teóricos desenvolvidos aqui estão em pleno acordo com aqueles apresentados por 
-\citet{lima_weiss_2009}. Aqueles autores também usaram as leis de Gauss (equação \ref{eq:lei-Gauss})
-e Ampère (equação \ref{eq:lei-Ampere}) para mostrar que é possível determinar todas as componentes do campo de 
+\citet{lima_weiss_2009} no domínio de Fourier. Aqueles autores também usaram as leis de Gauss 
+(equação \ref{eq:lei-Gauss}) e Ampère (equação \ref{eq:lei-Ampere}) para mostrar que é possível 
+determinar todas as componentes do campo de 
 indução magnética produzido por fontes arbitrárias a partir de dados de uma única componente. 
 Aqueles autores, contudo, conduziram sua análise no domínio de Fourier, não fizeram nenhuma consideração 
 sobre a distribuição de magnetização que reproduz as componentes do campo e consideraram o caso 
@@ -403,7 +404,8 @@ são constantes definidas pelas componentes $\hat{u}_{\alpha}(I_{0}, D_{0})$ e $
 $\alpha = x, y, z$, $\beta = x, y, z$, dos vetores unitários $\hat{\mathbf{u}}(I_{0}, D_{0})$ e 
 $\hat{\mathbf{u}}(I_{t}, D_{t})$ (equação \ref{eq:u-hat}), respectivamente,
 definidos pela inclinação $I_{0}$ e declinação $D_{0}$ do campo principal na área de estudo e 
-pela inclinação $I_{t}$ e declinação $D_{t}$ da magnetização uniforme das fontes magnéticas. 
+pela inclinação $I_{t}$ e declinação $D_{t}$ da magnetização uniforme das fontes magnéticas 
+verdadeiras. 
 Por simplicidade, omitimos a dependência dos coeficientes $a_{\alpha\beta}$ em relação aos parâmetros 
 $I_{0}$, $D_{0}$, $I_{t}$ e $D_{t}$.
 As equações \ref{eq:Delta-T-true-mag-uniform} e \ref{eq:a-coefficients-sources} mostram que a anomalia de campo 
@@ -579,7 +581,7 @@ em que
 \partial_{z} \Omega(x'', y'', z_{c}) = \iiint\limits_{\upsilon} 
 \frac{m(x', y', z') (z' - z_{c}) \: 
 d\upsilon^{\prime}}
-{\left[ (x''-x')^2 + (y''-y')^2 + (z_{c}-z')^2 \right]^{\frac{3}{2}}} \: , \quad z' < z_{c} \: .
+{\left[ (x''-x')^2 + (y''-y')^2 + (z_{c}-z')^2 \right]^{\frac{3}{2}}} \: , \quad z' > z_{c} \: .
 \label{eq:Dz-Omega-potential}
 \end{equation}
 Do ponto de vista físico, a equação \ref{eq:Dz-Omega-potential} representa a componente vertical da atração 
