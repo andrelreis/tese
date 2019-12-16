@@ -1,3 +1,35 @@
 \begin{abstract}
-A tecnica da camada equivalente é comumente utilizada no processamento de dados de anomalia de campo total estimando uma distribuição de momentos magnéticos 2D composta por dipolos abaixo do plano de observação. No entanto, algumas técnicas de processamento que utilizam a camada equivalente dependem do conhecimento da direção de magnetização das fontes. Neste trabalho, investigamos dois aspectos teóricos e práticos da técnica da camada equivalente. No primeiro deles, desenvolvemos um método para estimar a direção de magnetização total das fontes magnéticas baseado na técnica da camada equivalente utilizando dados de anomalia de campo total. Quando a direção de magnetização das fontes equivalentes são próximas da direção de magnetização das fontes verdadeiras, a propriedade magnética sobre a camada é inteiramente positiva. Iterativamente, o método proposto impõe a regularização de Tikhonov de ordem zero e um vínculo de positividade sobre os momentos magnéticos estimados e estimam a direção de magnetização das fontes geológicas. Matematicamente, o algoritmo resolve um problema de mínimos quadrados em dois passos: o primeiro resolvendo um problema inverso linear para estimar uma distribuição de momentos magnéticos 2D sobre a camada e o segundo resolvendo um problema inverso não-linear para a direção de magnetização das fontes magnéticas. Na segunda abordagem, testamos se a aplicação da técnica da camada equivalente no cálculo das componentes e da amplitude do campo magnético depende da direção de magnetização das fontes. Fixamos uma direção de magnetização e estimamos uma distribuição de momentos magnéticos que pode ser utilizada para calcular as componentes do campo magnético e sua amplitude. Em ambos os casos, esta abordagem não requer informações sobre a geometria ou profundidade das fontes, e nem dados regularmente espaçados. Testamos a metodologia proposta aplicando a dados sintéticos para diferentes cenários geológicos, e os resultados mostram que o método pode ser uma ferramenta poderosa para estimar a direção de magnetização de um conjunto de fontes. Teste com dados de campo na província alcalina de Goiás (PAGO), região central do Brasil, sobre o complexo de Montes Claros sugerem que estas intrusões possuem fortes componentes de magnetização remanente, que está em acordo com a literatura atual para esta região. Além disso, testamos a técnica de processamento com dados sintéticos simulando amostras de rocha, e os resultados mostram que este tipo de processamento não depende do conhecimento prévio da magnetização de magnetização. Utilizando dados de microscopia magnética, a aplicação deste tipo de processamento em uma amostra geológica proveniente da cratera de Vredefort confirma esta característica da camada equivalente.
+
+Nesta tese, apresento dois resultados teóricos e as respectivas aplicações da 
+camada equivalente no processamento e interpretação de dados magnéticos. 
+No primeiro deles, mostro que há uma única camada plana e contínua de dipolos, com uma 
+determinada direção de magnetização uniforme, capaz de reproduzir, simultaneamente, as 
+três componentes do campo de indução magnética produzido por um conjunto arbitrário de fontes.
+Esta propriedade é válida independentemente se a direção de magnetização na camada é igual a 
+das fontes ou não.
+A partir deste resultado teórico, mostro que é possível usar uma camada plana de dipolos com 
+direção de magnetização uniforme e arbitrária para estimar as três componentes do campo de 
+indução magnética produzido por um conjunto arbitrário de fontes via inversão linear 
+de dados de uma única componente.
+Resultados com dados sintéticos produzidos por simulações numéricas e dados reais obtidos 
+sobre uma amostra de rocha proveniente da cratera de Vredefort, África do Sul,
+mostram a utilidade do método no processamento de dados de microscopia magnética e na 
+identificação de regiões com maior concentração de minerais magnéticos.
+No segundo desenvolvimento teórico apresentado nesta tese, mostro que a distribuição de 
+intensidades de momento magnético sobre uma camada plana e contínua de dipolos é toda 
+positiva se a direção de magnetização uniforme na camada é igual àquela das fontes verdadeiras.
+Usando esta propriedade de positividade, apresento um método iterativo para estimar a direção 
+de magnetização uniforme de um conjunto de fontes 3D a partir da inversão de dados de anomalia de 
+campo total. A cada iteração, o método resolve um 
+problema inverso linear para estimar uma distribuição de intensidades de momento magnético positiva
+e um problema inverso não-linear para estimar a direção de magnetização sobre uma camada plana de dipolos.
+Ao final do processo, a direção de magnetização uniforme das fontes equivalentes se aproxima daquela 
+das fontes verdadeiras.
+Testes com dados produzidos por modelos que simulam diferentes cenários geológicos mostram que o 
+método pode ser uma ferramenta poderosa para estimar a direção de magnetização uniforme 
+de um conjunto de fontes geológicas. Aplicações a dados de aerolevantamento sobre o complexo de Montes Claros
+de Goiás, localizado na província alcalina de Goiás, região central do Brasil, sugerem que estas intrusões 
+possuem intensa magnetização remanente, o que está em acordo com um estudo independente conduzido 
+previamente na mesma área. 
+
 \end{abstract}

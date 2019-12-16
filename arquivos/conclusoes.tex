@@ -6,20 +6,29 @@ usando a técnica da camada equivalente.
 No primeiro, provamos matematicamente que, dada uma direção de magnetização uniforme, existe uma única distribuição 
 de intensidade de momentos magnéticos na camada equivalente, em uma determinada profundidade constante abaixo das observações, 
 que é capaz de reproduzir, simultaneamente, as três componentes de um mesmo campo de indução magnética produzido 
-por fontes magnéticas arbitrárias. Segundo este resultado teórico, 
+por fontes magnéticas arbitrárias. Uma consequência direta deste resultado teórico é que, se a camada reproduzir  
+uma das componentes do campo, ela deve, obrigatoriamente, reproduzir as demais componentes, ainda que sua direção de 
+magnetização seja diferente daquela das fontes magnéticas arbitrárias. Caso contrário, as leis de Gauss (para campos magnéticos) 
+e de Ampère são violadas. Usando este resultado teórico, fixamos uma direção de magnetização arbitrária para uma camada equivalente 
+plana e estimamos uma distribuição de intensidades de momentos magnéticos por meio da inversão linear de dados de uma única componente 
+do campo produzido por fontes arbitrárias. Uma vez estimada a distribuição de momento que reproduz uma única componente, 
+calculamos as demais componentes e a amplitude do campo de indução magnético. 
 
-PAREI AQUI
-
-, utilizando somente uma das componentes campo magnético, a técnica camada equivalente é capaz de reproduzir as componentes e a amplitude do campo produzido por fontes magnéticas sem o conhecimento prévio de sua direção de magnetização. Neste caso, fixamos uma direção de magnetização arbitrária para a camada equivalente e estimamos uma distribuição de momentos magnéticos resolvendo um problema inverso linear. Através de uma transformação conseguimos calcular as componentes e a amplitude do campo magnético. Esta propriedade é válida para qualquer tipo de magnetização, seja ela induzida ou não, e também para dados que não estão regularmente espaçados. 
-
-Além disso, resultados com dados sintéticos produzidos por modelos que simulam amostras de laboratório mostraram que a técnica da camada equivalente pode recuperar as componentes e a amplitude do campo magnético sem termo o conhecimento prévio da direção de magnetização das fontes. Estes testes ilustram que este tipo de processamento pode ser aplicado a dados gerados por microscópios magnéticos. Este fato é confirmado através da aplicação da técnica da camada equivalente no processamento das medidas da componente vertical do campo magnético gerado por uma amostra de rocha proveniente da cratera de Vredefort, na África do Sul. Diferente das técnicas no domínio de Fourier, calculamos as componentes do campo magnético e a sua amplitude no domínio do espaço. Estes resultados mostram que esse tipo de processamento pode ser uma ferramenta confiável para descrever a distribuição de magnetização sobre uma amostra de rocha, identificando regiões livres com ou sem portadores magnéticos ao longo de amostras geológicas.
+Resultados com dados produzidos por modelos que simulam amostras planares de rocha mostraram que o método recupera as componentes 
+e a amplitude do campo de indução magnética sem o conhecimento prévio da direção de magnetização das fontes. 
+Com base nos resultados com dados sintéticos, aplicamos o método a dados da componente vertical do campo de indução magnética 
+gerados por uma amostra de rocha proveniente da cratera de Vredefort, na África do Sul. Os dados foram obtidos por meio de microscopia 
+magnética de varredura, usando um sensor de baixo custo baseado no efeito Hall e que opera em temperatura ambiente. 
+Os resultados mostram que esse tipo de processamento é muito útil para estimar a distribuição de magnetização em amostras de rocha, 
+na escala de laboratório, e identificar regiões com maior concentração de portadores magnéticos. A identificação destas regiões 
+é importante para análises posteriores sobre o conteúdo mineralógico e a caracterização magnética das amostras geológicas.
 
 O segundo desenvolvimento teórico apresentado nesta tese mostra que a anomalia de campo total causada por fontes magnéticas com direção 
 de magnetização uniforme pode ser reproduzida por uma camada plana e contínua com distribuição de momentos magnéticos positiva. 
 Esta propriedade teórica é válida para os casos nos quais a camada equivalente possui a mesma direção de magnetização 
-das fontes verdadeiras, ainda que a magnetização seja puramente induzida ou não. 
+das fontes verdadeiras, seja ela puramente induzida ou não. 
 Utilizando esta propriedade de positividade, apresentamos um método iterativo para estimar a magnetização total de fontes 
-3D baseados na técnica da camada equivalente. A cada iteração, resolvemos um problema inverso linear para estimar uma distribuição 
+3D baseada na técnica da camada equivalente. A cada iteração, resolvemos um problema inverso linear para estimar uma distribuição 
 de momentos magnéticos positiva e resolvemos um problema inverso não-linear para estimar a direção de magnetização das 
 fontes equivalentes. Ao final do processo iterativo, a direção de magnetização na camada se aproxima daquela das 
 fontes magnéticas. 
@@ -27,24 +36,21 @@ Este método não requer nenhum conhecimento prévio sobre a forma e a profundid
 magnéticas, nem mesmo o uso de dados regulamente espaçados. Esta abordagem pode ser aplicada para determinar a direção 
 de magnetização de múltiplas fontes, presumindo que todas tenham a mesma direção de magnetização total. 
 
-Resultados obtidos com dados sintéticos produzidos por múltiplas fontes mostraram que a direção de magnetização 
+Resultados obtidos com dados sintéticos produzidos por modelos de múltiplas fontes mostram que a direção de magnetização 
 pode ser estimada através do nosso método iterativo. 
-Estes testes também ilustraram como a presença de fontes rasas afetam 
-o resultado obtido por nosso método, para os casos em que estas fontes rasas possuem direções de magnetização iguais ou 
-diferentes das demais. 
-Em ambos os casos, a camada equivalente produziu grandes resíduos logo acima das fontes rasas; no entanto, não podemos 
-distinguir se a direção de magnetização da fonte rasa é igual ou diferente das demais. 
-Além disso, nosso método não produz resultados satisfatórios se a fonte rasa tem direção de magnetização diferente das outras fontes. 
-Aplicamos o método a dados de campo provenientes da província alcalina de Goiás, região central do Brasil. 
+Estes testes também ilustram como a presença de fontes muito mais rasas que as demais afeta o resultado obtido por nosso 
+método, para os casos em que estas fontes rasas possuem direções de magnetização iguais ou diferentes das demais. 
+Em ambos os casos, os resultados mostram grandes resíduos logo acima das fontes rasas; no entanto, não é possível 
+distinguir se eles são produzidos por fontes rasas com a mesma direção ou com direção de magnetização diferentes das demais. 
+Aplicamos o método a dados de anomalia de campo total provenientes de um aerolevantamento sobre a província alcalina de Goiás, 
+região central do Brasil. 
 Os resultados confirmaram que nosso método é útil para a interpretação de cenários geológicos complexos. 
-Os resultados para as anomalias no complexo de Montes Claros de Goiás sugerem a presenta de magnetização remanente nas fontes, 
-que estão de acordo com estudos anteriores conduzidos na mesma região. 
+Os resultados para as anomalias no complexo de Montes Claros de Goiás sugerem a presenta de magnetização remanente nas fontes e 
+estão de acordo com estudos anteriores conduzidos de forma independente na mesma região. 
 A distribuição de momentos magnéticos estimada sobre a camada produz uma excelente redução ao polo, com valores predominantemente positivos
 e que decaem a zero nas bordas das anomalias. 
 Os resultados também mostram grandes desajustes em algumas áreas isoladas. 
 Consideramos que estes desajustes locais são devido à presença de fontes rasas. Contudo, não conseguimos inferir se elas possuem a 
 mesma direção de magnetização das outras fontes. 
-Vale ressaltar que, caso a fonte esteja magnetizada verticalmente, o método não é capaz de recuperar 
-uma direção de magnetização para estes corpos.  
 
 
