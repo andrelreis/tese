@@ -278,4 +278,56 @@ def sensitivity_bz(x,y,z,xs,ys,zs,inc,dec):
     A *= CM*T2NT
     return A
 
+def sensitivity_by(x,y,z,xs,ys,zs,inc,dec):
+    '''
+    Calculate the sensitivity matrix
+
+    input
+
+    return
+    '''
+    N = x.size # number of data
+    M = xs.size # number of parameters
+
+    A = np.empty((N,M)) # sensitivity matrix
+
+    mx,my,mz = ang2vec(1.,inc,dec) # magnetization direction in Cartesian coordinates
+
+    for i in range(N):
+        phi_xy = kernelxy(x[i],y[i],z[i],xs,ys,zs)
+        phi_yy = kernelyy(x[i],y[i],z[i],xs,ys,zs)
+        phi_yz = kernelyz(x[i],y[i],z[i],xs,ys,zs)        
+        gi = phi_xy*mx + phi_yy*my + phi_yz*mz
+
+        A[i,:] = gi
+
+    A *= CM*T2NT
+    return A
+
+def sensitivity_bx(x,y,z,xs,ys,zs,inc,dec):
+    '''
+    Calculate the sensitivity matrix
+
+    input
+
+    return
+    '''
+    N = x.size # number of data
+    M = xs.size # number of parameters
+
+    A = np.empty((N,M)) # sensitivity matrix
+
+    mx,my,mz = ang2vec(1.,inc,dec) # magnetization direction in Cartesian coordinates
+
+    for i in range(N):
+        phi_xx = kernelxx(x[i],y[i],z[i],xs,ys,zs)
+        phi_xy = kernelxy(x[i],y[i],z[i],xs,ys,zs)
+        phi_xz = kernelxz(x[i],y[i],z[i],xs,ys,zs)        
+        gi = phi_xx*mx + phi_xy*my + phi_xz*mz
+
+        A[i,:] = gi
+
+    A *= CM*T2NT
+    return A
+
  
