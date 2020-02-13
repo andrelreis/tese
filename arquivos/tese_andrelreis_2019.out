@@ -1,29 +1,32 @@
 \BOOKMARK [0][-]{chapter*.2}{Lista de Figuras}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Introdu\347\343o}{}% 2
-\BOOKMARK [0][-]{chapter.2}{Metodologia}{}% 3
-\BOOKMARK [1][-]{section.2.1}{A camada equivalente magn\351tica e a distribui\347\343o de momentos positiva}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.2}{Fundamenta\347\343o te\363rica das componentes do vetor magn\351tico}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.3}{Parametriza\347\343o e o problema direto}{chapter.2}% 6
-\BOOKMARK [2][-]{subsection.2.3.1}{Para a anomalia de campo total}{section.2.3}% 7
-\BOOKMARK [2][-]{subsection.2.3.2}{Para a componente vertical do campo magn\351tico}{section.2.3}% 8
-\BOOKMARK [1][-]{section.2.4}{Problema inverso}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.4.1}{A estimativa da dire\347\343o de magnetiza\347\343o}{section.2.4}% 10
-\BOOKMARK [2][-]{subsection.2.4.2}{O c\341lculo das componentes do campo magn\351tico e a amplitude do campo}{section.2.4}% 11
-\BOOKMARK [1][-]{section.2.5}{A escolha da profundidade da camada \(zc\) e do par\342metro de regulariza\347\343o \(\)}{chapter.2}% 12
-\BOOKMARK [0][-]{chapter.3}{Testes sint\351ticos para estimativa da dire\347\343o de magnetiza\347\343o}{}% 13
-\BOOKMARK [1][-]{section.3.1}{Fontes de mesma dire\347\343o de magnetiza\347\343o}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.2}{Magnetiza\347\343o unidirecional com fonte rasa}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.3}{Fonte rasa com dire\347\343o de magnetiza\347\343o diferente}{chapter.3}% 16
-\BOOKMARK [0][-]{chapter.4}{Aplica\347\343o a dados reais: Complexo de Montes Claros de Goi\341s}{}% 17
-\BOOKMARK [0][-]{chapter.5}{Testes sint\351ticos para o c\341lculo das componentes e da amplitude do vetor magn\351tico}{}% 18
-\BOOKMARK [1][-]{section.5.1}{Simula\347\343o de amostra simples}{chapter.5}% 19
-\BOOKMARK [2][-]{subsection.5.1.1}{Camada equivalente com a mesma dire\347\343o de magnetiza\347\343o da amostra}{section.5.1}% 20
-\BOOKMARK [2][-]{subsection.5.1.2}{Camada equivalente com dire\347\343o de magnetiza\347\343o diferente da amostra}{section.5.1}% 21
-\BOOKMARK [1][-]{section.5.2}{Simula\347\343o de amostra com heterogeneidades}{chapter.5}% 22
-\BOOKMARK [2][-]{subsection.5.2.1}{Camada equivalente com a mesma dire\347\343o de magnetiza\347\343o da amostra}{section.5.2}% 23
-\BOOKMARK [2][-]{subsection.5.2.2}{Camada equivalente com dire\347\343o de magnetiza\347\343o diferente da amostra}{section.5.2}% 24
-\BOOKMARK [0][-]{chapter.6}{Aplica\347\343o a dados de laborat\363rio: amostra da cratera de Vredefort}{}% 25
-\BOOKMARK [0][-]{chapter.7}{Conclus\365es}{}% 26
-\BOOKMARK [0][-]{appendix.A}{Dedu\347\343o da equa\347\343o 2.19}{}% 27
-\BOOKMARK [0][-]{appendix.B}{Fontes magnetizadas verticalmente}{}% 28
-\BOOKMARK [0][-]{appendix*.4}{Refer\352ncias Bibliogr\341ficas}{}% 29
+\BOOKMARK [0][-]{chapter.2}{Fundamenta\347\343o e desenvolvimentos te\363ricos}{}% 3
+\BOOKMARK [1][-]{section.2.1}{Campo de indu\347\343o magn\351tica}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.2}{Camada equivalente magn\351tica}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.3}{Consequ\352ncias das Leis de Gauss e Amp\350re}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.4}{Distribui\347\343o de momentos positiva}{chapter.2}% 7
+\BOOKMARK [0][-]{chapter.3}{Metodologia}{}% 8
+\BOOKMARK [1][-]{section.3.1}{Estimativa das componentes e da amplitude do campo magn\351tico}{chapter.3}% 9
+\BOOKMARK [2][-]{subsection.3.1.1}{Parametriza\347\343o e problema direto}{section.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.1.2}{Problema inverso}{section.3.1}% 11
+\BOOKMARK [1][-]{section.3.2}{Estimativa da dire\347\343o de magnetiza\347\343o}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.2.1}{Parametriza\347\343o e problema direto}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.2}{Problema inverso}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.3}{Processo iterativo para a estimar a dire\347\343o de magnetiza\347\343o}{section.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.2.4}{Limita\347\343o para o caso de fontes magnetizadas verticalmente}{section.3.2}% 16
+\BOOKMARK [1][-]{section.3.3}{Profundidade da camada \(zc\) e par\342metro de regulariza\347\343o \(\)}{chapter.3}% 17
+\BOOKMARK [0][-]{chapter.4}{Simula\347\365es num\351ricas do desenvolvimento I}{}% 18
+\BOOKMARK [1][-]{section.4.1}{Amostra simples}{chapter.4}% 19
+\BOOKMARK [2][-]{subsection.4.1.1}{Camada equivalente com a mesma dire\347\343o de magnetiza\347\343o da amostra}{section.4.1}% 20
+\BOOKMARK [2][-]{subsection.4.1.2}{Camada equivalente com dire\347\343o de magnetiza\347\343o diferente da amostra}{section.4.1}% 21
+\BOOKMARK [1][-]{section.4.2}{Amostra com heterogeneidades}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.2.1}{Camada equivalente com a mesma dire\347\343o de magnetiza\347\343o da amostra}{section.4.2}% 23
+\BOOKMARK [2][-]{subsection.4.2.2}{Camada equivalente com dire\347\343o de magnetiza\347\343o diferente da amostra}{section.4.2}% 24
+\BOOKMARK [0][-]{chapter.5}{Aplica\347\343o a dados da amostra de Vredefort}{}% 25
+\BOOKMARK [0][-]{chapter.6}{Simula\347\365es num\351ricas do desenvolvimento II}{}% 26
+\BOOKMARK [1][-]{section.6.1}{Fontes de mesma dire\347\343o de magnetiza\347\343o}{chapter.6}% 27
+\BOOKMARK [1][-]{section.6.2}{Magnetiza\347\343o unidirecional com fonte rasa}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.3}{Fonte rasa com dire\347\343o de magnetiza\347\343o diferente}{chapter.6}% 29
+\BOOKMARK [0][-]{chapter.7}{Aplica\347\343o a dados de Montes Claros de Goi\341s}{}% 30
+\BOOKMARK [0][-]{chapter.8}{Conclus\365es}{}% 31
+\BOOKMARK [0][-]{chapter*.4}{Refer\352ncias Bibliogr\341ficas}{}% 32

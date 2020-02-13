@@ -3,68 +3,27 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tese_andrelreis_2019.aux
 A level-1 auxiliary file: resumo.aux
 A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: agradecimentos.aux
 A level-1 auxiliary file: introducao.aux
+A level-1 auxiliary file: fundamentacao.aux
 A level-1 auxiliary file: metodologia.aux
-A level-1 auxiliary file: simulacoes_I.aux
-A level-1 auxiliary file: dados_reais_I.aux
 A level-1 auxiliary file: simulacoes_II.aux
 A level-1 auxiliary file: dados_reais_II.aux
+A level-1 auxiliary file: simulacoes_I.aux
+A level-1 auxiliary file: dados_reais_I.aux
 A level-1 auxiliary file: conclusoes.aux
-A level-1 auxiliary file: deducao.aux
-A level-1 auxiliary file: magnetizacao_vertical.aux
 The style file: on-plain.bst
-Database file #1: references.bib.bib
-I was expecting a `,' or a `}'---line 239 of file references.bib.bib
- :  
- :  doi = {10.1111/j.1365-2478.1994.tb00209.x},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 405 of file references.bib.bib
- : @article{zhang_etal_2018
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 417 of file references.bib.bib
- : @article{dampney1969
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 574 of file references.bib.bib
- : @article{pedersen1991
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 601 of file references.bib.bib
- : @article{baratchart2013
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 617 of file references.bib.bib
- : @article {lima2013
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 628 of file references.bib.bib
- : @article{li_etal_2014
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 663 of file references.bib.bib
- : @article{siqueira_etal_2017
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 684 of file references.bib.bib
- : @article{li_li_2014
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 748 of file references.bib.bib
- : @article{silvadias_etal_2010
+Database file #1: references.bib
+Repeated entry---line 262 of file references.bib
+ : @article{medeiros_silva_1995
  :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 874 of file references.bib.bib
- : @article{lana_etal_2003
- :                        ,
 I'm skipping whatever remains of this entry
 A bad cross reference---entry "dutra_etal_2014"
 refers to entry "10.5327/Z2317-4889201400030003", which doesn't exist
 Warning--I didn't find a database entry for "10.5327/Z2317-4889201400030003"
-Name 3 in "A. C. Dutra and Y. Marangoni and R. I. F. Trindade," has a comma at the end for entry dutra_etal_2014
-while executing---line 1353 of file on-plain.bst
 `address' is a missing field, not a string, for entry aster2005
+while executing---line 1437 of file on-plain.bst
+`address' is a missing field, not a string, for entry blakely1996
 while executing---line 1437 of file on-plain.bst
 `address' is a missing field, not a string, for entry butler1998
 while executing---line 1437 of file on-plain.bst
@@ -72,53 +31,51 @@ while executing---line 1437 of file on-plain.bst
 while executing---line 1437 of file on-plain.bst
 `address' is a missing field, not a string, for entry dunlop1997
 while executing---line 1437 of file on-plain.bst
-Name 3 in "A. C. Dutra and Y. Marangoni and R. I. F. Trindade," has a comma at the end for entry dutra_etal_2014
-while executing---line 1437 of file on-plain.bst
-Name 3 in "A. C. Dutra and Y. Marangoni and R. I. F. Trindade," has a comma at the end for entry dutra_etal_2014
+`address' is a missing field, not a string, for entry jackson1975
 while executing---line 1437 of file on-plain.bst
 `address' is a missing field, not a string, for entry kellogg1967
 while executing---line 1437 of file on-plain.bst
 `address' is a missing field, not a string, for entry lawson_hanson_1974
 while executing---line 1437 of file on-plain.bst
-You've used 54 entries,
+You've used 62 entries,
             2972 wiz_defined-function locations,
-            1004 strings with 15729 characters,
-and the built_in function-call counts, 26824 in all, are:
-= -- 2383
-> -- 1242
-< -- 76
-+ -- 457
-- -- 403
-* -- 2796
-:= -- 3941
-add.period$ -- 186
-call.type$ -- 54
-change.case$ -- 193
-chr.to.int$ -- 54
-cite$ -- 108
-duplicate$ -- 1335
-empty$ -- 2415
-format.name$ -- 499
-if$ -- 5641
-int.to.chr$ -- 1
+            1062 strings with 17795 characters,
+and the built_in function-call counts, 31095 in all, are:
+= -- 2757
+> -- 1514
+< -- 87
++ -- 555
+- -- 492
+* -- 3241
+:= -- 4594
+add.period$ -- 218
+call.type$ -- 62
+change.case$ -- 237
+chr.to.int$ -- 61
+cite$ -- 124
+duplicate$ -- 1527
+empty$ -- 2737
+format.name$ -- 602
+if$ -- 6520
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 60
-newline$ -- 255
-num.names$ -- 216
-pop$ -- 471
+missing$ -- 70
+newline$ -- 297
+num.names$ -- 248
+pop$ -- 570
 preamble$ -- 1
-purify$ -- 192
+purify$ -- 235
 quote$ -- 0
-skip$ -- 738
+skip$ -- 859
 stack$ -- 0
-substring$ -- 1184
-swap$ -- 343
-text.length$ -- 43
+substring$ -- 1281
+swap$ -- 393
+text.length$ -- 49
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 564
+type$ -- 642
 warning$ -- 0
-while$ -- 214
+while$ -- 241
 width$ -- 0
-write$ -- 758
-(There were 21 error messages)
+write$ -- 878
+(There were 10 error messages)

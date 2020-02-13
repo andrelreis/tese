@@ -1,10 +1,35 @@
-\begin{thebibliography}{54}
+\begin{thebibliography}{62}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 \newcommand{\enquote}[1]{``#1''}
+
+\bibitem[\MakeUppercase{Araujo}\emph{ et~al.}(2019{\natexlab{a}})Araujo, Reis,
+  Correa, Yokoyama, {Oliveira Jr.}, Mendoza, Pacheco, Luz-Lima, Santos,
+  Osorio~G., Brito, Araujo, Tahir, Bruno, e
+  Del~Rosso]{araujo_etal2019_materials}
+\MakeUppercase{Araujo, J. F. D.~F., Reis, A. L.~A., Correa, A. A.~P.,
+  \MakeLowercase{et~al.}}, 2019{\natexlab{a}}, \enquote{Scanning Magnetic
+  Microscope Using a Gradiometric Configuration for Characterization of Rock
+  Samples}, \emph{Materials}, v.~12, n.~24.
+\newblock ISSN: 1996-1944.
+\newblock \doi{10.3390/ma12244154}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://www.mdpi.com/1996-1944/12/24/4154}\textgreater .
+
+\bibitem[\MakeUppercase{Araujo}\emph{ et~al.}(2019{\natexlab{b}})Araujo, Reis,
+  {Oliveira Jr.}, Santos, Luz-Lima, Yokoyama, Mendoza, Pereira, e
+  Bruno]{araujo_etal2019_sensors}
+\MakeUppercase{Araujo, J. F. D.~F., Reis, A. L.~A., {Oliveira Jr.}, V.~C.,
+  \MakeLowercase{et~al.}}, 2019{\natexlab{b}}, \enquote{Characterizing Complex
+  Mineral Structures in Thin Sections of Geological Samples with a Scanning
+  Hall Effect Microscope}, \emph{Sensors}, v.~19, n.~7.
+\newblock ISSN: 1424-8220.
+\newblock \doi{10.3390/s19071636}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://www.mdpi.com/1424-8220/19/7/1636}\textgreater .
 
 \bibitem[\MakeUppercase{Aster}\emph{ et~al.}(2005)Aster, Borchers, e
   Thurber]{aster2005}
@@ -38,6 +63,12 @@
   pp.~74--96.
 \newblock \doi{10.1190/1.1439765}.
 
+\bibitem[\MakeUppercase{Blakely}(1996)Blakely]{blakely1996}
+\MakeUppercase{Blakely, R.~J.}, 1996, \emph{Potential Theory in Gravity and
+  Magnetic Applications}.
+\newblock Cambridge University Press.
+\newblock ISBN: 0521575478.
+
 \bibitem[\MakeUppercase{Butler}(1998)Butler]{butler1998}
 \MakeUppercase{Butler, R.~F.}, 1998, \emph{Paleomagnetism: Magnetic domains to
   geologic terranes}.
@@ -59,8 +90,8 @@
 \bibitem[\MakeUppercase{Carporzen}\emph{ et~al.}(2005)Carporzen, Gilder, e
   Hart]{carporzen_etal_2005}
 \MakeUppercase{Carporzen, L., Gilder, S., Hart, R.}, 2005,
-  \enquote{Palaeomagnetism of the Vredefort meteorite crater and implications
-  for craters on Mars}, \emph{Nature}, v.~435, \penalty0 pp.~198–201.
+  \enquote{Palaeomagnetism of the {Vredefort} meteorite crater and implications
+  for craters on {Mars}}, \emph{Nature}, v.~435, \penalty0 pp.~198–201.
 \newblock \doi{10.1038/nature03560}.
 
 \bibitem[\MakeUppercase{Clark}(1997)Clark]{clark1997}
@@ -92,13 +123,6 @@
   \penalty0 pp.~L69--L73.
 \newblock \doi{10.1190/1.2356116}.
 
-\bibitem[\MakeUppercase{Dias}\emph{ et~al.}(2007)Dias, Barbosa, e
-  Silva]{silvadias_etal_2010}
-\MakeUppercase{Dias, F. J.~S., Barbosa, V.~C., Silva, J.~B.}, 2007, \enquote{2D
-  gravity inversion of a complex interface in the presence of interfering
-  sources}, \emph{GEOPHYSICS}, v.~72, n.~2, \penalty0 pp.~I13--I22.
-\newblock \doi{10.1190/1.2424545}.
-
 \bibitem[\MakeUppercase{Dressler} e \MakeUppercase{Reimold}(2004)Dressler e
   Reimold]{dressler_reimold_2004}
 \MakeUppercase{Dressler, B., Reimold, W.}, 2004, \enquote{Order or chaos?
@@ -123,9 +147,9 @@
 \bibitem[\MakeUppercase{Dutra}\emph{ et~al.}(2014)Dutra, Marangoni, e
   Trindade]{dutra_etal_2014}
 \MakeUppercase{Dutra, A.~C., Marangoni, Y., Trindade, R. I.~F.}, 2014,
-  \enquote{{Aeromagnetic and physical-chemical properties of some complexes
-  from Goi\~A!`s Alkaline Province}}, \emph{{Brazilian Journal of Geology}},
-  v.~44 (09), \penalty0 pp.~361 -- 373.
+  \enquote{Aeromagnetic and physical-chemical properties of some complexes from
+  Goi{\'a}s Alkaline Province}, \emph{{Brazilian Journal of Geology}}, v.~44
+  (09), \penalty0 pp.~361 -- 373.
 \newblock ISSN: 2317-4889.
 \newblock Dispon{\' i}vel em:
   \textless\url{http://www.scielo.br/scielo.php?script=sci_arttext&pid=S2317-48892014000200361&nrm=iso}\textgreater
@@ -144,6 +168,10 @@
   estimate the total magnetization direction from a distortion analysis of
   magnetic anomalies1}, \emph{Geophysical Prospecting}, v.~42, n.~3, \penalty0
   pp.~261--274.
+\newblock \doi{10.1111/j.1365-2478.1994.tb00209.x}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2478.1994.tb00209.x}\textgreater
+  .
 
 \bibitem[\MakeUppercase{Gerovska}\emph{ et~al.}(2009)Gerovska, Araúzo-Bravo, e
   Stavrev]{gerovska_etal_2009}
@@ -161,18 +189,30 @@
   sources}, \emph{GEOPHYSICS}, v.~74, n.~5, \penalty0 pp.~L67--L73.
 \newblock \doi{10.1190/1.3170690}.
 
+\bibitem[\MakeUppercase{Hansen} e \MakeUppercase{{O'Leary}}(1993)Hansen e
+  {O'Leary}]{hansen-oleary1993}
+\MakeUppercase{Hansen, P., {O'Leary}, D.}, 1993, \enquote{The use of the
+  {L-Curve} in the regularization of discrete ill-posed problems}, \emph{SIAM
+  Journal on Scientific Computing}, v.~14, n.~6, \penalty0 pp.~1487--1503.
+\newblock \doi{10.1137/0914086}.
+
 \bibitem[\MakeUppercase{Hansen} e \MakeUppercase{Miyazaki}(1984)Hansen e
-  Miyazaki]{hansen-miyazaki_1984}
+  Miyazaki]{hansen_miyazaki1984}
 \MakeUppercase{Hansen, R.~O., Miyazaki, Y.}, 1984, \enquote{Continuation of
   potential fields between arbitrary surfaces}, \emph{GEOPHYSICS}, v.~49, n.~6,
   \penalty0 pp.~787--795.
 \newblock \doi{10.1190/1.1441707}.
 
+\bibitem[\MakeUppercase{Jackson}(1975)Jackson]{jackson1975}
+\MakeUppercase{Jackson, J.~D.}, 1975, \emph{Classical Electrodynamics}.
+\newblock Chapman and Hall.
+\newblock ISBN: 0-471-43132-X.
+
 \bibitem[\MakeUppercase{Junqueira-Brod}\emph{ et~al.}(2005)Junqueira-Brod,
   Gaspar, Brod, e Kafino]{junqueira_brod_2005}
 \MakeUppercase{Junqueira-Brod, T.~C., Gaspar, J.~C., Brod, J.~A.,
   \MakeLowercase{et~al.}}, 2005, \enquote{Kamafugitic diatremes: their textures
-  and field relationships with examples from the Goiás alkaline province,
+  and field relationships with examples from the Goi{\'a}s alkaline province,
   Brazil}, \emph{Journal of South American Earth Sciences}, v.~18, n.~3,
   \penalty0 pp.~337 -- 353.
 \newblock ISSN: 0895-9811.
@@ -192,8 +232,8 @@
   Minnitt]{lana_etal_2003}
 \MakeUppercase{Lana, C., Gibson, R.~L., Reimold, W.~U.,
   \MakeLowercase{et~al.}}, 2003, \enquote{{Geology and geochemistry of a
-  granite-greenstone association in the southeastern Vredefort dome, South
-  Africa}}, \emph{South African Journal of Geology}, v.~106, n.~4 (12),
+  granite-greenstone association in the southeastern {Vredefort} dome, {South
+  Africa}}}, \emph{South African Journal of Geology}, v.~106, n.~4 (12),
   \penalty0 pp.~291--314.
 \newblock ISSN: 1012-0750.
 \newblock \doi{10.2113/106.4.291}.
@@ -227,7 +267,7 @@
 \newblock \doi{10.1190/geo2013-0126.1}.
 
 \bibitem[\MakeUppercase{Li} e \MakeUppercase{Oldenburg}(2010)Li e
-  Oldenburg]{li-oldenburg_2010}
+  Oldenburg]{li_oldenburg_2010}
 \MakeUppercase{Li, Y., Oldenburg, D.~W.}, 2010, \enquote{Rapid construction of
   equivalent sources using wavelets}, \emph{GEOPHYSICS}, v.~75, n.~3, \penalty0
   pp.~L51--L59.
@@ -239,6 +279,13 @@
   an equivalent source with positivity for low-latitude reduction to the pole
   without striation}, \emph{GEOPHYSICS}, v.~79, n.~6, \penalty0 pp.~J81--J90.
 \newblock \doi{10.1190/geo2014-0134.1}.
+
+\bibitem[\MakeUppercase{Lima} e \MakeUppercase{Weiss}(2009)Lima e
+  Weiss]{lima_weiss_2009}
+\MakeUppercase{Lima, E.~A., Weiss, B.~P.}, 2009, \enquote{Obtaining vector
+  magnetic field maps from single-component measurements of geological
+  samples}, \emph{Journal of Geophysical Research: Solid Earth}, v.~114, n.~B6.
+\newblock \doi{10.1029/2008JB006006}.
 
 \bibitem[\MakeUppercase{Lima}\emph{ et~al.}(2013)Lima, Weiss, Baratchart,
   Hardin, e Saff]{lima2013}
@@ -258,17 +305,17 @@
 
 \bibitem[\MakeUppercase{Marangoni}\emph{ et~al.}(2016)Marangoni, Zhang, e
   Ferreira]{marangoni_etal_2016}
-\MakeUppercase{Marangoni, Y., Zhang, H., Ferreira, H.}, 2016, \enquote{GRAVITY
-  AND MAGNETIC INTEGRATED DATA INTERPRETATION OF THE CORRÉGO DOS BOIS COMPLEX,
-  GOIÁS ALKALINE PROVINCE, CENTRAL BRAZIL}, \emph{Revista Brasileira de
-  Geofísica}, v.~33, n.~4, \penalty0 pp.~599--610.
+\MakeUppercase{Marangoni, Y., Zhang, H., Ferreira, H.}, 2016, \enquote{Gravity
+  and magnetic integrated data interpretation of the c{\'o}rrego dos bois
+  complex, Goi{\'a}s alkaline province, central brazil}, \emph{Revista
+  Brasileira de Geof{\'i}sica}, v.~33, n.~4, \penalty0 pp.~599--610.
 \newblock ISSN: 1809-4511.
 \newblock \doi{10.22564/rbgf.v33i4.756}.
 
 \bibitem[\MakeUppercase{Marangoni} e \MakeUppercase{Mantovani}(2013)Marangoni e
   Mantovani]{marangoni_mantovani_2013}
 \MakeUppercase{Marangoni, Y.~R., Mantovani, M.~S.}, 2013, \enquote{Geophysical
-  signatures of the alkaline intrusions bordering the Paraná Basin},
+  signatures of the alkaline intrusions bordering the {Paran{\'a}} Basin},
   \emph{Journal of South American Earth Sciences}, v.~41, \penalty0 pp.~83 --
   98.
 \newblock ISSN: 0895-9811.
@@ -286,6 +333,13 @@
   gradient data using an equivalent source technique}, \emph{GEOPHYSICS},
   v.~81, n.~4, \penalty0 pp.~G67--G79.
 \newblock \doi{10.1190/geo2015-0379.1}.
+
+\bibitem[\MakeUppercase{Medeiros} e \MakeUppercase{Silva}(1995)Medeiros e
+  Silva]{medeiros_silva_1995}
+\MakeUppercase{Medeiros, W.~E., Silva, J. B.~C.}, 1995, \enquote{Simultaneous
+  estimation of total magnetization direction and 3-D spatial orientation},
+  \emph{GEOPHYSICS}, v.~60, n.~5, \penalty0 pp.~1365--1377.
+\newblock \doi{10.1190/1.1443872}.
 
 \bibitem[\MakeUppercase{Medeiros} e \MakeUppercase{Silva}(1996)Medeiros e
   Silva]{medeiros_silva1996}
@@ -328,9 +382,9 @@
 
 \bibitem[\MakeUppercase{Passchier}(1982)Passchier]{passchier_1982}
 \MakeUppercase{Passchier, C.}, 1982, \enquote{Pseudotachylyte and the
-  development of ultramylonite bands in the Saint-Barthélemy Massif, French
-  Pyrenees}, \emph{Journal of Structural Geology}, v.~4, n.~1, \penalty0 pp.~69
-  -- 79.
+  development of ultramylonite bands in the {Saint-Barth{\'e}lemy Massif,
+  French Pyrenees}}, \emph{Journal of Structural Geology}, v.~4, n.~1,
+  \penalty0 pp.~69 -- 79.
 \newblock ISSN: 0191-8141.
 \newblock \doi{https://doi.org/10.1016/0191-8141(82)90008-6}.
 \newblock Dispon{\' i}vel em:
@@ -396,10 +450,27 @@
   \emph{GEOPHYSICS}, v.~51, n.~2, \penalty0 pp.~369--382.
 \newblock \doi{10.1190/1.1442096}.
 
-\bibitem[\MakeUppercase{Siqueira}\emph{ et~al.}(2017)Siqueira, Jr., e
-  Barbosa]{siqueira_etal_2017}
-\MakeUppercase{Siqueira, F. C.~L., Jr., V. C.~O., Barbosa, V. C.~F.}, 2017,
-  \enquote{Fast iterative equivalent-layer technique for gravity data
+\bibitem[\MakeUppercase{Silva}\emph{ et~al.}(2010)Silva, Vasconcelos, e
+  Barbosa]{silva-etal2010}
+\MakeUppercase{Silva, J. B.~C., Vasconcelos, S.~S., Barbosa, V. C.~F.}, 2010,
+  \enquote{Apparent-magnetization mapping using entropic regularization},
+  \emph{Geophysics}, v.~75, n.~2 (04), \penalty0 pp.~L39--L50.
+\newblock ISSN: 0016-8033.
+\newblock \doi{10.1190/1.3358160}.
+\newblock Dispon{\' i}vel em:
+  \textless\url{https://doi.org/10.1190/1.3358160}\textgreater .
+
+\bibitem[\MakeUppercase{{Silva Dias}}\emph{ et~al.}(2007){Silva Dias}, Barbosa,
+  e Silva]{silvadias_etal_2007}
+\MakeUppercase{{Silva Dias}, F.~J., Barbosa, V.~C., Silva, J.~B.}, 2007,
+  \enquote{2D gravity inversion of a complex interface in the presence of
+  interfering sources}, \emph{GEOPHYSICS}, v.~72, n.~2, \penalty0 pp.~I13--I22.
+\newblock \doi{10.1190/1.2424545}.
+
+\bibitem[\MakeUppercase{Siqueira}\emph{ et~al.}(2017)Siqueira, {Oliveira Jr.},
+  e Barbosa]{siqueira_etal_2017}
+\MakeUppercase{Siqueira, F. C.~L., {Oliveira Jr.}, V.~C., Barbosa, V. C.~F.},
+  2017, \enquote{Fast iterative equivalent-layer technique for gravity data
   processing: A method grounded on excess mass constraint}, \emph{GEOPHYSICS},
   v.~82, n.~4, \penalty0 pp.~G57--G69.
 \newblock \doi{10.1190/geo2016-0332.1}.
@@ -422,9 +493,9 @@
   \textless\url{http://dx.doi.org/10.1029/2007JB004940}\textgreater .
 \newblock B09105.
 
-\bibitem[\MakeUppercase{Yokoyama}\emph{ et~al.}(2015)Yokoyama, Nédélec,
+\bibitem[\MakeUppercase{Yokoyama}\emph{ et~al.}(2015)Yokoyama, N{\'e}d{\'e}lec,
   Baratoux, Trindade, Fabre, e Berger]{yokoyama_etal_2015}
-\MakeUppercase{Yokoyama, E., Nédélec, A., Baratoux, D.,
+\MakeUppercase{Yokoyama, E., N{\'e}d{\'e}lec, A., Baratoux, D.,
   \MakeLowercase{et~al.}}, 2015, \enquote{Hydrothermal alteration in basalts
   from Vargeão impact structure, south Brazil, and implications for
   recognition of impact-induced hydrothermalism on Mars}, \emph{Icarus},
