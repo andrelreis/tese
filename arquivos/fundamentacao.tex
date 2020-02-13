@@ -9,12 +9,12 @@ De acordo com as leis da magnetostática, um conjunto de fontes magnéticas arbi
 na ausência de densidades de corrente, um campo de indução magnética dado por 
 \citep[e.g., ][ p. 175, 193]{jackson1975}:
 \begin{equation}
-\mathbf{B}(x, y, z) = - \nabla \Gamma(x, y, z) \: ,
+\mathbf{B}(x, y, z) = - \boldsymbol{\nabla} \Gamma(x, y, z) \: ,
 \label{eq:B-true-generic}
 \end{equation}
 em que 
 \begin{equation}
-\Gamma(x, y, z) = - \gamma_{m} \iiint\limits_{\upsilon} \mathbf{m}(x', y', z') \cdot \nabla\frac{1}{r'} 
+\Gamma(x, y, z) = - \gamma_{m} \iiint\limits_{\upsilon} \mathbf{m}(x', y', z') \cdot \boldsymbol{\nabla} \frac{1}{r'} 
 \; d\upsilon'
 \label{eq:Gamma-potential}
 \end{equation}
@@ -39,7 +39,7 @@ A partir das equações acima, a componente $\alpha$, $\alpha = x, y, z$ do camp
 magnética produzido pelas fontes é dada por
 \begin{equation}
 B_{\alpha}(x, y, z) = \gamma_{m} \iiint\limits_{\upsilon} 
-\mathbf{m}(x', y', z') \cdot \partial_{\alpha} \nabla \frac{1}{r'} 
+\mathbf{m}(x', y', z') \cdot \partial_{\alpha} \boldsymbol{\nabla} \frac{1}{r'} 
 \; d\upsilon' \: , \quad \alpha = x, y, z \: ,
 \label{eq:B-alpha-true-generic}
 \end{equation}
@@ -48,14 +48,14 @@ a derivada parcial em relação a coordenada $\alpha = x, y, z$.
 Além disso, nestas condições, o campo de indução magnética $\mathbf{B}(x, y, z)$ (equação \ref{eq:B-true-generic}) 
 é governado pela lei de Gauss para campos magnéticos
 \begin{equation}
-\nabla \cdot \mathbf{B}(x, y, z) = 
+\boldsymbol{\nabla} \cdot \mathbf{B}(x, y, z) = 
 \partial_{x} B_{x}(x, y, z) + \partial_{y} B_{y}(x, y, z) + \partial_{z} B_{z}(x, y, z) = 
 0
 \label{eq:lei-Gauss}
 \end{equation}
 e a lei de Ampère
 \begin{equation}
-\nabla \times \mathbf{B}(x, y, z) = \begin{bmatrix}
+\boldsymbol{\nabla} \times \mathbf{B}(x, y, z) = \begin{bmatrix}
 \partial_{y} B_{z}(x, y, z) - \partial_{z} B_{y}(x, y, z) \\
 \partial_{z} B_{x}(x, y, z) - \partial_{x} B_{z}(x, y, z) \\
 \partial_{x} B_{y}(x, y, z) - \partial_{y} B_{x}(x, y, z) 
@@ -105,13 +105,13 @@ direção de magnetização uniforme definida pelo vetor unitário $\hat{\mathbf
 com inclinação $I$ e declinação $D$ arbitrárias. O campo de indução magnética 
 produzido por esta camada é dado por \citep[e.g., ][]{hansen_miyazaki1984}:
 \begin{equation}
-\tilde{\mathbf{B}}(x, y, z) = - \nabla \Phi(x, y, z)
+\tilde{\mathbf{B}}(x, y, z) = - \boldsymbol{\nabla} \Phi(x, y, z)
 \label{eq:B-layer}
 \end{equation}
 em que
 \begin{equation}
 \Phi(x, y, z) = - \gamma_{m} \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty} 
-p(x'', y'', z_{c}) \, \hat{\mathbf{u}}(I, D) \cdot \nabla \frac{1}{r''} \; dS'' \: , \quad z_{c} > z \: ,
+p(x'', y'', z_{c}) \, \hat{\mathbf{u}}(I, D) \cdot \boldsymbol{\nabla} \frac{1}{r''} \; dS'' \: , \quad z_{c} > z \: ,
 \label{eq:Phi-potential}
 \end{equation}
 é o potencial magnético escalar,
@@ -126,7 +126,7 @@ magnética e a anomalia de campo total $\Delta\tilde{T}(x, y, z)$ produzidas pel
 ponto $(x, y, z)$ são dadas respectivamante por
 \begin{equation}
 \tilde{B}_{\alpha}(x, y, z) = \gamma_{m} \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty} 
-p(x'', y'', z_{c}) \, \hat{\mathbf{u}}(I, D) \cdot \partial_{\alpha} \nabla \frac{1}{r''} \; dS'' 
+p(x'', y'', z_{c}) \, \hat{\mathbf{u}}(I, D) \cdot \partial_{\alpha} \boldsymbol{\nabla} \frac{1}{r''} \; dS'' 
 \: , \quad \alpha = x, y, z \: ,
 \label{eq:B-alpha-layer}
 \end{equation}
@@ -141,30 +141,16 @@ Esta camada de dipolos é comumente denominada \textit{camada equivalente}.
 \section{Consequências das Leis de Gauss e Amp{\`e}re}
 \label{sec:Gauss-Ampere}
 
-As equações \ref{eq:B-layer}--\ref{eq:B-alpha-layer} definem o campo de indução 
-magnética produzido por uma camada equivalente localizada em $z = z_{c}$,
-com distribuição de intensidade de momento magnético 
-$p(x'', y'', z_{c})$ e direção de magnetização uniforme definida por 
-$\hat{\mathbf{u}}(I, D)$ (equação \ref{eq:u-hat}). Nesta seção, mostro que, 
-se esta camada reproduz uma das componentes $B_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-true-generic})
-do campo de indução magnética $\mathbf{B}(x, y, z)$ (equação \ref{eq:B-true-generic}) 
-produzido por um conjunto de fontes magnéticas arbitrárias em todos os pontos 
-$(x, y, z)$ fora das fontes e acima da camada ($z < z_{c}$), esta mesma camada deve, 
-obrigatoriamente, reproduzir as outras componentes $B_{\alpha}(x, y, z)$ do campo 
-produzido pelas fontes arbitrárias.
+Neste primeiro desenvolvimento mostro que existe uma camada equivalente plana e contínua capaz de produzir as três componentes do campo magnético produzido por um conjunto de fontes. As equações \ref{eq:B-layer}--\ref{eq:B-alpha-layer} definem o campo de indução magnética produzido por uma camada equivalente localizada em $z = z_{c}$, com distribuição de intensidade de momento magnético $p(x'', y'', z_{c})$ e direção de magnetização uniforme definida por $\hat{\mathbf{u}}(I, D)$ (equação \ref{eq:u-hat}). Portanto, se esta camada reproduz uma das componentes $B_{\alpha}(x, y, z)$ (equação \ref{eq:B-alpha-true-generic}) do campo de indução magnética $\mathbf{B}(x, y, z)$ (equação \ref{eq:B-true-generic}) produzido por um conjunto de fontes magnéticas arbitrárias em todos os pontos $(x, y, z)$ fora das fontes e acima da camada ($z < z_{c}$), esta mesma camada deve, obrigatoriamente, reproduzir as outras componentes $B_{\alpha}(x, y, z)$ do campo produzido pelas fontes arbitrárias.
 
 Considere três camadas equivalentes definidas na mesma coordenada vertical $z = z_{c}$, 
-com distribuições de intensidade de momento magnético 
-$p(x'', y'', z_{c}) \equiv p_{(\alpha)}$ e direções de magnetização uniforme definidas por 
-$\hat{\mathbf{u}}^{(\alpha)} \equiv \hat{\mathbf{u}}(I_{(\alpha)}, D_{(\alpha)})$,
-com componentes Cartesianas $\hat{u}^{(\alpha)}_{\beta} \equiv \hat{u}_{\beta}(I_{(\alpha)}, D_{(\alpha)})$ 
-(equação \ref{eq:u-hat}), em que $\alpha = x, y, z$, $\beta = x, y, z$. 
+com distribuições de intensidade de momento magnético $p(x'', y'', z_{c}) \equiv p_{(\alpha)}$ e direções de magnetização uniforme definidas por $\hat{\mathbf{u}}^{(\alpha)} \equiv \hat{\mathbf{u}}(I_{(\alpha)}, D_{(\alpha)})$, com componentes Cartesianas $\hat{u}^{(\alpha)}_{\beta} \equiv \hat{u}_{\beta}(I_{(\alpha)}, D_{(\alpha)})$ (equação \ref{eq:u-hat}), em que $\alpha = x, y, z$, $\beta = x, y, z$. 
 Considere também, momentaneamente, que cada camada $\alpha$ produz a componente 
-$\breve{B}_{\alpha}(x, y, z)$ de um mesmo campo de indução magnética $\breve{\mathbf{B}}(x, y, z)$, 
-tal que:
+$\breve{B}_{\alpha}(x, y, z)$ de um mesmo campo de indução magnética $\breve{\mathbf{B}}(x, y, z)$, tal que:
+
 \begin{equation}
 \breve{B}_{\alpha}(x, y, z) = \gamma_{m} \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty} 
-p_{(\alpha)} \, \hat{\mathbf{u}}^{(\alpha)} \cdot \partial_{\alpha} \nabla \frac{1}{r''} \; dS'' 
+p_{(\alpha)} \, \hat{\mathbf{u}}^{(\alpha)} \cdot \partial_{\alpha} \boldsymbol{\nabla} \frac{1}{r''} \; dS'' 
 \: , \quad \alpha = x, y, z \: ,
 \label{eq:B-alpha-3layers}
 \end{equation}
@@ -177,10 +163,10 @@ e
 \end{bmatrix} \: .
 \label{eq:B-3layers}
 \end{equation}
-Calculando o divergente de $\breve{\mathbf{B}}(x, y, z)$ 
-e trocando a ordem das derivadas parciais, obtemos 
+Calculando o divergente de $\breve{\mathbf{B}}(x, y, z)$ e trocando a ordem das derivadas parciais, obtemos 
+
 \begin{equation}
-\nabla \cdot \breve{\mathbf{B}}(x, y, z) = I_{1} + I_{2} + I_{3} \: ,
+\mathbf{\nabla} \cdot \breve{\mathbf{B}}(x, y, z) = I_{1} + I_{2} + I_{3} \: ,
 \label{eq:divergent-layer}
 \end{equation}
 em que os termos são integrais de superfície dadas por
@@ -201,22 +187,21 @@ p_{(z)} \hat{u}^{(z)}_{z} \partial_{zzz} \frac{1}{r''} \; dS''
 \end{split} \:\: .
 \end{equation*}
 Por conveniência, os limites de integração $-\infty$ e $+\infty$ foram omitidos.
-Sabemos que as derivadas primeiras $\partial_{\beta} \frac{1}{r''}$, $\beta = x, y, z$, de 
-$\frac{1}{r''}$ (equação \ref{eq:inv-r''}) são funções harmônicas. Esta propriedade permite 
-reescrever as integrais $I_{1}$, $I_{2}$ e $I_{3}$ da seguinte forma:
+Sabemos que as derivadas primeiras $\partial_{\beta} \frac{1}{r''}$, $\beta = x, y, z$, de $\frac{1}{r''}$ (equação \ref{eq:inv-r''}) são funções harmônicas. Esta propriedade permite reescrever as integrais $I_{1}$, $I_{2}$ e $I_{3}$ da seguinte forma:
+
 \begin{equation}
 \begin{split}
 I_{1} &= \gamma_{m} \iint
 \left[ p_{(x)} \hat{u}^{(x)}_{x} - p_{(z)} \hat{u}^{(z)}_{x} \right] \partial_{xxx} \frac{1}{r''} +
-\left[ p_{(y)} \hat{u}^{(y)}_{x} - p_{(z)} \hat{u}^{(z)}_{x} \right] \partial_{yyx} \frac{1}{r''} +
+\left[ p_{(y)} \hat{u}^{(y)}_{x} - p_{(z)} \hat{u}^{(z)}_{x} \right] \partial_{yyx} \frac{1}{r''} 
 \; dS'' \\
 I_{2} &= \gamma_{m} \iint
 \left[ p_{(x)} \hat{u}^{(x)}_{y} - p_{(z)} \hat{u}^{(z)}_{y} \right] \partial_{xxy} \frac{1}{r''} +
-\left[ p_{(y)} \hat{u}^{(y)}_{y} - p_{(z)} \hat{u}^{(z)}_{y} \right] \partial_{yyy} \frac{1}{r''} +
+\left[ p_{(y)} \hat{u}^{(y)}_{y} - p_{(z)} \hat{u}^{(z)}_{y} \right] \partial_{yyy} \frac{1}{r''} 
 \; dS'' \\
 I_{3} &= \gamma_{m} \iint
 \left[ p_{(x)} \hat{u}^{(x)}_{z} - p_{(z)} \hat{u}^{(z)}_{z} \right] \partial_{xxz} \frac{1}{r''} +
-\left[ p_{(y)} \hat{u}^{(y)}_{z} - p_{(z)} \hat{u}^{(z)}_{z} \right] \partial_{yyz} \frac{1}{r''} +
+\left[ p_{(y)} \hat{u}^{(y)}_{z} - p_{(z)} \hat{u}^{(z)}_{z} \right] \partial_{yyz} \frac{1}{r''} 
 \; dS''
 \label{eq:divergent-layer-I123}
 \end{split} \:\: .
@@ -242,16 +227,16 @@ Calculando o rotacional do campo de indução magnética
 $\breve{\mathbf{B}}(x, y, z)$ (equação \ref{eq:B-3layers}) produzido pelas três camadas 
 e trocando a ordem das derivadas parciais, obtemos
 \begin{equation}
-\nabla \times \breve{\mathbf{B}}(x, y, z) = \begin{bmatrix}
+\boldsymbol{\nabla} \times \breve{\mathbf{B}}(x, y, z) = \begin{bmatrix}
 \gamma_{m} \iint
 \left[ p_{(z)} \, \hat{\mathbf{u}}^{(z)} - p_{(y)} \, \hat{\mathbf{u}}^{(y)} \right] \cdot 
-\partial_{yz} \nabla \frac{1}{r''} \; dS'' \\
+\partial_{yz} \boldsymbol{\nabla} \frac{1}{r''} \; dS'' \\
 \gamma_{m} \iint
 \left[ p_{(x)} \, \hat{\mathbf{u}}^{(x)} - p_{(z)} \, \hat{\mathbf{u}}^{(z)} \right] \cdot 
-\partial_{xz} \nabla \frac{1}{r''} \; dS'' \\
+\partial_{xz} \boldsymbol{\nabla} \frac{1}{r''} \; dS'' \\
 \gamma_{m} \iint
 \left[ p_{(y)} \, \hat{\mathbf{u}}^{(y)} - p_{(x)} \, \hat{\mathbf{u}}^{(x)} \right] \cdot 
-\partial_{xy} \nabla \frac{1}{r''} \; dS''
+\partial_{xy} \boldsymbol{\nabla} \frac{1}{r''} \; dS''
 \end{bmatrix} \: .
 \label{eq:curl-layer}
 \end{equation}
@@ -261,7 +246,7 @@ Note que os integrandos das componentes do rotacional de $\breve{\mathbf{B}}(x, 
 independentes, que são derivadas terceiras de $\frac{1}{r''}$ (equação \ref{eq:inv-r''}).
 Sabemos que, para o campo de indução magnética $\breve{\mathbf{B}}(x, y, z)$ 
 (equação \ref{eq:B-3layers}) respeitar a lei de Ampère (equação \ref{eq:lei-Ampere}), é necessário que as 
-três componentes de $\nabla \times \breve{\mathbf{B}}(x, y, z)$ sejam nulas. 
+três componentes de $\boldsymbol{\nabla} \times \breve{\mathbf{B}}(x, y, z)$ sejam nulas. 
 Para que isso aconteça sem que as distribuições de intensidade de momento magnético 
 $p_{(x)}$, $p_{(y)}$ e $p_{(z)}$ sejam 
 nulas em todos os pontos $(x'', y'', z_{c})$, é necessário que os termos entre colchetes
@@ -269,9 +254,7 @@ nos integrandos da equação \ref{eq:curl-layer} sejam nulos em todos os pontos 
 Mais uma vez, isso só é possível se as distribuições de intensidade de momento magnético 
 e as direções de magnetização uniforme das três camadas forem iguais entre si, isto é, se 
 $p_{(x)} = p_{(y)} = p_{(z)}$ e 
-$\hat{\mathbf{u}}^{(x)} = \hat{\mathbf{u}}^{(y)} = \hat{\mathbf{u}}^{(z)}$.
-Neste caso, o campo de indução magnética produzido pela camada equivalente é descrito pelas equações 
-\ref{eq:B-layer}--\ref{eq:B-alpha-layer}.
+$\hat{\mathbf{u}}^{(x)} = \hat{\mathbf{u}}^{(y)} = \hat{\mathbf{u}}^{(z)}$. Neste caso, o campo de indução magnética produzido pela camada equivalente é descrito pelas equações \ref{eq:B-layer}--\ref{eq:B-alpha-layer}. 
 
 De acordo com estes resultados teóricos, a hipótese de que cada componente $\breve{B}_{\alpha}(x, y, z)$ 
 (equação \ref{eq:B-alpha-3layers}), $\alpha = x, y, z$, de um mesmo campo de indução magnética $\breve{\mathbf{B}}(x, y, z)$ 
@@ -312,9 +295,7 @@ particular em que os dados estão localizados sobre um plano.
 \section{Distribuição de momentos positiva}
 \label{sec:distribuicao-positiva}
 
-Nesta seção, considero o caso particular em que as fontes magnéticas possuem 
-direção de magnetização uniforme e a anomalia de campo total produzida por elas é 
-reproduzida por uma camada equivalente plana, localizada em $z = z_{c}$. 
+Neste segundo desenvolvimento, considero o caso particular em que as fontes magnéticas possuem direção de magnetização uniforme e a anomalia de campo total produzida por elas é reproduzida por uma camada equivalente plana, localizada em $z = z_{c}$. 
 Neste caso, mostro que a distribuição de intensidades de momento magnético 
 $p(x'', y'', z_{c})$ na camada (equação \ref{eq:B-alpha-layer}) é toda positiva 
 se a direção de magnetização uniforme da camada é igual a das fontes.
@@ -334,13 +315,13 @@ e o campo de indução magnética $\mathbf{B}(x, y, z)$ (equação \ref{eq:B-tru
 pelas fontes ficam definidos por:
 \begin{equation}
 \Gamma(x, y, z) = - \gamma_{m} \iiint\limits_{\upsilon} 
-m(x', y', z') \, \hat{\mathbf{u}}(I_{t}, D_{t}) \cdot \nabla\frac{1}{r'} 
+m(x', y', z') \, \hat{\mathbf{u}}(I_{t}, D_{t}) \cdot \boldsymbol{\nabla} \frac{1}{r'} 
 \; d\upsilon'
 \label{eq:Gamma-potential-mag-uniform}
 \end{equation}
 e
 \begin{equation}
-\mathbf{B}(x, y, z) = \gamma_{m} \, \mathbf{M}(x, y, z) \, \hat{\mathbf{u}}(I_{t}, D_{t}) \: ,
+\mathbf{B}(x, y, z) = \mathbf{M}(x, y, z) \, \hat{\mathbf{u}}(I_{t}, D_{t}) \: ,
 \label{eq:B-true-mag-uniform}
 \end{equation}
 em que $\mathbf{M}(x, y, z)$ é uma matriz dada por
@@ -362,7 +343,7 @@ cujos elementos $\partial_{\alpha\beta} \Omega(x, y, z) \equiv
 \frac{\partial^{2} \Omega(x, y, z)}{\partial \alpha \partial \beta}$, 
 $\alpha, \beta = x, y, z$, representam as derivadas segundas da função harmônica 
 \begin{equation}
-\Omega(x, y, z) = \iiint\limits_{\upsilon} 
+\Omega(x, y, z) = \gamma_{m} \iiint\limits_{\upsilon} 
 m(x', y', z') \, \frac{1}{r'} \: d\upsilon' \: ,
 \label{eq:Omega-potential}
 \end{equation}
@@ -420,7 +401,7 @@ $(x, y, z)$ localizados fora das fontes e acima da camada ($z < z_{c}$).
 Nesse caso, é possível reescrever o campo de indução magnética $\tilde{\mathbf{B}}(x, y, z)$
 (equação \ref{eq:B-layer}) da seguinte forma:
 \begin{equation}
-\tilde{\mathbf{B}}(x, y, z) = \gamma_{m} \tilde{\mathbf{M}}(x, y, z) \hat{\mathbf{u}}(I_{t}, D_{t}) \: ,
+\tilde{\mathbf{B}}(x, y, z) = \tilde{\mathbf{M}}(x, y, z) \hat{\mathbf{u}}(I_{t}, D_{t}) \: ,
 \label{eq:B-layer-alternative}
 \end{equation}
 em que $\tilde{\mathbf{M}}(x, y, z)$ é uma matriz dada por
@@ -442,7 +423,7 @@ cujos elementos $\partial_{\alpha\beta} \tilde{\Omega}(x, y, z) \equiv
 \frac{\partial^{2} \tilde{\Omega}(x, y, z)}{\partial \alpha \partial \beta}$, 
 $\alpha, \beta = x, y, z$, representam as derivadas segundas da função harmônica 
 \begin{equation}
-\tilde{\Omega}(x, y, z) = \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty} 
+\tilde{\Omega}(x, y, z) = \gamma_{m} \int\limits_{-\infty}^{+\infty}\int\limits_{-\infty}^{+\infty} 
 p(x'', y'', z_{c}) \, \frac{1}{r''} \: dS'' \: , \quad z < z_{c} \: ,
 \label{eq:Omega-tilde-potential}
 \end{equation}
@@ -611,6 +592,6 @@ e (2) não requer que os dados observados de anomalia de campo total estejam sob
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{Fig/eqlayer/surface_Green.png}
-	\caption{ Representação 2D da superfícia utilizada para aplicar as identidades de Green. A superfície é formada por uma semi-esfera (linha traçejada) com raio infinito e o plano $z = z_{c}$ contendo a camada equivalente. Os pontos $(x, y, z)$ (ponto fechado) e $(x, y, z_{s})$ (ponto aberto) são posicionados simetricamente com respeito ao plano $z = z_{c}$ e definidos como $z = z_{c} - \Delta z$ e $z = z_{c} + \Delta z$, respectivamente.}
+	\caption{ Representação 2D da superfície utilizada para aplicar as identidades de Green. A superfície é formada por uma semi-esfera (linha traçejada) com raio infinito e o plano $z = z_{c}$ contendo a camada equivalente. Os pontos $(x, y, z)$ (ponto fechado) e $(x, y, z_{s})$ (ponto aberto) são posicionados simetricamente com respeito ao plano $z = z_{c}$ e definidos como $z = z_{c} - \Delta z$ e $z = z_{c} + \Delta z$, respectivamente.}
 	\label{fig:surface_Green}
 \end{figure}

@@ -56,26 +56,21 @@
   \program{GEO}
     
   % Data (mês e ano)
-  \date{11}{2019}
+  \date{02}{2020}
 
   % Palavras-chave
-  \keyword{Primeira palavra-chave}
-  \keyword{Segunda palavra-chave}
-  \keyword{Terceira palavra-chave}
+  \keyword{Camada equivalente}
+  \keyword{Método magnético}
+  \keyword{Microscopia magnética}
 
   \maketitle
-
+  \includepdf[pages=-,pagecommand={}]{membros_banca_Andre.pdf}
   \include{resumo}   % resumo em português - deve ser utilizado por todos os tipos de documento
   \include{abstract} % resumo em inglês - deve ser utilizado por todos os tipos de documento
   \tableofcontents   % sumário - deve ser utilizado por todos os tipos de documento
   \listoffigures     % lista de figuras
   %\listoftables      % lista de tabelas
-
-  % os dois comandos estão com problema e deverão ser
-  % corrigidos futuramente
-  %\printlosymbols
-  %\printloabbreviations
-
+  \include{agradecimentos}
   \mainmatter
   
 %%% corpo do texto
@@ -85,23 +80,16 @@
 %% Metodologia (desenvolvimento teórico para as duas partes do projeto)
 \include{fundamentacao}
 \include{metodologia}
-
 %%Simulações numéricas II (calculo magvec)
 \include{simulacoes_II}
 %% Dados reais: Cratera de Vredefort
 \include{dados_reais_II}
-
 %% Simulações numéricas I (eqlayer positividade)
 \include{simulacoes_I}
 %% Dados reais: Montes Claros de Goiás 
 \include{dados_reais_I}
-
 %% Conclusoes
 \include{conclusoes}
-
-%% Apêndices A e B 
-%\appendix
-%\include{magnetizacao_vertical}
 
 \backmatter
 
