@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+#.log
+#.aux
+#.synctex.gz
+#.lof
+#.idx
+#.toc
+#.out
+#.bbl
+#.blg
+# Exemplos
+
+*.synctex.gz
+*.fls
+*.bbl
+*.blg
+*.fff
+*.log
+*.lof
+*.aux
+*.pyc
+*.out
+*.lot
+*.idx
+#.bib
+#.png
+*.tex
+*.syx
+*.toc
+*.eps
+*~
